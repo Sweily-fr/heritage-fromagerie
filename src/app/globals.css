@@ -1,0 +1,297 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf7f2;
+  --background-warm: #f5f0e8;
+  --foreground: #3d3a36;
+  --primary: #1a283d;
+  --primary-light: #243855;
+  --accent: #b8956a;
+  --accent-dark: #8a6d3b;
+  --accent-light: #d4b896;
+  --cream: #f5f0e8;
+  --ivory: #faf7f2;
+  --white: #ffffff;
+  --gold-line: rgba(184, 149, 106, 0.3);
+}
+
+@theme inline {
+  --color-background: #faf7f2;
+  --color-background-warm: #f5f0e8;
+  --color-foreground: #3d3a36;
+  --color-primary: #1a283d;
+  --color-primary-light: #243855;
+  --color-accent: #b8956a;
+  --color-accent-dark: #8a6d3b;
+  --color-accent-light: #d4b896;
+  --color-cream: #f5f0e8;
+  --color-ivory: #faf7f2;
+  --color-gold-line: rgba(184, 149, 106, 0.3);
+  --font-sans: var(--font-raleway);
+  --font-serif: var(--font-cormorant);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), "Helvetica Neue", sans-serif;
+}
+
+/* Luxury grain texture overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: var(--font-serif), "Georgia", serif;
+}
+
+a {
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Elegant selection color */
+::selection {
+  background: var(--accent-light);
+  color: var(--primary);
+}
+
+/* Refined scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 0;
+}
+
+/* Luxury animations */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes reveal-line {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out both;
+}
+
+.animate-reveal-line {
+  animation: reveal-line 1s ease-out both;
+}
+
+/* Staggered animation delays */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+
+/* Gold decorative separator */
+.gold-separator {
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: var(--accent);
+  margin: 1.5rem 0;
+}
+
+/* Luxury button base */
+.btn-luxury {
+  display: inline-block;
+  padding: 14px 36px;
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.btn-luxury-filled {
+  background: var(--accent);
+  color: var(--primary);
+  border: 1px solid var(--accent);
+}
+
+.btn-luxury-filled:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: var(--cream);
+}
+
+.btn-luxury-outline {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.btn-luxury-outline:hover {
+  background: var(--accent);
+  color: var(--primary);
+}
+
+/* Luxury card hover */
+.luxury-card {
+  position: relative;
+  border: 1px solid var(--gold-line);
+  background: var(--white);
+  transition: all 0.4s ease;
+}
+
+.luxury-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 60%;
+  height: 1px;
+  background: var(--accent);
+  transition: transform 0.4s ease;
+}
+
+.luxury-card:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.luxury-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 8px 40px rgba(26, 26, 24, 0.06);
+}
+
+/* Hero image — luxury editorial treatment */
+@keyframes hero-clip-reveal {
+  from { clip-path: inset(0 0 100% 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes hero-zoom-settle {
+  from { transform: scale(1.06); }
+  to   { transform: scale(1); }
+}
+
+@keyframes hero-frame-draw {
+  from { clip-path: inset(0 100% 100% 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes hero-line-grow {
+  from { transform: scaleX(0); transform-origin: right; }
+  to   { transform: scaleX(1); transform-origin: right; }
+}
+
+@keyframes hero-caption-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hero-diamond-pop {
+  from { opacity: 0; transform: rotate(45deg) scale(0); }
+  to   { opacity: 1; transform: rotate(45deg) scale(1); }
+}
+
+.hero-image-reveal {
+  animation: hero-clip-reveal 1.3s cubic-bezier(0.77, 0, 0.175, 1) 0.5s both;
+}
+
+.hero-image-zoom {
+  animation: hero-zoom-settle 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+
+.hero-frame-reveal {
+  animation: hero-frame-draw 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s both;
+}
+
+.hero-line-extend {
+  animation: hero-line-grow 0.8s ease-out 1.6s both;
+}
+
+.hero-caption-reveal {
+  animation: hero-caption-up 0.6s ease-out 1.8s both;
+}
+
+.hero-diamond-reveal {
+  animation: hero-diamond-pop 0.4s ease-out 1.5s both;
+}
+
+/* Scroll-triggered reveals — luxury timing */
+.reveal-up,
+.reveal-fade,
+.reveal-line {
+  will-change: transform, opacity;
+}
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reveal-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-fade {
+  opacity: 0;
+  transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reveal-fade.is-visible {
+  opacity: 1;
+}
+
+.reveal-line {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reveal-line.is-visible {
+  transform: scaleX(1);
+}
+
+/* Hover — subtle zoom, the image breathes */
+.hero-image-frame:hover .hero-image-zoom {
+  transform: scale(1.02);
+  transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
