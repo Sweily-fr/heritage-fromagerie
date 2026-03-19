@@ -153,7 +153,7 @@ export default function Home() {
               </h1>
 
               <p className="animate-fade-up delay-100 mt-4 text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent/70 leading-none">
-                Fromagerie Artisanale &mdash; Pontault-Combault
+                Fromagerie Artisanale  test &mdash; Pontault-Combault
               </p>
 
               <div className="animate-reveal-line delay-200 mt-1 gold-separator" />
