@@ -26,10 +26,13 @@ export default function Footer() {
             </h4>
             <ul className="mt-5 space-y-3">
               {[
+                { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
+                { name: "Livraison à domicile", href: "/livraison" },
                 { name: "Fromages", href: "/fromages" },
-                { name: "Crèmerie", href: "/cremerie" },
-                { name: "Épicerie fine", href: "/epicerie-fine" },
+                { name: "Crémeries", href: "/cremerie" },
+                { name: "Épiceries fine", href: "/epicerie-fine" },
                 { name: "À propos", href: "/a-propos" },
+                { name: "FAQ", href: "/faq" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link

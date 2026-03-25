@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import ProductCard from "@/components/ProductCard";
+import fromages from "@/data/produits/fromages";
 
 const categories = [
   {
@@ -91,32 +93,7 @@ const services = [
   },
 ];
 
-const featuredProducts = [
-  {
-    name: "Tomme du Jura",
-    origin: "Jura, France",
-    description: "Saveur douce, légèrement salée et fruitée. Un fromage de caractère aux arômes subtils de noisette.",
-    tag: "Pâte pressée",
-  },
-  {
-    name: "Sainte-Maure de Touraine",
-    origin: "Centre-Val de Loire",
-    description: "Fromage de chèvre AOP à la texture fondante et au goût fin, reconnaissable à sa paille de seigle.",
-    tag: "AOP",
-  },
-  {
-    name: "Raclette Brézain Fumée",
-    origin: "Savoie, France",
-    description: "Une raclette onctueuse au délicat parfum fumé, idéale pour vos soirées conviviales.",
-    tag: "Fumé",
-  },
-  {
-    name: "Comté 18 mois",
-    origin: "Franche-Comté",
-    description: "Affinage long révélant des notes de fruits secs et de caramel. Le roi des fromages franc-comtois.",
-    tag: "Affiné",
-  },
-];
+const featuredProducts = fromages.slice(0, 4);
 
 const testimonials = [
   {
@@ -345,21 +322,8 @@ export default function Home() {
 
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {featuredProducts.map((product, i) => (
-            <Reveal key={product.name} delay={i * 120} className="h-full">
-              <div className="luxury-card group p-8 h-full">
-                <span className="inline-block px-3 py-1 text-[0.6rem] font-light tracking-[0.2em] uppercase border border-accent/30 text-accent">
-                  {product.tag}
-                </span>
-                <h3 className="mt-5 font-serif text-xl font-light tracking-[0.02em] text-primary">
-                  {product.name}
-                </h3>
-                <p className="mt-1 text-[0.65rem] font-light tracking-[0.15em] text-accent/60">
-                  {product.origin}
-                </p>
-                <p className="mt-4 text-sm font-light leading-7 text-foreground/60">
-                  {product.description}
-                </p>
-              </div>
+            <Reveal key={product.slug} delay={i * 120} className="h-full">
+              <ProductCard product={product} index={i} />
             </Reveal>
           ))}
         </div>

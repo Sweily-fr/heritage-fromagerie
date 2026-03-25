@@ -1,3 +1,6 @@
+import ProductGrid from "@/components/ProductGrid";
+import fromages from "@/data/produits/fromages";
+
 export const metadata = {
   title: "Fromages",
   description:
@@ -20,11 +23,7 @@ export default function Fromages() {
         uniques.
       </p>
 
-      <div className="mt-16 luxury-card p-14 text-center animate-fade-up delay-400">
-        <p className="text-sm font-light tracking-[0.1em] text-foreground/40">
-          Les produits seront bientôt ajoutés ici.
-        </p>
-      </div>
+      <ProductGrid products={fromages} columns={4} />
     </div>
   );
 }

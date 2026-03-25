@@ -1,3 +1,7 @@
+import ProductCard from "@/components/ProductCard";
+import Reveal from "@/components/Reveal";
+import cremerie from "@/data/produits/cremerie";
+
 export const metadata = {
   title: "Crèmerie",
   description:
@@ -20,10 +24,12 @@ export default function Cremerie() {
         locales.
       </p>
 
-      <div className="mt-16 luxury-card p-14 text-center animate-fade-up delay-400">
-        <p className="text-sm font-light tracking-[0.1em] text-foreground/40">
-          Les produits seront bientôt ajoutés ici.
-        </p>
+      <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {cremerie.map((product, i) => (
+          <Reveal key={product.slug} delay={i * 100} className="h-full">
+            <ProductCard product={product} index={i} />
+          </Reveal>
+        ))}
       </div>
     </div>
   );
