@@ -351,7 +351,7 @@ export default function Services() {
                 ].map((item, i) => (
                   <div key={item.title} className="luxury-card p-8">
                     <div className="flex items-start gap-4">
-                      <span className="font-serif text-2xl font-light text-accent/20 flex-shrink-0">
+                      <span className="font-serif text-2xl font-light text-accent/50 flex-shrink-0">
                         0{i + 1}
                       </span>
                       <div>

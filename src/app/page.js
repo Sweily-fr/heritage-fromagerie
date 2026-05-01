@@ -362,7 +362,7 @@ export default function Home() {
               <Reveal key={service.title} delay={i * 150}>
                 <div className="group relative bg-primary p-10 lg:p-12 h-full transition-colors duration-700 hover:bg-primary-light/30">
                   {/* Number — top right */}
-                  <span className="absolute top-8 right-8 font-serif text-3xl font-light text-accent/10 group-hover:text-accent/25 transition-colors duration-700">
+                  <span className="absolute top-8 right-8 font-serif text-3xl font-light text-accent/30 group-hover:text-accent/50 transition-colors duration-700">
                     0{i + 1}
                   </span>
 
