@@ -3,6 +3,8 @@ import Image from "next/image";
 import Reveal from "./Reveal";
 import ProductSuggestions from "./ProductSuggestions";
 
+const siteUrl = "https://heritage-fromagerie.fr";
+
 export default function ProductDetail({ product, allProducts, backHref, backLabel }) {
   const infoItems = [
     { label: "Type de lait", value: product.milkType },
@@ -11,8 +13,54 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
     { label: "Accord", value: product.accord },
   ].filter((item) => item.value && item.value !== "—");
 
+  const priceMatch = product.price?.match(/(\d+[.,]\d+)/);
+  const priceValue = priceMatch ? priceMatch[1].replace(",", ".") : null;
+
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.description,
+    image: `${siteUrl}${product.image}`,
+    category: backLabel,
+    brand: {
+      "@type": "Brand",
+      name: "L'Héritage",
+    },
+    ...(priceValue && {
+      offers: {
+        "@type": "Offer",
+        price: priceValue,
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+        seller: {
+          "@type": "Organization",
+          name: "L'Héritage",
+        },
+      },
+    }),
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: backLabel, item: `${siteUrl}${backHref}` },
+      { "@type": "ListItem", position: 3, name: product.name },
+    ],
+  };
+
   return (
     <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-32">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Breadcrumb */}
       <nav className="animate-fade-up">
         <ol className="flex items-center gap-2 text-[0.65rem] font-light tracking-[0.2em] uppercase text-foreground/40">

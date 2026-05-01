@@ -4,6 +4,24 @@ import Reveal from "@/components/Reveal";
 import ProductCard from "@/components/ProductCard";
 import fromages from "@/data/produits/fromages";
 
+export const metadata = {
+  title: {
+    absolute: "L'Héritage - Fromagerie Artisanale à Pontault-Combault",
+  },
+  description:
+    "Fromagerie artisanale à Pontault-Combault. Fromages affinés, crèmerie fermière, épicerie fine et plateaux sur mesure. Livraison en Île-de-France.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "L'Héritage - Fromagerie Artisanale à Pontault-Combault",
+    description:
+      "Fromages affinés, crèmerie fermière, épicerie fine. Plateaux sur mesure et livraison en Île-de-France.",
+    url: "/",
+    type: "website",
+  },
+};
+
 const categories = [
   {
     name: "Fromages",
@@ -126,7 +144,10 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row lg:items-center lg:gap-16">
             <div className="max-w-2xl lg:flex-1">
               <h1 className="animate-fade-up font-serif text-5xl font-light tracking-[0.05em] text-cream sm:text-6xl lg:text-7xl">
-                L&apos;Héritage
+                <span aria-hidden="true">L&apos;Héritage</span>
+                <span className="sr-only">
+                  L&apos;Héritage — Fromagerie artisanale à Pontault-Combault
+                </span>
               </h1>
 
               <p className="animate-fade-up delay-100 mt-4 text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent/70 leading-none">
@@ -159,7 +180,7 @@ export default function Home() {
                 <div className="relative z-10 overflow-hidden hero-image-reveal">
                   <Image
                     src="/images/vitrine_02.png"
-                    alt="Devanture de la boutique L'Héritage"
+                    alt="Vitrine extérieure de la fromagerie L'Héritage à Pontault-Combault"
                     width={600}
                     height={700}
                     className="relative object-cover w-full h-[420px] hero-image-zoom"
@@ -278,7 +299,7 @@ export default function Home() {
                 <div className="aspect-[4/5] relative overflow-hidden">
                   <Image
                     src="/images/vitrine_01.png"
-                    alt="Devanture de la boutique L'Héritage"
+                    alt="Intérieur de la boutique L'Héritage, fromagerie artisanale"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
