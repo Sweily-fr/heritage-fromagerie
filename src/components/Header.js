@@ -192,7 +192,7 @@ export default function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
 
   return (
-    <header className="relative z-50 bg-primary text-cream">
+    <header className="sticky top-0 z-50 bg-primary text-cream">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <Image
