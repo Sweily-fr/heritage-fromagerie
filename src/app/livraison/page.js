@@ -5,6 +5,12 @@ export const metadata = {
   title: "Livraison à domicile",
   description:
     "Recevez nos fromages artisanaux, produits de crèmerie et épicerie fine directement chez vous à Pontault-Combault et alentours. Livraison dans le respect de la chaîne du froid.",
+  alternates: {
+    canonical: "/livraison",
+  },
+  openGraph: {
+    url: "/livraison",
+  }
 };
 
 const zones = [
@@ -163,7 +169,7 @@ export default function Livraison() {
                 Commander une livraison
               </Link>
               <a
-                href="tel:+33160000000"
+                href="tel:+33164436789"
                 className="btn-luxury btn-luxury-outline"
               >
                 Nous appeler

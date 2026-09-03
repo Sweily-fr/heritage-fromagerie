@@ -32,6 +32,7 @@ export default function Footer() {
                 { name: "Crémeries", href: "/cremerie" },
                 { name: "Épiceries fine", href: "/epicerie-fine" },
                 { name: "À propos", href: "/a-propos" },
+                { name: "Le blog", href: "/blog" },
                 { name: "FAQ", href: "/faq" },
               ].map((link) => (
                 <li key={link.name}>
@@ -57,6 +58,14 @@ export default function Footer() {
               </li>
               <li className="text-[0.75rem] font-light tracking-[0.05em] text-cream/40">
                 77340 Pontault-Combault
+              </li>
+              <li>
+                <a
+                  href="tel:+33164436789"
+                  className="text-[0.75rem] font-light tracking-[0.05em] text-cream/40 hover:text-accent transition-colors"
+                >
+                  01 64 43 67 89
+                </a>
               </li>
               <li className="mt-2">
                 <Link

@@ -27,6 +27,7 @@ const navigation = [
     name: "L'Héritage",
     children: [
       { name: "À propos", href: "/a-propos" },
+      { name: "Le blog", href: "/blog" },
       { name: "FAQ", href: "/faq" },
     ],
   },

@@ -5,6 +5,12 @@ export const metadata = {
   title: "Nos Services",
   description:
     "Découvrez les services de L'Héritage : plateaux de fromages sur mesure, livraison à domicile, dégustations, conseils d'experts et événements privés à Pontault-Combault.",
+  alternates: {
+    canonical: "/services",
+  },
+  openGraph: {
+    url: "/services",
+  }
 };
 
 const services = [

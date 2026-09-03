@@ -1,10 +1,17 @@
 import ProductGrid from "@/components/ProductGrid";
+import ProductIndex from "@/components/ProductIndex";
 import fromages from "@/data/produits/fromages";
 
 export const metadata = {
   title: "Fromages",
   description:
     "Parcourez notre gamme exceptionnelle de fromages, des chèvres aux pâtes molles, affinés avec soin pour offrir des saveurs authentiques et uniques.",
+  alternates: {
+    canonical: "/fromages",
+  },
+  openGraph: {
+    url: "/fromages",
+  }
 };
 
 export default function Fromages() {
@@ -24,6 +31,12 @@ export default function Fromages() {
       </p>
 
       <ProductGrid products={fromages} columns={4} />
+
+      <ProductIndex
+        products={fromages}
+        title="Tous nos fromages"
+        intro="Plus de 200 fromages affinés, sélectionnés auprès de producteurs et d'affineurs de toute la France et d'Europe, disponibles à la coupe dans notre fromagerie de Pontault-Combault (Seine-et-Marne) ou en livraison à domicile autour de Roissy-en-Brie, Ozoir-la-Ferrière, Émerainville et dans toute l'Île-de-France."
+      />
     </div>
   );
 }

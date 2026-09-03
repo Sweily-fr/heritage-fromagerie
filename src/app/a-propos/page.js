@@ -6,6 +6,12 @@ export const metadata = {
   title: "À propos",
   description:
     "Découvrez l'histoire de L'Héritage, fromagerie artisanale à Pontault-Combault. Une passion familiale pour les fromages d'exception, la crèmerie fermière et l'épicerie fine.",
+  alternates: {
+    canonical: "/a-propos",
+  },
+  openGraph: {
+    url: "/a-propos",
+  }
 };
 
 const values = [

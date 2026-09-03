@@ -5,6 +5,12 @@ export const metadata = {
   title: "Contact",
   description:
     "Vous avez une question ou besoin d'informations ? Contactez notre équipe de L'Héritage, nous sommes à votre disposition pour vous conseiller et vous aider.",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    url: "/contact",
+  }
 };
 
 export default function Contact() {

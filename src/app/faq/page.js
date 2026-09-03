@@ -5,6 +5,12 @@ export const metadata = {
   title: "FAQ",
   description:
     "Vous avez une question ? Retrouvez les réponses aux questions les plus fréquentes sur nos fromages, la livraison, les plateaux et nos services.",
+  alternates: {
+    canonical: "/faq",
+  },
+  openGraph: {
+    url: "/faq",
+  }
 };
 
 const categories = [

@@ -11,9 +11,18 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const product = epicerieFine.find((p) => p.slug === slug);
   if (!product) return {};
+  const url = `/epicerie-fine/${slug}`;
   return {
-    title: product.name,
+    title: `${product.name} - ${product.tag}`,
     description: product.description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${product.name} - ${product.tag} | L'Héritage`,
+      description: product.description,
+      url,
+      type: "website",
+      images: [{ url: product.image, alt: product.name }],
+    },
   };
 }
 

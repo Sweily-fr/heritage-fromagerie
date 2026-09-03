@@ -6,6 +6,12 @@ export const metadata = {
   title: "Plateaux de Fromages",
   description:
     "Composez votre plateau de fromages sur mesure pour vos événements, réceptions et moments de partage. Plateaux artisanaux livrés à Pontault-Combault et alentours.",
+  alternates: {
+    canonical: "/plateaux-de-fromages",
+  },
+  openGraph: {
+    url: "/plateaux-de-fromages",
+  }
 };
 
 const plateaux = [

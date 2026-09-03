@@ -1,4 +1,5 @@
 import { fromages, cremerie, epicerieFine } from "@/data/produits";
+import articles from "@/data/blog";
 
 const siteUrl = "https://heritage-fromagerie.fr";
 
@@ -13,6 +14,7 @@ const staticRoutes = [
   { path: "/livraison", priority: 0.7, changeFrequency: "monthly" },
   { path: "/a-propos", priority: 0.6, changeFrequency: "yearly" },
   { path: "/faq", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
   { path: "/contact", priority: 0.7, changeFrequency: "yearly" },
 ];
 
@@ -37,5 +39,12 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticEntries, ...productEntries];
+  const blogEntries = articles.map((a) => ({
+    url: `${siteUrl}/blog/${a.slug}`,
+    lastModified: new Date(a.updated || a.date),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...productEntries];
 }

@@ -7,6 +7,12 @@ export const metadata = {
   title: "Nos Produits",
   description:
     "Découvrez notre sélection de fromages artisanaux, produits de crèmerie fermière et épicerie fine. Des produits d'exception choisis avec passion par nos fromagers.",
+  alternates: {
+    canonical: "/produits",
+  },
+  openGraph: {
+    url: "/produits",
+  }
 };
 
 const categories = [

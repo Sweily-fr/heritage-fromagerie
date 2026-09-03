@@ -1,10 +1,17 @@
 import ProductGrid from "@/components/ProductGrid";
+import ProductIndex from "@/components/ProductIndex";
 import epicerieFine from "@/data/produits/epicerie-fine";
 
 export const metadata = {
   title: "Épicerie fine",
   description:
     "Découvrez nos produits d'épicerie fine, des condiments artisanaux aux vins raffinés, soigneusement sélectionnés pour accompagner vos moments gourmands.",
+  alternates: {
+    canonical: "/epicerie-fine",
+  },
+  openGraph: {
+    url: "/epicerie-fine",
+  }
 };
 
 export default function EpicerieFine() {
@@ -24,6 +31,12 @@ export default function EpicerieFine() {
       </p>
 
       <ProductGrid products={epicerieFine} columns={3} />
+
+      <ProductIndex
+        products={epicerieFine}
+        title="Toute notre épicerie fine"
+        intro="Vins, charcuteries, pains et douceurs choisis pour accompagner nos fromages, à retrouver dans notre boutique de Pontault-Combault ou en livraison en Île-de-France."
+      />
     </div>
   );
 }

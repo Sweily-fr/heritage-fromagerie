@@ -52,10 +52,10 @@ export const metadata = {
       "Fromages affinés, crèmerie fermière et épicerie fine. Plateaux sur mesure et livraison en Île-de-France.",
     images: [
       {
-        url: "/images/vitrine_02.png",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Devanture de la fromagerie L'Héritage",
+        alt: "Devanture de la fromagerie L'Héritage à Pontault-Combault",
       },
     ],
   },
@@ -64,7 +64,7 @@ export const metadata = {
     title: "L'Héritage - Fromagerie Artisanale à Pontault-Combault",
     description:
       "Fromages affinés, crèmerie fermière et épicerie fine. Plateaux sur mesure et livraison en Île-de-France.",
-    images: ["/images/vitrine_02.png"],
+    images: ["/images/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -78,20 +78,51 @@ export const metadata = {
   },
 };
 
+// Communes voisines desservies : alimente le schéma LocalBusiness (areaServed)
+// et les pages locales du blog.
+export const nearbyCities = [
+  "Pontault-Combault",
+  "Roissy-en-Brie",
+  "Émerainville",
+  "Ozoir-la-Ferrière",
+  "Lésigny",
+  "La Queue-en-Brie",
+  "Le Plessis-Trévise",
+  "Villiers-sur-Marne",
+  "Champs-sur-Marne",
+  "Croissy-Beaubourg",
+  "Pontcarré",
+  "Torcy",
+  "Noisiel",
+  "Lognes",
+  "Brie-Comte-Robert",
+  "Servon",
+  "Chevry-Cossigny",
+  "Gretz-Armainvilliers",
+  "Tournan-en-Brie",
+  "Noisy-le-Grand",
+];
+
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
-  "@type": "FoodEstablishment",
+  "@type": ["Store", "LocalBusiness"],
   "@id": `${siteUrl}/#fromagerie`,
   name: "L'Héritage - Fromagerie Artisanale",
-  image: `${siteUrl}/images/vitrine_02.png`,
+  alternateName: "Fromagerie L'Héritage Pontault-Combault",
+  description:
+    "Fromagerie artisanale à Pontault-Combault (77) : fromages affinés, crèmerie fermière, épicerie fine, plateaux sur mesure et livraison en Île-de-France.",
+  image: `${siteUrl}/images/og-image.jpg`,
+  logo: `${siteUrl}/logo/heritage_logo.png`,
   url: siteUrl,
   telephone: "+33164436789",
   priceRange: "€€",
-  servesCuisine: "Fromagerie",
+  currenciesAccepted: "EUR",
+  paymentAccepted: "Espèces, Carte bancaire",
   address: {
     "@type": "PostalAddress",
     streetAddress: "32 Avenue Charles Rouxel",
     addressLocality: "Pontault-Combault",
+    addressRegion: "Île-de-France",
     postalCode: "77340",
     addressCountry: "FR",
   },
@@ -100,6 +131,8 @@ const localBusinessJsonLd = {
     latitude: 48.7969,
     longitude: 2.6047,
   },
+  hasMap:
+    "https://maps.google.com/?q=32+Avenue+Charles+Rouxel+77340+Pontault-Combault",
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
@@ -114,10 +147,17 @@ const localBusinessJsonLd = {
       closes: "13:00",
     },
   ],
-  areaServed: {
-    "@type": "AdministrativeArea",
-    name: "Île-de-France",
-  },
+  areaServed: nearbyCities.map((name) => ({ "@type": "City", name })),
+  makesOffer: [
+    {
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: "Plateaux de fromages sur mesure", url: `${siteUrl}/plateaux-de-fromages` },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: "Livraison de fromages à domicile", url: `${siteUrl}/livraison` },
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {

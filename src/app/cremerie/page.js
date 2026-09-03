@@ -6,6 +6,12 @@ export const metadata = {
   title: "Crèmerie",
   description:
     "Savourez la fraîcheur de nos produits laitiers artisanaux. Découvrez notre sélection de crèmes, beurres et autres délices issus de fermes locales.",
+  alternates: {
+    canonical: "/cremerie",
+  },
+  openGraph: {
+    url: "/cremerie",
+  }
 };
 
 export default function Cremerie() {
