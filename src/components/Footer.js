@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { socialLinks } from "@/data/site";
 
 export default function Footer() {
@@ -11,9 +12,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-xl font-light tracking-[0.1em] text-accent">
-              L&apos;Héritage
-            </h3>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/logo/heritage_logo_blanc.png"
+                alt="L'Héritage - Fromagerie Artisanale"
+                width={344}
+                height={208}
+                className="h-20 w-auto"
+              />
+            </Link>
             <p className="mt-4 text-[0.75rem] font-light leading-6 text-cream/40">
               Fromagerie artisanale dédiée à la production de fromages
               authentiques et de qualité, élaborés selon les traditions.

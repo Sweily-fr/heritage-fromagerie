@@ -197,10 +197,11 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logo/logo_heritage_white.png"
+            src="/logo/heritage_logo_blanc.png"
             alt="L'Héritage - Fromagerie Artisanale"
-            width={64}
-            height={64}
+            width={344}
+            height={208}
+            priority
             className="h-16 w-auto"
           />
         </Link>
