@@ -22,7 +22,7 @@ const cremerie = [
     origin: "France",
     tag: "Crème",
     category: "cremerie",
-    image: "/images/produits/cremerie/creme-crue.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "12,95 € / kg",
     description:
       "Une crème crue non pasteurisée, épaisse et d'une richesse aromatique rare.",
@@ -39,7 +39,7 @@ const cremerie = [
     origin: "France",
     tag: "Fromage frais",
     category: "cremerie",
-    image: "/images/produits/cremerie/faisselle-de-chevre.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,95 € / pièce",
     description:
       "Une faisselle de chèvre fraîche, légère et acidulée, servie dans son petit-lait.",
@@ -90,7 +90,7 @@ const cremerie = [
     origin: "Île-de-France",
     tag: "Dessert",
     category: "cremerie",
-    image: "/images/produits/cremerie/fontainebleau.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "3,95 € / pièce",
     description:
       "Un nuage de fromage blanc et de crème fouettée, le dessert le plus léger qui soit.",
@@ -124,7 +124,7 @@ const cremerie = [
     origin: "Préparation maison",
     tag: "Dessert",
     category: "cremerie",
-    image: "/images/produits/cremerie/gateau-fb.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "24,95 € / kg",
     description:
       "Notre gâteau au fromage blanc maison, léger et à peine sucré.",
@@ -141,7 +141,7 @@ const cremerie = [
     origin: "France",
     tag: "Lait",
     category: "cremerie",
-    image: "/images/produits/cremerie/lait-frais.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "2,70 € / pièce",
     description:
       "Du lait entier frais de ferme, riche et savoureux.",
@@ -158,7 +158,7 @@ const cremerie = [
     origin: "Deux-Sèvres, France",
     tag: "Lait",
     category: "cremerie",
-    image: "/images/produits/cremerie/lait-echire.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "1,95 € / pièce",
     description:
       "Le lait de la célèbre laiterie d'Échiré, riche et non homogénéisé.",
@@ -175,7 +175,7 @@ const cremerie = [
     origin: "Lombardie, Italie",
     tag: "Crème",
     category: "cremerie",
-    image: "/images/produits/cremerie/mascarpone-250.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "3,70 € / pièce",
     description:
       "Du mascarpone italien en pot de 250 g, dense et beurré.",
@@ -192,7 +192,7 @@ const cremerie = [
     origin: "Lombardie, Italie",
     tag: "Crème",
     category: "cremerie",
-    image: "/images/produits/cremerie/mascarpone-500.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "4,95 € / pièce",
     description:
       "Du mascarpone italien en pot de 500 g, le format des grandes tablées.",
@@ -243,7 +243,7 @@ const cremerie = [
     origin: "Grèce",
     tag: "Yaourt",
     category: "cremerie",
-    image: "/images/produits/cremerie/mavromatis-brebis.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,95 € / pièce",
     description:
       "Le yaourt grec au lait de brebis, plus riche et plus onctueux encore.",
@@ -260,7 +260,7 @@ const cremerie = [
     origin: "Préparation maison",
     tag: "Dessert",
     category: "cremerie",
-    image: "/images/produits/cremerie/mousse-au-chocolat.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "3,95 € / pièce",
     description:
       "Notre mousse au chocolat maison, dense en cacao et légère en texture.",
@@ -311,7 +311,7 @@ const cremerie = [
     origin: "Préparation maison",
     tag: "Dessert",
     category: "cremerie",
-    image: "/images/produits/cremerie/riz-au-lait.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "2,90 € / pièce",
     description:
       "Notre riz au lait maison, cuit lentement et vanillé à la gousse.",
@@ -328,7 +328,7 @@ const cremerie = [
     origin: "Préparation maison",
     tag: "Dessert",
     category: "cremerie",
-    image: "/images/produits/cremerie/riz-au-lait-x2.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,00 € / pièce",
     description:
       "Deux pots de notre riz au lait maison, cuit lentement et vanillé.",
@@ -345,7 +345,7 @@ const cremerie = [
     origin: "Islande",
     tag: "Yaourt",
     category: "cremerie",
-    image: "/images/produits/cremerie/skyr.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,50 € / pièce",
     description:
       "Le skyr islandais, ultra-dense en protéines et pratiquement sans matière grasse.",
@@ -362,7 +362,7 @@ const cremerie = [
     origin: "Préparation maison",
     tag: "Dessert",
     category: "cremerie",
-    image: "/images/produits/cremerie/tiramisu.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "4,95 € / pièce",
     description:
       "Notre tiramisu maison, au mascarpone italien et au café serré.",
@@ -379,7 +379,7 @@ const cremerie = [
     origin: "Normandie, France",
     tag: "Fromage frais",
     category: "cremerie",
-    image: "/images/produits/cremerie/verneuil.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,20 € / pièce",
     description:
       "Un fromage frais normand enrichi en crème, d'une onctuosité remarquable.",
@@ -396,7 +396,7 @@ const cremerie = [
     origin: "France",
     tag: "Yaourt",
     category: "cremerie",
-    image: "/images/produits/cremerie/yaourt-brebis.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "2,95 € / pièce",
     description:
       "Un yaourt au lait de brebis, naturellement onctueux et légèrement caprin.",

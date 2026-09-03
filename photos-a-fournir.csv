@@ -1,0 +1,197 @@
+Section,Famille,Produit,Nom de fichier attendu
+fromages,Pâtes Dures,Abondance,public/images/produits/fromages/abondance.jpg
+fromages,Brebis,Ardika,public/images/produits/fromages/ardika.jpg
+fromages,Pâtes Dures,Beaufort d'Alpage été,public/images/produits/fromages/beaufort-d-alpage-ete.jpg
+fromages,Pâte Persillée,Bleu de Bresse,public/images/produits/fromages/bleu-de-bresse.jpg
+fromages,Pâtes Molles,Boulette d’Avesnes,public/images/produits/fromages/boulette-d-avesnes.jpg
+fromages,Brebis,Brebirousse d’argental,public/images/produits/fromages/brebirousse-d-argental.jpg
+fromages,Brebis,Brebis Au Piment,public/images/produits/fromages/brebis-au-piment.jpg
+fromages,Brebis,Brebis aux fleurs,public/images/produits/fromages/brebis-aux-fleurs.jpg
+fromages,Brebis,Brebis Basque Truffé,public/images/produits/fromages/brebis-basque-truffe.jpg
+fromages,Pâtes Molles,Brie aux noix maison,public/images/produits/fromages/brie-aux-noix-maison.jpg
+fromages,Pâtes Molles,Brie de Meaux,public/images/produits/fromages/brie-de-meaux.jpg
+fromages,Pâtes Molles,Brie de Melun,public/images/produits/fromages/brie-de-melun.jpg
+fromages,Pâtes Molles,Brie de nangis,public/images/produits/fromages/brie-de-nangis.jpg
+fromages,Pâtes Molles,Brie Noix/Miel,public/images/produits/fromages/brie-noix-miel.jpg
+fromages,Pâtes Molles,Brie à la figue/noix,public/images/produits/fromages/brie-a-la-figue-noix.jpg
+fromages,Pâtes Molles,Brie à la moutarde,public/images/produits/fromages/brie-a-la-moutarde.jpg
+fromages,Brebis,Bruccio,public/images/produits/fromages/bruccio.jpg
+fromages,Fromages Frais,Buffalato Nature,public/images/produits/fromages/buffalato-nature.jpg
+fromages,Fromages Frais,Buffalato pistache,public/images/produits/fromages/buffalato-pistache.jpg
+fromages,Fromages Frais,Burrata,public/images/produits/fromages/burrata.jpg
+fromages,Fromages Frais,Camembert di bufala,public/images/produits/fromages/camembert-di-bufala.jpg
+fromages,Pâtes Molles,Camembert Fermier,public/images/produits/fromages/camembert-fermier.jpg
+fromages,Pâtes Dures,Cantal Jeune,public/images/produits/fromages/cantal-jeune.jpg
+fromages,Brebis,Castillan,public/images/produits/fromages/castillan.jpg
+fromages,Brebis,Caussenard vieux,public/images/produits/fromages/caussenard-vieux.jpg
+fromages,Chèvre,Chèvre aux fleurs,public/images/produits/fromages/chevre-aux-fleurs.jpg
+fromages,Chèvre,Chèvre Cuberdon,public/images/produits/fromages/chevre-cuberdon.jpg
+fromages,Chèvre,Chèvre Figue,public/images/produits/fromages/chevre-figue.jpg
+fromages,Chèvre,Chèvre miel fleur d’oranger,public/images/produits/fromages/chevre-miel-fleur-d-oranger.jpg
+fromages,Chèvre,Chèvre piment,public/images/produits/fromages/chevre-piment.jpg
+fromages,Chèvre,Chèvre Pomme Mangue,public/images/produits/fromages/chevre-pomme-mangue.jpg
+fromages,Chèvre,Chèvre thym miel,public/images/produits/fromages/chevre-thym-miel.jpg
+fromages,Chèvre,Chèvres Secs,public/images/produits/fromages/chevres-secs.jpg
+fromages,Chèvre,Clacbitou,public/images/produits/fromages/clacbitou.jpg
+fromages,Fromages Frais,Comtesse de la madeleine,public/images/produits/fromages/comtesse-de-la-madeleine.jpg
+fromages,Pâtes Dures,Comté Fruité,public/images/produits/fromages/comte-fruite.jpg
+fromages,Pâtes Dures,Comté Réserve,public/images/produits/fromages/comte-reserve.jpg
+fromages,Pâtes Dures,Comté Vieux,public/images/produits/fromages/comte-vieux.jpg
+fromages,Chèvre,Croseta,public/images/produits/fromages/croseta.jpg
+fromages,Chèvre,Cœur Gourmand,public/images/produits/fromages/coeur-gourmand.jpg
+fromages,Chèvre,Delice des deux sevres,public/images/produits/fromages/delice-des-deux-sevres.jpg
+fromages,Pâtes Dures,Emmental de Savoie,public/images/produits/fromages/emmental-de-savoie.jpg
+fromages,Pâtes Dures,Etivaz,public/images/produits/fromages/etivaz.jpg
+fromages,Fromages Frais,Feta Fermière,public/images/produits/fromages/feta-fermiere.jpg
+fromages,Fromages Frais,Feta truffé,public/images/produits/fromages/feta-truffe.jpg
+fromages,Brebis,Fondant de Brebis,public/images/produits/fromages/fondant-de-brebis.jpg
+fromages,Pâtes Dures,Fondue Suisse,public/images/produits/fromages/fondue-suisse.jpg
+fromages,Pâtes Molles,Fougerus,public/images/produits/fromages/fougerus.jpg
+fromages,Pâtes Molles,Fougerus 1/2,public/images/produits/fromages/fougerus-1-2.jpg
+fromages,Pâtes Molles,Fougerus 1/4,public/images/produits/fromages/fougerus-1-4.jpg
+fromages,Pâte Persillée,Fourme de Montbrison,public/images/produits/fromages/fourme-de-montbrison.jpg
+fromages,Chèvre,Gloriotte,public/images/produits/fromages/gloriotte.jpg
+fromages,Pâte Persillée,Gorgonzola Mascarpone,public/images/produits/fromages/gorgonzola-mascarpone.jpg
+fromages,Pâte Persillée,Gorgonzola à la Coupe,public/images/produits/fromages/gorgonzola-a-la-coupe.jpg
+fromages,Pâtes Dures,Gouda au Cumin,public/images/produits/fromages/gouda-au-cumin.jpg
+fromages,Pâtes Dures,Gouda Fumé,public/images/produits/fromages/gouda-fume.jpg
+fromages,Pâtes Dures,Gouda pesto,public/images/produits/fromages/gouda-pesto.jpg
+fromages,Pâtes Molles,Grand Murols,public/images/produits/fromages/grand-murols.jpg
+fromages,Pâtes Dures,Gruyere Suisse,public/images/produits/fromages/gruyere-suisse.jpg
+fromages,Fromages Frais,Halloumi,public/images/produits/fromages/halloumi.jpg
+fromages,Pâtes Dures,Kaltbach Rustic,public/images/produits/fromages/kaltbach-rustic.jpg
+fromages,Pâtes Dures,Koch aux Fleurs,public/images/produits/fromages/koch-aux-fleurs.jpg
+fromages,Pâtes Dures,Koch Lavendula,public/images/produits/fromages/koch-lavendula.jpg
+fromages,Pâtes Dures,Koch Truffalo,public/images/produits/fromages/koch-truffalo.jpg
+fromages,Pâtes Dures,Laguiole,public/images/produits/fromages/laguiole.jpg
+fromages,Pâtes Dures,Le Fribourg crème,public/images/produits/fromages/le-fribourg-creme.jpg
+fromages,Chèvre,Le Garonnais,public/images/produits/fromages/le-garonnais.jpg
+fromages,Pâtes Molles,Livarot,public/images/produits/fromages/livarot.jpg
+fromages,Pâtes Molles,Livarot 1/2,public/images/produits/fromages/livarot-1-2.jpg
+fromages,Brebis,Manchego,public/images/produits/fromages/manchego.jpg
+fromages,Brebis,Manchego Piment,public/images/produits/fromages/manchego-piment.jpg
+fromages,Brebis,Manchego Truffé,public/images/produits/fromages/manchego-truffe.jpg
+fromages,Pâtes Molles,Manigodine,public/images/produits/fromages/manigodine.jpg
+fromages,Pâtes Dures,Marquise Truffé,public/images/produits/fromages/marquise-truffe.jpg
+fromages,Pâtes Molles,Mini Livarot,public/images/produits/fromages/mini-livarot.jpg
+fromages,Chèvre,Mini Rouelle,public/images/produits/fromages/mini-rouelle.jpg
+fromages,Pâtes Molles,Moelleux des Alpes truffé,public/images/produits/fromages/moelleux-des-alpes-truffe.jpg
+fromages,Pâtes Molles,moelleux des alpes truffé 1/2,public/images/produits/fromages/moelleux-des-alpes-truffe-1-2.jpg
+fromages,Brebis,Moliterno truffé,public/images/produits/fromages/moliterno-truffe.jpg
+fromages,Chèvre,Morvan,public/images/produits/fromages/morvan.jpg
+fromages,Fromages Frais,Mozza Billes,public/images/produits/fromages/mozza-billes.jpg
+fromages,Fromages Frais,Mozza Boule,public/images/produits/fromages/mozza-boule.jpg
+fromages,Fromages Frais,Mozza Tréssé,public/images/produits/fromages/mozza-tresse.jpg
+fromages,Pâtes Molles,Munster Village,public/images/produits/fromages/munster-village.jpg
+fromages,Pâtes Molles,Noixrousse Argental,public/images/produits/fromages/noixrousse-argental.jpg
+fromages,Brebis,Onetik Piment,public/images/produits/fromages/onetik-piment.jpg
+fromages,Brebis,Ossau Fermier,public/images/produits/fromages/ossau-fermier.jpg
+fromages,Chèvre,Ové Japonais,public/images/produits/fromages/ove-japonais.jpg
+fromages,Pâtes Dures,Parmesan DOP,public/images/produits/fromages/parmesan-dop.jpg
+fromages,Pâtes Molles,Pavé d’auge,public/images/produits/fromages/pave-d-auge.jpg
+fromages,Brebis,Pecorino poivre,public/images/produits/fromages/pecorino-poivre.jpg
+fromages,Chèvre,Picodon,public/images/produits/fromages/picodon.jpg
+fromages,Pâtes Molles,Pont L'Eveque,public/images/produits/fromages/pont-l-eveque.jpg
+fromages,Pâtes Molles,Pont L'Eveque 1/2,public/images/produits/fromages/pont-l-eveque-1-2.jpg
+fromages,Pâtes Dures,Pontarlier réserve,public/images/produits/fromages/pontarlier-reserve.jpg
+fromages,Pâtes Molles,Port Salut,public/images/produits/fromages/port-salut.jpg
+fromages,Chèvre,Pouligny,public/images/produits/fromages/pouligny.jpg
+fromages,Brebis,Pérail des cabasses,public/images/produits/fromages/perail-des-cabasses.jpg
+fromages,Pâtes Dures,Raclette Brézein,public/images/produits/fromages/raclette-brezein.jpg
+fromages,Chèvre,Raclette de chevre,public/images/produits/fromages/raclette-de-chevre.jpg
+fromages,Pâtes Dures,Raclette Pinot Noir,public/images/produits/fromages/raclette-pinot-noir.jpg
+fromages,Pâtes Dures,Raclette Suisse,public/images/produits/fromages/raclette-suisse.jpg
+fromages,Pâtes Dures,Raclette Suisse Ail des Ours,public/images/produits/fromages/raclette-suisse-ail-des-ours.jpg
+fromages,Pâtes Dures,Raclette Suisse Ail Noir,public/images/produits/fromages/raclette-suisse-ail-noir.jpg
+fromages,Pâtes Dures,Raclette Suisse Aromatisées,public/images/produits/fromages/raclette-suisse-aromatisees.jpg
+fromages,Pâtes Dures,Raclette Suisse morilles,public/images/produits/fromages/raclette-suisse-morilles.jpg
+fromages,Pâtes Dures,Raclette Suisse Oignon braisé,public/images/produits/fromages/raclette-suisse-oignon-braise.jpg
+fromages,Pâtes Dures,Raclette Vin Jaune,public/images/produits/fromages/raclette-vin-jaune.jpg
+fromages,Chèvre,Racotin,public/images/produits/fromages/racotin.jpg
+fromages,Fromages Frais,Ricota,public/images/produits/fromages/ricota.jpg
+fromages,Pâte Persillée,Roquefort Maria Grimal,public/images/produits/fromages/roquefort-maria-grimal.jpg
+fromages,Pâtes Molles,Saint Marcellin,public/images/produits/fromages/saint-marcellin.jpg
+fromages,Pâtes Dures,Salers,public/images/produits/fromages/salers.jpg
+fromages,Pâtes Molles,St Faron,public/images/produits/fromages/st-faron.jpg
+fromages,Fromages Frais,Stracciatella,public/images/produits/fromages/stracciatella.jpg
+fromages,Pâtes Molles,Tentation,public/images/produits/fromages/tentation.jpg
+fromages,Pâtes Molles,Timanoix,public/images/produits/fromages/timanoix.jpg
+fromages,Pâtes Molles,Timanoix 1/2,public/images/produits/fromages/timanoix-1-2.jpg
+fromages,Brebis,Tomme brebis,public/images/produits/fromages/tomme-brebis.jpg
+fromages,Brebis,Tomme BREBIS/CHEVRE,public/images/produits/fromages/tomme-brebis-chevre.jpg
+fromages,Chèvre,Tomme de chèvre fume,public/images/produits/fromages/tomme-de-chevre-fume.jpg
+fromages,Chèvre,Tomme de Chèvre Jeune,public/images/produits/fromages/tomme-de-chevre-jeune.jpg
+fromages,Chèvre,Tomme de chèvre Piment,public/images/produits/fromages/tomme-de-chevre-piment.jpg
+fromages,Chèvre,Tomme de chèvre truffé,public/images/produits/fromages/tomme-de-chevre-truffe.jpg
+fromages,Chèvre,Tomme de Chèvre Vieille,public/images/produits/fromages/tomme-de-chevre-vieille.jpg
+fromages,Chèvre,Tomme de provence,public/images/produits/fromages/tomme-de-provence.jpg
+fromages,Pâtes Dures,Tomme de Savoie,public/images/produits/fromages/tomme-de-savoie.jpg
+fromages,Pâtes Dures,Tomme de Yenne,public/images/produits/fromages/tomme-de-yenne.jpg
+fromages,Pâtes Dures,Tomme des bauges,public/images/produits/fromages/tomme-des-bauges.jpg
+fromages,Fromages Frais,Tomme Di bufala,public/images/produits/fromages/tomme-di-bufala.jpg
+fromages,Pâtes Dures,Tomme du Jura,public/images/produits/fromages/tomme-du-jura.jpg
+fromages,Pâtes Dures,Tomme d’auvergne,public/images/produits/fromages/tomme-d-auvergne.jpg
+fromages,Pâtes Dures,Tomme suisse fermière,public/images/produits/fromages/tomme-suisse-fermiere.jpg
+fromages,Pâtes Dures,Tomme suisse à l’ail des ours,public/images/produits/fromages/tomme-suisse-a-l-ail-des-ours.jpg
+fromages,Pâtes Dures,Tomme à l'ail des ours,public/images/produits/fromages/tomme-a-l-ail-des-ours.jpg
+fromages,Chèvre,Triangle Barbichette,public/images/produits/fromages/triangle-barbichette.jpg
+fromages,Pâtes Molles,Vacherin Suisse,public/images/produits/fromages/vacherin-suisse.jpg
+fromages,Pâtes Molles,Vacherousse Argental,public/images/produits/fromages/vacherousse-argental.jpg
+fromages,Pâtes Molles,Valbrie,public/images/produits/fromages/valbrie.jpg
+cremerie,Crème,Créme Crue,public/images/produits/cremerie/creme-crue.jpg
+cremerie,Fromage frais,Faisselle de Chèvre,public/images/produits/cremerie/faisselle-de-chevre.jpg
+cremerie,Dessert,Fontainebleau,public/images/produits/cremerie/fontainebleau.jpg
+cremerie,Dessert,Gateau FB,public/images/produits/cremerie/gateau-fb.jpg
+cremerie,Lait,Lait Frais,public/images/produits/cremerie/lait-frais.jpg
+cremerie,Lait,Lait Échiré,public/images/produits/cremerie/lait-echire.jpg
+cremerie,Crème,Mascarpone 250,public/images/produits/cremerie/mascarpone-250.jpg
+cremerie,Crème,Mascarpone 500,public/images/produits/cremerie/mascarpone-500.jpg
+cremerie,Yaourt,Mavromatis Brebis,public/images/produits/cremerie/mavromatis-brebis.jpg
+cremerie,Dessert,Mousse au chocolat,public/images/produits/cremerie/mousse-au-chocolat.jpg
+cremerie,Dessert,Riz au Lait,public/images/produits/cremerie/riz-au-lait.jpg
+cremerie,Dessert,Riz au lait X2,public/images/produits/cremerie/riz-au-lait-x2.jpg
+cremerie,Yaourt,SKYR,public/images/produits/cremerie/skyr.jpg
+cremerie,Dessert,Tiramisu,public/images/produits/cremerie/tiramisu.jpg
+cremerie,Fromage frais,Verneuil,public/images/produits/cremerie/verneuil.jpg
+cremerie,Yaourt,Yaourt Brebis,public/images/produits/cremerie/yaourt-brebis.jpg
+epicerie-fine,Vins,Apremont,public/images/produits/epicerie-fine/apremont.jpg
+epicerie-fine,Vins,Bandol,public/images/produits/epicerie-fine/bandol.jpg
+epicerie-fine,Charcuterie,Bresaola,public/images/produits/epicerie-fine/bresaola.jpg
+epicerie-fine,Épicerie,Brioche Pepite de Chocolat,public/images/produits/epicerie-fine/brioche-pepite-de-chocolat.jpg
+epicerie-fine,Épicerie,Cancoillotte,public/images/produits/epicerie-fine/cancoillotte.jpg
+epicerie-fine,Vins,Cheverny,public/images/produits/epicerie-fine/cheverny.jpg
+epicerie-fine,Vins,Chinon,public/images/produits/epicerie-fine/chinon.jpg
+epicerie-fine,Épicerie,CHIPS,public/images/produits/epicerie-fine/chips.jpg
+epicerie-fine,Charcuterie,Chorizo,public/images/produits/epicerie-fine/chorizo.jpg
+epicerie-fine,Charcuterie,Chorizo coupe,public/images/produits/epicerie-fine/chorizo-coupe.jpg
+epicerie-fine,Épicerie,Confiture,public/images/produits/epicerie-fine/confiture.jpg
+epicerie-fine,Charcuterie,Coppa,public/images/produits/epicerie-fine/coppa.jpg
+epicerie-fine,Épicerie,Emmental Rapé,public/images/produits/epicerie-fine/emmental-rape.jpg
+epicerie-fine,Épicerie,Feuilletés,public/images/produits/epicerie-fine/feuilletes.jpg
+epicerie-fine,Épicerie,Feuilletés 2,public/images/produits/epicerie-fine/feuilletes-2.jpg
+epicerie-fine,Vins,Golf Prestige,public/images/produits/epicerie-fine/golf-prestige.jpg
+epicerie-fine,Épicerie,Huile d’olive 150ML,public/images/produits/epicerie-fine/huile-d-olive-150ml.jpg
+epicerie-fine,Épicerie,Huile d’olive 250ML,public/images/produits/epicerie-fine/huile-d-olive-250ml.jpg
+epicerie-fine,Charcuterie,Jambon Blanc,public/images/produits/epicerie-fine/jambon-blanc.jpg
+epicerie-fine,Charcuterie,Jambon Sec,public/images/produits/epicerie-fine/jambon-sec.jpg
+epicerie-fine,Vins,La Pepite,public/images/produits/epicerie-fine/la-pepite.jpg
+epicerie-fine,Vins,Les Petits pins,public/images/produits/epicerie-fine/les-petits-pins.jpg
+epicerie-fine,Épicerie,Miel,public/images/produits/epicerie-fine/miel.jpg
+epicerie-fine,Épicerie,Mini Chinois,public/images/produits/epicerie-fine/mini-chinois.jpg
+epicerie-fine,Vins,Minuty,public/images/produits/epicerie-fine/minuty.jpg
+epicerie-fine,Vins,MONDESIR,public/images/produits/epicerie-fine/mondesir.jpg
+epicerie-fine,Charcuterie,Mortadelle,public/images/produits/epicerie-fine/mortadelle.jpg
+epicerie-fine,Épicerie,OEufs Bio,public/images/produits/epicerie-fine/oeufs-bio.jpg
+epicerie-fine,Épicerie,OEufs Plein Air,public/images/produits/epicerie-fine/oeufs-plein-air.jpg
+epicerie-fine,Épicerie,Pain d’Epice,public/images/produits/epicerie-fine/pain-d-epice.jpg
+epicerie-fine,Épicerie,Pâte de coing,public/images/produits/epicerie-fine/pate-de-coing.jpg
+epicerie-fine,Épicerie,Pâte de fruits,public/images/produits/epicerie-fine/pate-de-fruits.jpg
+epicerie-fine,Charcuterie,Rosette,public/images/produits/epicerie-fine/rosette.jpg
+epicerie-fine,Vins,SARTHE,public/images/produits/epicerie-fine/sarthe.jpg
+epicerie-fine,Charcuterie,Saucisson Aromatisé,public/images/produits/epicerie-fine/saucisson-aromatise.jpg
+epicerie-fine,Charcuterie,Saucisson Nature,public/images/produits/epicerie-fine/saucisson-nature.jpg
+epicerie-fine,Charcuterie,Saucisson Truffé,public/images/produits/epicerie-fine/saucisson-truffe.jpg
+epicerie-fine,Vins,Saumur-Champigny,public/images/produits/epicerie-fine/saumur-champigny.jpg
+epicerie-fine,Vins,Syrah Petite Crête,public/images/produits/epicerie-fine/syrah-petite-crete.jpg
+epicerie-fine,Charcuterie,Viande de grison,public/images/produits/epicerie-fine/viande-de-grison.jpg
+epicerie-fine,Épicerie,Vinaigre Aromatisé,public/images/produits/epicerie-fine/vinaigre-aromatise.jpg

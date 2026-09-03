@@ -5,7 +5,7 @@ const fromages = [
     origin: "Haute-Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/abondance.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "30,95 € / kg",
     description:
       "AOP savoyarde au talon concave, à la pâte souple et aux arômes francs de noisette.",
@@ -56,7 +56,7 @@ const fromages = [
     origin: "Pays basque, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/ardika.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Un brebis basque affiné, dense et long en bouche, aux notes de fruits secs.",
@@ -73,7 +73,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/beaufort-d-alpage-ete.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "49,95 € / kg",
     description:
       "Le « prince des gruyères », fabriqué l'été en alpage avec le lait des pâturages fleuris.",
@@ -107,7 +107,7 @@ const fromages = [
     origin: "Bresse, France",
     tag: "Pâte Persillée",
     category: "fromages",
-    image: "/images/produits/fromages/bleu-de-bresse.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "Un bleu doux à croûte fleurie, crémeux et parfaitement accessible.",
@@ -141,7 +141,7 @@ const fromages = [
     origin: "Nord, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/boulette-d-avesnes.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "7,95 € / pièce",
     description:
       "Le « suppositoire du diable » : une boulette pétrie au persil et au paprika, redoutablement puissante.",
@@ -158,7 +158,7 @@ const fromages = [
     origin: "Rhône-Alpes, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/brebirousse-d-argental.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un brebis à la croûte lavée orange vif, d'une onctuosité fondante.",
@@ -175,7 +175,7 @@ const fromages = [
     origin: "Pays basque, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/brebis-au-piment.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "35,95 € / kg",
     description:
       "Un brebis basque relevé au piment d'Espelette, chaleureux et typé.",
@@ -192,7 +192,7 @@ const fromages = [
     origin: "France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/brebis-aux-fleurs.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un brebis roulé dans les fleurs et les herbes, délicat et parfumé.",
@@ -209,7 +209,7 @@ const fromages = [
     origin: "Pays basque, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/brebis-basque-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "45,95 € / kg",
     description:
       "Un brebis basque parsemé d'éclats de truffe, riche et profondément aromatique.",
@@ -260,7 +260,7 @@ const fromages = [
     origin: "Préparation maison",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-aux-noix-maison.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "26,90 € / kg",
     description:
       "Notre brie fourré aux noix, préparé à la boutique par nos fromagers.",
@@ -277,7 +277,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-de-meaux.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "22,95 € / kg",
     description:
       "Le « roi des fromages », un brie AOP au lait cru, crémeux et délicat.",
@@ -294,7 +294,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-de-melun.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "35,95 € / kg",
     description:
       "Plus rustique et plus puissant que son cousin de Meaux, un brie AOP de caractère.",
@@ -311,7 +311,7 @@ const fromages = [
     origin: "Seine-et-Marne, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-de-nangis.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "25,90 € / kg",
     description:
       "Un petit brie briard tendre et fruité, longtemps oublié puis remis à l'honneur.",
@@ -328,7 +328,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-noix-miel.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "54,95 € / kg",
     description:
       "Un brie garni de noix et de miel, l'accord sucré-salé le plus gourmand du plateau.",
@@ -362,7 +362,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-a-la-figue-noix.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "52,95 € / kg",
     description:
       "Un brie fendu et garni de figues moelleuses et de noix croquantes.",
@@ -379,7 +379,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/brie-a-la-moutarde.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "49,95 € / kg",
     description:
       "Un brie fourré à la moutarde à l'ancienne, relevé et surprenant.",
@@ -447,7 +447,7 @@ const fromages = [
     origin: "Corse, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/bruccio.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "9,95 € / pièce",
     description:
       "Le brocciu corse, un fromage frais de petit-lait, léger et d'une douceur infinie.",
@@ -481,7 +481,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/buffalato-nature.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une tomme au lait de bufflonne, d'une blancheur éclatante et d'une douceur beurrée.",
@@ -498,7 +498,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/buffalato-pistache.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "59,95 € / kg",
     description:
       "Une tomme de bufflonne parsemée de pistaches de Sicile, gourmande et colorée.",
@@ -515,7 +515,7 @@ const fromages = [
     origin: "Pouilles, Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/burrata.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,95 € / pièce",
     description:
       "Une poche de mozzarella garnie de stracciatella et de crème, à déguster le jour même.",
@@ -532,7 +532,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/camembert-di-bufala.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,95 € / pièce",
     description:
       "Un camembert au lait de bufflonne, d'un blanc pur et d'une onctuosité surprenante.",
@@ -549,7 +549,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/camembert-fermier.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,30 € / pièce",
     description:
       "Un camembert fermier moulé à la louche, vivant et profondément normand.",
@@ -583,7 +583,7 @@ const fromages = [
     origin: "Auvergne, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/cantal-jeune.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "20,90 € / kg",
     description:
       "Un Cantal doux et lactique, à la pâte souple et au goût franc de crème fraîche.",
@@ -600,7 +600,7 @@ const fromages = [
     origin: "Espagne",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/castillan.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un brebis castillan à la croûte tressée, ferme et aux arômes de fruits secs.",
@@ -634,7 +634,7 @@ const fromages = [
     origin: "Causses, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/caussenard-vieux.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Le Caussenard longuement affiné, dense, cristallin et puissant.",
@@ -702,7 +702,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-aux-fleurs.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "44,95 € / kg",
     description:
       "Un chèvre roulé dans les pétales et les herbes, aussi beau que parfumé.",
@@ -719,7 +719,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-cuberdon.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,90 € / pièce",
     description:
       "Un chèvre garni de cuberdon, la confiserie belge à la framboise, sucré et surprenant.",
@@ -753,7 +753,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-figue.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,60 € / pièce",
     description:
       "Un chèvre frais garni de figues moelleuses, l'accord sucré-salé par excellence.",
@@ -770,7 +770,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-miel-fleur-d-oranger.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,40 € / pièce",
     description:
       "Un chèvre au miel parfumé à la fleur d'oranger, floral et délicatement sucré.",
@@ -787,7 +787,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-piment.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,10 € / pièce",
     description:
       "Un chèvre relevé au piment, frais devant et chaleureux derrière.",
@@ -804,7 +804,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-pomme-mangue.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,90 € / pièce",
     description:
       "Un chèvre fruité aux éclats de pomme et de mangue, exotique et rafraîchissant.",
@@ -821,7 +821,7 @@ const fromages = [
     origin: "Provence, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevre-thym-miel.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un chèvre au thym et au miel, l'accord provençal dans toute sa simplicité.",
@@ -872,7 +872,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/chevres-secs.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "45,95 € / kg",
     description:
       "Des chèvres longuement affinés, secs, denses et intensément caprins.",
@@ -889,7 +889,7 @@ const fromages = [
     origin: "Bourgogne, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/clacbitou.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "10,30 € / pièce",
     description:
       "Un gros chèvre bourguignon de la région de Charolles, dense et savoureux.",
@@ -923,7 +923,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/comtesse-de-la-madeleine.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "84,95 € / kg",
     description:
       "Un triple crème fourré à la truffe, notre fromage le plus somptueux.",
@@ -940,7 +940,7 @@ const fromages = [
     origin: "Franche-Comté, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/comte-fruite.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "24,95 € / kg",
     description:
       "Un Comté d'équilibre, aux notes lactées et fruitées, souple et accessible.",
@@ -957,7 +957,7 @@ const fromages = [
     origin: "Franche-Comté, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/comte-reserve.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "30,95 € / kg",
     description:
       "Un affinage long qui révèle les notes de fruits secs, de caramel et de bouillon.",
@@ -974,7 +974,7 @@ const fromages = [
     origin: "Franche-Comté, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/comte-vieux.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Deux ans de cave pour un Comté cassant, cristallin et d'une puissance aromatique rare.",
@@ -1042,7 +1042,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/croseta.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,90 € / pièce",
     description:
       "Un petit chèvre à la croûte fleurie, doux et fondant sous la dent.",
@@ -1144,7 +1144,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/coeur-gourmand.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "4,95 € / pièce",
     description:
       "Un chèvre en forme de cœur, tendre et lacté, aussi joli que bon.",
@@ -1161,7 +1161,7 @@ const fromages = [
     origin: "Poitou, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/delice-des-deux-sevres.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "7,95 € / pièce",
     description:
       "Un chèvre poitevin enrichi en crème, d'une onctuosité remarquable.",
@@ -1195,7 +1195,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/emmental-de-savoie.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "19,95 € / kg",
     description:
       "L'authentique emmental savoyard IGP, aux grandes ouvertures et au goût de noisette fraîche.",
@@ -1229,7 +1229,7 @@ const fromages = [
     origin: "Pays-d'Enhaut, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/etivaz.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "44,80 € / kg",
     description:
       "Fabriqué au feu de bois en chalet d'alpage, un fromage suisse rare aux notes fumées.",
@@ -1246,7 +1246,7 @@ const fromages = [
     origin: "Grèce",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/feta-fermiere.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,95 € / kg",
     description:
       "La feta AOP grecque en saumure, friable, saline et rafraîchissante.",
@@ -1263,7 +1263,7 @@ const fromages = [
     origin: "Grèce",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/feta-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "42,95 € / kg",
     description:
       "Une feta relevée d'éclats de truffe, salée et boisée à la fois.",
@@ -1297,7 +1297,7 @@ const fromages = [
     origin: "France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/fondant-de-brebis.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "9,95 € / pièce",
     description:
       "Un brebis à pâte molle d'une onctuosité fondante, doux et beurré.",
@@ -1314,7 +1314,7 @@ const fromages = [
     origin: "Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/fondue-suisse.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "25,00 € / pièce",
     description:
       "Notre mélange maison de fromages suisses, prêt à fondre pour une fondue onctueuse.",
@@ -1331,7 +1331,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/fougerus.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "18,95 € / pièce",
     description:
       "Un grand briard coiffé d'une fougère, tendre et parfumé.",
@@ -1348,7 +1348,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/fougerus-1-2.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "9,95 € / pièce",
     description:
       "Le Fougerus en demi-pièce, avec sa fougère caractéristique.",
@@ -1365,7 +1365,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/fougerus-1-4.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,60 € / pièce",
     description:
       "Un quart de Fougerus, format découverte de ce grand briard.",
@@ -1399,7 +1399,7 @@ const fromages = [
     origin: "Loire, France",
     tag: "Pâte Persillée",
     category: "fromages",
-    image: "/images/produits/fromages/fourme-de-montbrison.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "21,95 € / kg",
     description:
       "La sœur ligérienne de la Fourme d'Ambert, plus sèche et légèrement fruitée.",
@@ -1433,7 +1433,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/gloriotte.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,10 € / pièce",
     description:
       "Un petit chèvre tendre à la croûte fleurie, doux et facile d'accès.",
@@ -1450,7 +1450,7 @@ const fromages = [
     origin: "Lombardie, Italie",
     tag: "Pâte Persillée",
     category: "fromages",
-    image: "/images/produits/fromages/gorgonzola-mascarpone.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "Des couches alternées de gorgonzola et de mascarpone, la douceur portée à son sommet.",
@@ -1467,7 +1467,7 @@ const fromages = [
     origin: "Lombardie, Italie",
     tag: "Pâte Persillée",
     category: "fromages",
-    image: "/images/produits/fromages/gorgonzola-a-la-coupe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "25,95 € / kg",
     description:
       "Le gorgonzola dolce à la coupe, crémeux et d'une douceur enveloppante.",
@@ -1501,7 +1501,7 @@ const fromages = [
     origin: "Pays-Bas",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/gouda-au-cumin.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "17,95 € / kg",
     description:
       "Un gouda doux parsemé de graines de cumin, chaleureux et parfumé.",
@@ -1518,7 +1518,7 @@ const fromages = [
     origin: "Pays-Bas",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/gouda-fume.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,95 € / kg",
     description:
       "Un gouda affiné puis fumé au bois, à la croûte ambrée et au goût boisé.",
@@ -1535,7 +1535,7 @@ const fromages = [
     origin: "Pays-Bas",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/gouda-pesto.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,95 € / kg",
     description:
       "Un gouda crémeux marbré de pesto au basilic, gourmand et estival.",
@@ -1569,7 +1569,7 @@ const fromages = [
     origin: "Auvergne, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/grand-murols.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "28,95 € / kg",
     description:
       "Le fromage auvergnat au trou central, à la croûte orangée et au goût doux.",
@@ -1586,7 +1586,7 @@ const fromages = [
     origin: "Fribourg, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/gruyere-suisse.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Le Gruyère AOP suisse, ferme et sans trous, aux arômes lactés et fruités.",
@@ -1603,7 +1603,7 @@ const fromages = [
     origin: "Chypre",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/halloumi.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "7,95 € / pièce",
     description:
       "Le fromage chypriote qui se grille sans fondre, salé et délicieusement croustillant.",
@@ -1637,7 +1637,7 @@ const fromages = [
     origin: "Lucerne, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/kaltbach-rustic.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "La version longuement affinée du Kaltbach, plus corsée, cassante et cristalline.",
@@ -1671,7 +1671,7 @@ const fromages = [
     origin: "Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/koch-aux-fleurs.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une tomme suisse roulée dans un lit de fleurs et d'herbes alpines.",
@@ -1688,7 +1688,7 @@ const fromages = [
     origin: "Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/koch-lavendula.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Une tomme suisse à la lavande, florale et surprenante.",
@@ -1705,7 +1705,7 @@ const fromages = [
     origin: "Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/koch-truffalo.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "47,95 € / kg",
     description:
       "Une tomme suisse généreusement truffée, fondante et intensément parfumée.",
@@ -1722,7 +1722,7 @@ const fromages = [
     origin: "Aubrac, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/laguiole.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "AOP de l'Aubrac, cousin du Cantal, à la pâte ferme et au goût lactique puissant.",
@@ -1756,7 +1756,7 @@ const fromages = [
     origin: "Fribourg, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/le-fribourg-creme.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Un fribourgeois enrichi en crème, exceptionnellement fondant et doux.",
@@ -1773,7 +1773,7 @@ const fromages = [
     origin: "Sud-Ouest, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/le-garonnais.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "3,50 € / pièce",
     description:
       "Un petit chèvre du Sud-Ouest, frais et lactique.",
@@ -1807,7 +1807,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/livarot.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "17,90 € / pièce",
     description:
       "Le « colonel » normand, ceinturé de laîche, puissant et profondément aromatique.",
@@ -1824,7 +1824,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/livarot-1-2.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "9,10 € / pièce",
     description:
       "Le Livarot AOP en demi-pièce, avec ses bandes de laîche.",
@@ -1841,7 +1841,7 @@ const fromages = [
     origin: "La Manche, Espagne",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/manchego.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Le grand fromage espagnol AOP, ferme et aux arômes puissants de fruits secs.",
@@ -1858,7 +1858,7 @@ const fromages = [
     origin: "La Manche, Espagne",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/manchego-piment.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / pièce",
     description:
       "Un Manchego relevé au piment, chaleureux et typé.",
@@ -1875,7 +1875,7 @@ const fromages = [
     origin: "La Manche, Espagne",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/manchego-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un Manchego aux éclats de truffe, l'alliance de l'Espagne et du sous-bois.",
@@ -1892,7 +1892,7 @@ const fromages = [
     origin: "Haute-Savoie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/manigodine.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "32,95 € / kg",
     description:
       "Un fromage de Manigod à la croûte lavée, cousin savoyard du Reblochon.",
@@ -1960,7 +1960,7 @@ const fromages = [
     origin: "France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/marquise-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "57,95 € / kg",
     description:
       "Une pâte pressée d'exception généreusement truffée, notre pièce la plus racée.",
@@ -2028,7 +2028,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/mini-livarot.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "7,90 € / pièce",
     description:
       "Le Livarot en format individuel, toute la puissance normande en miniature.",
@@ -2045,7 +2045,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/mini-rouelle.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "7,95 € / pièce",
     description:
       "Une petite rouelle de chèvre cendrée, percée en son centre, fine et élégante.",
@@ -2062,7 +2062,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/moelleux-des-alpes-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "16,00 € / pièce",
     description:
       "Un moelleux alpin fourré à la crème truffée, d'une onctuosité remarquable.",
@@ -2079,7 +2079,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/moelleux-des-alpes-truffe-1-2.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,95 € / pièce",
     description:
       "Le moelleux des Alpes truffé en demi-pièce.",
@@ -2130,7 +2130,7 @@ const fromages = [
     origin: "Sardaigne, Italie",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/moliterno-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "69,95 € / kg",
     description:
       "Un pecorino sarde veiné de truffe, spectaculaire et d'une intensité rare.",
@@ -2198,7 +2198,7 @@ const fromages = [
     origin: "Bourgogne, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/morvan.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,50 € / pièce",
     description:
       "Un chèvre bourguignon du Morvan, rustique et franchement caprin.",
@@ -2232,7 +2232,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/mozza-billes.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,95 € / pièce",
     description:
       "Des billes de mozzarella fraîche, prêtes à piquer pour l'apéritif ou la salade.",
@@ -2249,7 +2249,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/mozza-boule.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,95 € / pièce",
     description:
       "La mozzarella en boule, fraîche et lactée, à trancher sur les tomates de saison.",
@@ -2266,7 +2266,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/mozza-tresse.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,95 € / pièce",
     description:
       "Une tresse de mozzarella, spectaculaire à présenter et délicieusement filante.",
@@ -2317,7 +2317,7 @@ const fromages = [
     origin: "Alsace, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/munster-village.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "30,90 € / kg",
     description:
       "Un Munster fermier au lait cru, plus long en affinage et plus expressif.",
@@ -2334,7 +2334,7 @@ const fromages = [
     origin: "Rhône-Alpes, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/noixrousse-argental.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,90 € / kg",
     description:
       "Un fromage à croûte lavée à la liqueur de noix, doux et original.",
@@ -2351,7 +2351,7 @@ const fromages = [
     origin: "Pays basque, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/onetik-piment.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "31,90 € / kg",
     description:
       "Un brebis basque de la maison Onetik relevé au piment d'Espelette.",
@@ -2368,7 +2368,7 @@ const fromages = [
     origin: "Béarn, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/ossau-fermier.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Un Ossau-Iraty fermier au lait cru, dense et profondément aromatique.",
@@ -2402,7 +2402,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/ove-japonais.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,95 € / pièce",
     description:
       "Un chèvre d'inspiration japonaise, aux notes de sésame et d'algues.",
@@ -2453,7 +2453,7 @@ const fromages = [
     origin: "Émilie-Romagne, Italie",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/parmesan-dop.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Le Parmigiano Reggiano DOP affiné 24 mois, cristallin et d'une puissance umami rare.",
@@ -2470,7 +2470,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/pave-d-auge.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,95 € / pièce",
     description:
       "Un pavé normand à croûte lavée, cousin du Pont-l'Évêque, corsé et fondant.",
@@ -2487,7 +2487,7 @@ const fromages = [
     origin: "Italie",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/pecorino-poivre.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,96 € / kg",
     description:
       "Un pecorino italien parsemé de grains de poivre, salin et chaleureux.",
@@ -2521,7 +2521,7 @@ const fromages = [
     origin: "Drôme-Ardèche, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/picodon.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "3,90 € / pièce",
     description:
       "AOP drômoise et ardéchoise, petit et sec, au caprin puissant et à l'acidité vive.",
@@ -2538,7 +2538,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/pont-l-eveque.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "11,30 € / pièce",
     description:
       "AOP normande carrée, à la croûte lavée dorée et à la pâte souple et savoureuse.",
@@ -2555,7 +2555,7 @@ const fromages = [
     origin: "Normandie, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/pont-l-eveque-1-2.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,30 € / pièce",
     description:
       "Le Pont-l'Évêque AOP en demi-pièce.",
@@ -2572,7 +2572,7 @@ const fromages = [
     origin: "Haut-Doubs, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/pontarlier-reserve.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "Une meule du Haut-Doubs longuement affinée, aux arômes de noisette grillée et d'épices.",
@@ -2589,7 +2589,7 @@ const fromages = [
     origin: "Mayenne, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/port-salut.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "Le fromage des moines de Port-du-Salut, doux, souple et consensuel.",
@@ -2606,7 +2606,7 @@ const fromages = [
     origin: "Berry, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/pouligny.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "10,90 € / pièce",
     description:
       "Le « tour Eiffel » du Berry, une pyramide de chèvre AOP d'une grande finesse.",
@@ -2623,7 +2623,7 @@ const fromages = [
     origin: "Aveyron, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/perail-des-cabasses.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "9,95 € / pièce",
     description:
       "Un petit palet de brebis d'une douceur fondante, emblème du Sud-Aveyron.",
@@ -2657,7 +2657,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-brezein.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "27,95 € / kg",
     description:
       "La raclette savoyarde fumée au bois de hêtre, onctueuse et délicatement boisée.",
@@ -2674,7 +2674,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-de-chevre.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Une raclette au lait de chèvre, plus fine et plus fraîche que la raclette classique.",
@@ -2708,7 +2708,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-pinot-noir.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une raclette à la croûte lavée au Pinot noir, fruitée et élégante.",
@@ -2759,7 +2759,7 @@ const fromages = [
     origin: "Valais, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-suisse.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "38,95 € / kg",
     description:
       "La raclette valaisanne au lait cru, plus corsée et plus aromatique que sa cousine française.",
@@ -2776,7 +2776,7 @@ const fromages = [
     origin: "Valais, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-suisse-ail-des-ours.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "La puissance de la raclette suisse relevée par l'ail des ours printanier.",
@@ -2793,7 +2793,7 @@ const fromages = [
     origin: "Valais, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-suisse-ail-noir.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une raclette suisse à l'ail noir fermenté, douce, sucrée et légèrement balsamique.",
@@ -2810,7 +2810,7 @@ const fromages = [
     origin: "Valais, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-suisse-aromatisees.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un assortiment de raclettes suisses aromatisées, pour varier les plaisirs autour du four.",
@@ -2827,7 +2827,7 @@ const fromages = [
     origin: "Valais, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-suisse-morilles.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "56,95 € / kg",
     description:
       "Une raclette suisse aux morilles, la plus luxueuse et la plus boisée de la gamme.",
@@ -2844,7 +2844,7 @@ const fromages = [
     origin: "Valais, Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-suisse-oignon-braise.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Une raclette suisse aux oignons braisés, douce, sucrée et réconfortante.",
@@ -2878,7 +2878,7 @@ const fromages = [
     origin: "Jura, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/raclette-vin-jaune.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,95 € / kg",
     description:
       "Une raclette jurassienne à la croûte lavée au vin jaune, complexe et racée.",
@@ -2895,7 +2895,7 @@ const fromages = [
     origin: "Bourgogne, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/racotin.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,10 € / pièce",
     description:
       "Un petit chèvre bourguignon tendre, à la croûte légèrement bleutée.",
@@ -2929,7 +2929,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/ricota.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "4,95 € / pièce",
     description:
       "La ricotta italienne, légère et granuleuse, aussi juste en salé qu'en sucré.",
@@ -2997,7 +2997,7 @@ const fromages = [
     origin: "Aveyron, France",
     tag: "Pâte Persillée",
     category: "fromages",
-    image: "/images/produits/fromages/roquefort-maria-grimal.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Un Roquefort de maison familiale, équilibré entre puissance et onctuosité.",
@@ -3082,7 +3082,7 @@ const fromages = [
     origin: "Dauphiné, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/saint-marcellin.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "2,90 € / pièce",
     description:
       "Un petit fromage dauphinois qui passe du crayeux au coulant selon l'affinage.",
@@ -3133,7 +3133,7 @@ const fromages = [
     origin: "Cantal, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/salers.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "AOP fermière fabriquée uniquement de printemps en automne, puissante et végétale.",
@@ -3167,7 +3167,7 @@ const fromages = [
     origin: "Seine-et-Marne, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/st-faron.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "9,95 € / pièce",
     description:
       "Un fromage briard à croûte lavée, corsé et fondant.",
@@ -3201,7 +3201,7 @@ const fromages = [
     origin: "Pouilles, Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/stracciatella.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,95 € / pièce",
     description:
       "Le cœur de la burrata servi seul : des filaments de mozzarella noyés de crème.",
@@ -3218,7 +3218,7 @@ const fromages = [
     origin: "France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/tentation.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "7,95 € / pièce",
     description:
       "Un double crème fondant et doux, à la texture beurrée irrésistible.",
@@ -3235,7 +3235,7 @@ const fromages = [
     origin: "Bretagne, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/timanoix.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "15,90 € / pièce",
     description:
       "Un fromage d'abbaye à la croûte frottée à la liqueur de noix, doux et parfumé.",
@@ -3252,7 +3252,7 @@ const fromages = [
     origin: "Bretagne, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/timanoix-1-2.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "8,90 € / pièce",
     description:
       "Le Timanoix en demi-pièce, avec sa croûte à la liqueur de noix.",
@@ -3286,7 +3286,7 @@ const fromages = [
     origin: "Pyrénées, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-brebis.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,95 € / kg",
     description:
       "Une tomme de brebis pyrénéenne, souple et aux arômes doux de noisette.",
@@ -3303,7 +3303,7 @@ const fromages = [
     origin: "Pyrénées, France",
     tag: "Brebis",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-brebis-chevre.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une tomme de laits mélangés, où le gras du brebis rencontre l'acidité du chèvre.",
@@ -3337,7 +3337,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-chevre-fume.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une tomme de chèvre fumée au bois, boisée et originale.",
@@ -3354,7 +3354,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-chevre-jeune.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "Une tomme de chèvre jeune, douce et souple, au caprin discret.",
@@ -3371,7 +3371,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-chevre-piment.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "38,95 € / kg",
     description:
       "Une tomme de chèvre relevée au piment, fraîche et chaleureuse à la fois.",
@@ -3388,7 +3388,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-chevre-truffe.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "39,95 € / kg",
     description:
       "Une tomme de chèvre aux éclats de truffe, fine et profondément parfumée.",
@@ -3405,7 +3405,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-chevre-vieille.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une tomme de chèvre longuement affinée, dense et intensément caprine.",
@@ -3422,7 +3422,7 @@ const fromages = [
     origin: "Provence, France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-provence.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "6,95 € / pièce",
     description:
       "Une petite tomme provençale au lait de chèvre, souvent parfumée aux herbes.",
@@ -3439,7 +3439,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-savoie.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "24,95 € / kg",
     description:
       "La tomme savoyarde IGP à la croûte grise, souple et au bon goût de cave.",
@@ -3456,7 +3456,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-de-yenne.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "26,95 € / kg",
     description:
       "Une tomme savoyarde souple et douce, au goût lacté et légèrement champignonné.",
@@ -3473,7 +3473,7 @@ const fromages = [
     origin: "Massif des Bauges, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-des-bauges.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "AOP du massif des Bauges, à la croûte tourmentée et aux arômes de sous-bois.",
@@ -3490,7 +3490,7 @@ const fromages = [
     origin: "Italie",
     tag: "Fromages Frais",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-di-bufala.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "44,95 € / kg",
     description:
       "Une tomme de bufflonne affinée, blanche, dense et d'une richesse beurrée.",
@@ -3524,7 +3524,7 @@ const fromages = [
     origin: "Jura, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-du-jura.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "25,95 € / kg",
     description:
       "Une tomme jurassienne douce et fruitée, aux arômes subtils de noisette.",
@@ -3541,7 +3541,7 @@ const fromages = [
     origin: "Auvergne, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-d-auvergne.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "26,95 € / kg",
     description:
       "Une tomme auvergnate rustique, à la pâte ferme et au goût franc de terroir.",
@@ -3558,7 +3558,7 @@ const fromages = [
     origin: "Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-suisse-fermiere.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "36,95 € / kg",
     description:
       "Une tomme fermière suisse au lait cru, dense et profondément aromatique.",
@@ -3575,7 +3575,7 @@ const fromages = [
     origin: "Suisse",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-suisse-a-l-ail-des-ours.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,95 € / kg",
     description:
       "Une tomme suisse à l'ail des ours, plus corsée que sa cousine savoyarde.",
@@ -3592,7 +3592,7 @@ const fromages = [
     origin: "Savoie, France",
     tag: "Pâtes Dures",
     category: "fromages",
-    image: "/images/produits/fromages/tomme-a-l-ail-des-ours.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "29,95 € / kg",
     description:
       "Une tomme souple parfumée à l'ail des ours, végétale et printanière.",
@@ -3609,7 +3609,7 @@ const fromages = [
     origin: "France",
     tag: "Chèvre",
     category: "fromages",
-    image: "/images/produits/fromages/triangle-barbichette.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "5,40 € / pièce",
     description:
       "Un chèvre en triangle à la croûte fleurie, tendre et sympathique.",
@@ -3643,7 +3643,7 @@ const fromages = [
     origin: "Fribourg, Suisse",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/vacherin-suisse.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "34,90 € / kg",
     description:
       "Le vacherin fribourgeois, indispensable à la fondue moitié-moitié, fondant et légèrement acidulé.",
@@ -3660,7 +3660,7 @@ const fromages = [
     origin: "Rhône-Alpes, France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/vacherousse-argental.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "33,90 € / kg",
     description:
       "Un fromage à croûte lavée d'un orange chaleureux, très fondant et étonnamment doux.",
@@ -3677,7 +3677,7 @@ const fromages = [
     origin: "Île-de-France",
     tag: "Pâtes Molles",
     category: "fromages",
-    image: "/images/produits/fromages/valbrie.jpg",
+    image: "/images/produits/photo-a-venir.jpg",
     price: "24,95 € / kg",
     description:
       "Un brie doux et crémeux, accessible et régulier tout au long de l'année.",

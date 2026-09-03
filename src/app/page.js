@@ -111,7 +111,37 @@ const services = [
   },
 ];
 
-const featuredProducts = fromages.slice(0, 4);
+const featuredProducts = fromages
+  .filter((p) => !p.image.endsWith("/photo-a-venir.jpg"))
+  .slice(0, 4);
+
+const boutiquePhotos = [
+  {
+    src: "/images/boutique/neon-frontal.jpg",
+    alt: "Enseigne néon L'Héritage sur le mur en pierre de la boutique",
+    className: "col-span-2 row-span-2",
+  },
+  {
+    src: "/images/boutique/degustation.jpg",
+    alt: "Dégustation de fromages en boutique",
+    className: "col-span-1 row-span-1",
+  },
+  {
+    src: "/images/boutique/enseigne-exterieure.jpg",
+    alt: "Enseigne extérieure L'Héritage Artisan",
+    className: "col-span-1 row-span-1",
+  },
+  {
+    src: "/images/boutique/vitrine-neon.jpg",
+    alt: "Vitrine réfrigérée et néon de la fromagerie",
+    className: "col-span-1 row-span-1",
+  },
+  {
+    src: "/images/boutique/arbre-genealogique.jpg",
+    alt: "Arbre généalogique des fromages affiché en boutique",
+    className: "col-span-1 row-span-1",
+  },
+];
 
 const testimonials = [
   {
@@ -179,8 +209,8 @@ export default function Home() {
                 <div className="absolute top-1/2 -left-12 w-12 h-px bg-gradient-to-r from-transparent to-accent/40 hero-line-extend" />
                 <div className="relative z-10 overflow-hidden hero-image-reveal">
                   <Image
-                    src="/images/vitrine_02.png"
-                    alt="Vitrine extérieure de la fromagerie L'Héritage à Pontault-Combault"
+                    src="/images/boutique/devanture.jpg"
+                    alt="Devanture de la fromagerie L'Héritage à Pontault-Combault"
                     width={600}
                     height={700}
                     className="relative object-cover w-full h-[420px] hero-image-zoom"
@@ -356,6 +386,55 @@ export default function Home() {
             </Link>
           </div>
         </Reveal>
+      </section>
+
+      {/* Boutique gallery */}
+      <section className="relative bg-cream">
+        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold-line to-transparent" />
+
+        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-32">
+          <div className="text-center">
+            <Reveal>
+              <p className="text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent">
+                La boutique
+              </p>
+            </Reveal>
+            <Reveal delay={100}>
+              <h2 className="mt-4 font-serif text-4xl font-light tracking-[0.02em] text-primary lg:text-5xl">
+                Un écrin au c&oelig;ur de Pontault-Combault
+              </h2>
+            </Reveal>
+            <Reveal variant="line" delay={200} className="mx-auto mt-6 gold-separator" style={{ margin: "1.5rem auto" }} />
+            <Reveal delay={300}>
+              <p className="mx-auto mt-8 max-w-2xl text-base font-light leading-8 text-foreground/70">
+                Pierre, bois et néon : un lieu pensé pour la dégustation, où
+                chaque vitrine raconte le travail de nos producteurs.
+              </p>
+            </Reveal>
+          </div>
+
+          <div className="mt-16 grid grid-cols-2 gap-4 auto-rows-[180px] sm:auto-rows-[220px] lg:grid-cols-4 lg:auto-rows-[260px]">
+            {boutiquePhotos.map((photo, i) => (
+              <Reveal
+                key={photo.src}
+                variant="fade"
+                delay={i * 120}
+                className={photo.className}
+              >
+                <div className="group relative h-full w-full overflow-hidden">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-primary/10 transition-colors duration-700 group-hover:bg-transparent" />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* Services */}
