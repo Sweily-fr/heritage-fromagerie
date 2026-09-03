@@ -6,9 +6,9 @@ import { useEffect, useRef } from "react";
  * Luxury scroll-reveal component.
  *
  * Variants:
- *   "up"    — fade + translate up (default, for text blocks)
- *   "line"  — scaleX reveal (for gold separators)
- *   "fade"  — opacity only (for images, backgrounds)
+ *   "up"    - fade + translate up (default, for text blocks)
+ *   "line"  - scaleX reveal (for gold separators)
+ *   "fade"  - opacity only (for images, backgrounds)
  *
  * delay: stagger delay in ms (e.g. 100, 200)
  */

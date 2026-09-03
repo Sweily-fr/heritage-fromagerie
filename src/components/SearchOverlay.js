@@ -80,7 +80,7 @@ export default function SearchOverlay({ open, onClose }) {
         onClick={handleClose}
       />
 
-      {/* Search panel — full height, scrollable */}
+      {/* Search panel - full height, scrollable */}
       <div className="relative flex flex-col flex-1 mx-auto w-full max-w-3xl px-6 pt-8 pb-6 overflow-hidden">
         {/* Header: input + close */}
         <div className="flex-shrink-0">
@@ -128,7 +128,7 @@ export default function SearchOverlay({ open, onClose }) {
           )}
         </div>
 
-        {/* Results — scrollable area */}
+        {/* Results - scrollable area */}
         <div className="flex-1 mt-6 overflow-y-auto overscroll-contain pr-2 -mr-2">
           {query.trim().length >= 2 && results.length === 0 && (
             <p className="text-sm font-light text-cream/30 text-center py-12">
@@ -159,7 +159,7 @@ export default function SearchOverlay({ open, onClose }) {
                       {product.name}
                     </p>
                     <p className="mt-1 text-[0.65rem] font-light tracking-[0.1em] text-cream/40">
-                      {categoryLabels[product.category]} &middot; {product.origin}
+                      {categoryLabels[product.category]} - {product.origin}
                     </p>
                   </div>
                   <span className="hidden sm:inline text-[0.6rem] font-light tracking-[0.15em] uppercase text-accent/50 group-hover:text-accent transition-colors">

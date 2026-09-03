@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import ProductImage from "./ProductImage";
 
 export default function ProductCard({ product, index = 0 }) {
   return (
@@ -9,11 +9,9 @@ export default function ProductCard({ product, index = 0 }) {
     >
       {/* Image */}
       <div className="relative aspect-[4/3] overflow-hidden bg-cream">
-        <Image
+        <ProductImage
           src={product.image}
           alt={product.name}
-          fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent" />

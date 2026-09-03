@@ -1,11 +1,23 @@
 import ProductCard from "./ProductCard";
 import Reveal from "./Reveal";
 
+// Point de depart stable dans le catalogue : un tirage aleatoire donnerait une
+// selection differente au rendu serveur et au rendu client.
+function offsetDepuisSlug(slug, total) {
+  let hash = 0;
+  for (let i = 0; i < slug.length; i += 1) {
+    hash = (hash * 31 + slug.charCodeAt(i)) % 100000;
+  }
+  return total > 0 ? hash % total : 0;
+}
+
 export default function ProductSuggestions({ products, currentSlug }) {
-  const suggestions = products
-    .filter((p) => p.slug !== currentSlug)
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 3);
+  const pool = products.filter((p) => p.slug !== currentSlug);
+  const depart = offsetDepuisSlug(currentSlug, pool.length);
+  const suggestions = Array.from(
+    { length: Math.min(3, pool.length) },
+    (_, i) => pool[(depart + i) % pool.length],
+  );
 
   if (suggestions.length === 0) return null;
 

@@ -231,7 +231,7 @@ export default function APropos() {
         </div>
       </section>
 
-      {/* Notre parcours — timeline */}
+      {/* Notre parcours - timeline */}
       <section className="relative bg-cream">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold-line to-transparent" />
 

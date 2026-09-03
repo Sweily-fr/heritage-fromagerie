@@ -100,7 +100,7 @@ export default function Contact() {
       {/* Form + Sidebar */}
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-5">
-          {/* Form — 3 cols */}
+          {/* Form - 3 cols */}
           <div className="lg:col-span-3">
             <Reveal>
               <p className="text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent">
@@ -213,7 +213,7 @@ export default function Contact() {
             </Reveal>
           </div>
 
-          {/* Sidebar — 2 cols */}
+          {/* Sidebar - 2 cols */}
           <div className="lg:col-span-2 space-y-8">
             {/* Hours card */}
             <Reveal delay={100}>
@@ -233,12 +233,12 @@ export default function Contact() {
                 <div className="space-y-3 text-sm font-light">
                   {[
                     { day: "Lundi", hours: "Fermé", closed: true },
-                    { day: "Mardi", hours: "9h30 \u2013 20h00" },
-                    { day: "Mercredi", hours: "9h30 \u2013 20h00" },
-                    { day: "Jeudi", hours: "9h30 \u2013 20h00" },
-                    { day: "Vendredi", hours: "9h30 \u2013 20h00" },
-                    { day: "Samedi", hours: "9h30 \u2013 20h00" },
-                    { day: "Dimanche", hours: "9h00 \u2013 13h00" },
+                    { day: "Mardi", hours: "9h30 - 20h00" },
+                    { day: "Mercredi", hours: "9h30 - 20h00" },
+                    { day: "Jeudi", hours: "9h30 - 20h00" },
+                    { day: "Vendredi", hours: "9h30 - 20h00" },
+                    { day: "Samedi", hours: "9h30 - 20h00" },
+                    { day: "Dimanche", hours: "9h00 - 13h00" },
                   ].map((row) => (
                     <div
                       key={row.day}
@@ -281,7 +281,7 @@ export default function Contact() {
                   77340 Pontault-Combault
                 </p>
                 <p className="mt-3 text-sm font-light text-foreground/50">
-                  Accès PMR &bull; Parking &bull; Carte bancaire
+                  Accès PMR - Parking - Carte bancaire
                 </p>
                 <a
                   href="https://maps.google.com/?q=32+Avenue+Charles+Rouxel+77340+Pontault-Combault"
@@ -365,7 +365,7 @@ export default function Contact() {
           <Reveal delay={300}>
             <div className="mt-12 overflow-hidden border border-gold-line">
               <iframe
-                title="L'Héritage — Fromagerie Artisanale"
+                title="L'Héritage - Fromagerie Artisanale"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.5!2d2.6183!3d48.7897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s32+Avenue+Charles+Rouxel+77340+Pontault-Combault!5e0!3m2!1sfr!2sfr!4v1"
                 width="100%"
                 height="450"

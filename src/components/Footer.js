@@ -99,8 +99,8 @@ export default function Footer() {
 
         <div className="mt-14 h-px bg-accent/10" />
         <p className="mt-6 text-center text-[0.65rem] font-light tracking-[0.15em] text-cream/25">
-          &copy; {new Date().getFullYear()} L&apos;Héritage &mdash; Fromagerie
-          Artisanale. Tous droits réservés.
+          &copy; {new Date().getFullYear()} L&apos;Héritage - Fromagerie Artisanale.
+          Tous droits réservés.
         </p>
       </div>
     </footer>

@@ -11,7 +11,7 @@ const zones = [
   {
     name: "Zone 1",
     label: "Pontault-Combault",
-    distance: "0 – 5 km",
+    distance: "0 - 5 km",
     delay: "Jour même ou J+1",
     price: "Offerte dès 40 €",
     details: "Pontault-Combault, Roissy-en-Brie, Ozoir-la-Ferrière",
@@ -19,18 +19,18 @@ const zones = [
   {
     name: "Zone 2",
     label: "Alentours proches",
-    distance: "5 – 15 km",
-    delay: "Sous 24 – 48h",
-    price: "5,90 €  ·  Offerte dès 80 €",
+    distance: "5 - 15 km",
+    delay: "Sous 24 - 48h",
+    price: "5,90 € - Offerte dès 80 €",
     details:
       "Brie-Comte-Robert, Lésigny, Noisiel, Torcy, Sucy-en-Brie, Lognes…",
   },
   {
     name: "Zone 3",
     label: "Île-de-France",
-    distance: "15 – 30 km",
+    distance: "15 - 30 km",
     delay: "Sous 48h",
-    price: "9,90 €  ·  Offerte dès 120 €",
+    price: "9,90 € - Offerte dès 120 €",
     details: "Paris, Créteil, Melun, Meaux et communes environnantes",
   },
 ];

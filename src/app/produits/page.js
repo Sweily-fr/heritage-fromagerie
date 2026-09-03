@@ -147,7 +147,7 @@ export default function Produits() {
         </div>
       </section>
 
-      {/* Fromages — section */}
+      {/* Fromages - section */}
       {categories.map((category, catIndex) => (
         <section
           key={category.name}

@@ -197,7 +197,7 @@ a {
   box-shadow: 0 8px 40px rgba(26, 26, 24, 0.06);
 }
 
-/* Hero image — luxury editorial treatment */
+/* Hero image - luxury editorial treatment */
 @keyframes hero-clip-reveal {
   from { clip-path: inset(0 0 100% 0); }
   to   { clip-path: inset(0 0 0 0); }
@@ -252,7 +252,7 @@ a {
   animation: hero-diamond-pop 0.4s ease-out 1.5s both;
 }
 
-/* Scroll-triggered reveals — luxury timing */
+/* Scroll-triggered reveals - luxury timing */
 .reveal-up,
 .reveal-fade,
 .reveal-line {
@@ -290,7 +290,7 @@ a {
   transform: scaleX(1);
 }
 
-/* Hover — subtle zoom, the image breathes */
+/* Hover - subtle zoom, the image breathes */
 .hero-image-frame:hover .hero-image-zoom {
   transform: scale(1.02);
   transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);

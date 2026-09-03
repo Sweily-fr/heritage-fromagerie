@@ -11,7 +11,7 @@ export const metadata = {
 const plateaux = [
   {
     name: "L'Essentiel",
-    persons: "4 – 6 personnes",
+    persons: "4 - 6 personnes",
     description:
       "Une sélection de 5 fromages affinés, idéale pour un apéritif entre amis ou un dîner en famille.",
     includes: [
@@ -24,7 +24,7 @@ const plateaux = [
   },
   {
     name: "Le Raffiné",
-    persons: "8 – 12 personnes",
+    persons: "8 - 12 personnes",
     description:
       "Notre plateau signature avec 8 fromages d'exception, accompagnements gourmands et décoration soignée.",
     includes: [
@@ -38,7 +38,7 @@ const plateaux = [
   },
   {
     name: "Le Prestige",
-    persons: "15 – 25 personnes",
+    persons: "15 - 25 personnes",
     description:
       "Le summum de la dégustation. Un plateau grandiose pensé pour vos réceptions et événements d'exception.",
     includes: [

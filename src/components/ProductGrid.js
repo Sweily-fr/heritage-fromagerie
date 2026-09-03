@@ -3,8 +3,11 @@
 import { useState, useMemo } from "react";
 import ProductCard from "./ProductCard";
 
+const PAGE_SIZE = 24;
+
 export default function ProductGrid({ products, columns = 4 }) {
   const [activeFilter, setActiveFilter] = useState("Tous");
+  const [visible, setVisible] = useState(PAGE_SIZE);
 
   const filters = useMemo(() => {
     const tags = [...new Set(products.map((p) => p.tag))];
@@ -15,6 +18,13 @@ export default function ProductGrid({ products, columns = 4 }) {
     if (activeFilter === "Tous") return products;
     return products.filter((p) => p.tag === activeFilter);
   }, [products, activeFilter]);
+
+  const selectFilter = (filter) => {
+    setActiveFilter(filter);
+    setVisible(PAGE_SIZE);
+  };
+
+  const shown = filtered.slice(0, visible);
 
   const gridCols =
     columns === 4
@@ -28,7 +38,7 @@ export default function ProductGrid({ products, columns = 4 }) {
         {filters.map((filter) => (
           <button
             key={filter}
-            onClick={() => setActiveFilter(filter)}
+            onClick={() => selectFilter(filter)}
             className={`
               px-6 py-2.5 rounded-full text-sm tracking-wide
               transition-all duration-300 cursor-pointer
@@ -44,11 +54,17 @@ export default function ProductGrid({ products, columns = 4 }) {
         ))}
       </div>
 
+      {/* Compteur */}
+      {filtered.length > 0 && (
+        <p className="mt-6 text-[0.65rem] font-light tracking-[0.2em] uppercase text-foreground/40">
+          {shown.length} produit{shown.length > 1 ? "s" : ""} affiché
+          {shown.length > 1 ? "s" : ""} sur {filtered.length}
+        </p>
+      )}
+
       {/* Grid */}
-      <div
-        className={`mt-10 grid grid-cols-1 gap-6 ${gridCols}`}
-      >
-        {filtered.map((product) => (
+      <div className={`mt-10 grid grid-cols-1 gap-6 ${gridCols}`}>
+        {shown.map((product) => (
           <div
             key={product.slug}
             className="h-full animate-fade-up"
@@ -58,6 +74,18 @@ export default function ProductGrid({ products, columns = 4 }) {
           </div>
         ))}
       </div>
+
+      {/* Voir plus */}
+      {visible < filtered.length && (
+        <div className="mt-12 text-center">
+          <button
+            onClick={() => setVisible((v) => v + PAGE_SIZE)}
+            className="btn-luxury btn-luxury-outline cursor-pointer"
+          >
+            Voir plus de produits
+          </button>
+        </div>
+      )}
 
       {/* Empty state */}
       {filtered.length === 0 && (

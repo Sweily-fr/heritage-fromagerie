@@ -134,7 +134,7 @@ const testimonials = [
 export default function Home() {
   return (
     <>
-      {/* Hero — keeps its own load animations, no scroll-reveal needed */}
+      {/* Hero - keeps its own load animations, no scroll-reveal needed */}
       <section className="relative bg-primary text-cream overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary-light opacity-80" />
         <div className="absolute top-0 right-0 w-px h-full bg-gradient-to-b from-transparent via-accent/20 to-transparent" />
@@ -146,12 +146,12 @@ export default function Home() {
               <h1 className="animate-fade-up font-serif text-5xl font-light tracking-[0.05em] text-cream sm:text-6xl lg:text-7xl">
                 <span aria-hidden="true">L&apos;Héritage</span>
                 <span className="sr-only">
-                  L&apos;Héritage — Fromagerie artisanale à Pontault-Combault
+                  L&apos;Héritage - Fromagerie artisanale à Pontault-Combault
                 </span>
               </h1>
 
               <p className="animate-fade-up delay-100 mt-4 text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent/70 leading-none">
-                Fromagerie Artisanale &mdash; Pontault-Combault
+                Fromagerie Artisanale - Pontault-Combault
               </p>
 
               <div className="animate-reveal-line delay-200 mt-1 gold-separator" />
@@ -382,7 +382,7 @@ export default function Home() {
             {services.map((service, i) => (
               <Reveal key={service.title} delay={i * 150}>
                 <div className="group relative bg-primary p-10 lg:p-12 h-full transition-colors duration-700 hover:bg-primary-light/30">
-                  {/* Number — top right */}
+                  {/* Number - top right */}
                   <span className="absolute top-8 right-8 font-serif text-3xl font-light text-accent/30 group-hover:text-accent/50 transition-colors duration-700">
                     0{i + 1}
                   </span>
@@ -540,8 +540,8 @@ export default function Home() {
                     </h4>
                     <div className="mt-2 space-y-1 text-sm font-light text-foreground/70">
                       <p>Lundi : <span className="text-accent">Fermé</span></p>
-                      <p>Mardi &ndash; Samedi : 9h30 &ndash; 20h00</p>
-                      <p>Dimanche : 9h00 &ndash; 13h00</p>
+                      <p>Mardi - Samedi : 9h30 - 20h00</p>
+                      <p>Dimanche : 9h00 - 13h00</p>
                     </div>
                   </div>
                 </div>
@@ -560,7 +560,7 @@ export default function Home() {
                       Accessibilité
                     </h4>
                     <p className="mt-2 text-sm font-light text-foreground/70">
-                      Accès PMR &bull; Parking &bull; Carte bancaire acceptée
+                      Accès PMR - Parking - Carte bancaire acceptée
                     </p>
                   </div>
                 </div>

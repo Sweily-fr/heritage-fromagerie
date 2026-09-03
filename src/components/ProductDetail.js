@@ -1,17 +1,24 @@
 import Link from "next/link";
-import Image from "next/image";
+import ProductImage from "./ProductImage";
 import Reveal from "./Reveal";
 import ProductSuggestions from "./ProductSuggestions";
 
 const siteUrl = "https://heritage-fromagerie.fr";
 
 export default function ProductDetail({ product, allProducts, backHref, backLabel }) {
+  // L'épicerie fine regroupe aussi les vins et la charcuterie : les libellés
+  // laitiers n'y ont pas de sens.
+  const labels =
+    product.category === "epicerie-fine"
+      ? ["Composition", "Caractère", "Conservation", "Accord"]
+      : ["Type de lait", "Texture", "Affinage", "Accord"];
+
   const infoItems = [
-    { label: "Type de lait", value: product.milkType },
-    { label: "Texture", value: product.texture },
-    { label: "Affinage", value: product.affinage },
-    { label: "Accord", value: product.accord },
-  ].filter((item) => item.value && item.value !== "—");
+    { label: labels[0], value: product.milkType },
+    { label: labels[1], value: product.texture },
+    { label: labels[2], value: product.affinage },
+    { label: labels[3], value: product.accord },
+  ].filter((item) => item.value);
 
   const priceMatch = product.price?.match(/(\d+[.,]\d+)/);
   const priceValue = priceMatch ? priceMatch[1].replace(",", ".") : null;
@@ -85,11 +92,9 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
         {/* Image */}
         <div className="animate-fade-up">
           <div className="relative aspect-[4/3] overflow-hidden bg-cream">
-            <Image
+            <ProductImage
               src={product.image}
               alt={product.name}
-              fill
-              className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
               priority
             />
