@@ -3,6 +3,7 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import ProductCard from "@/components/ProductCard";
 import fromages from "@/data/produits/fromages";
+import { googleMapsUrl, googleReviewUrl } from "@/data/site";
 
 export const metadata = {
   title: {
@@ -511,7 +512,14 @@ export default function Home() {
                 ))}
               </div>
               <span className="text-lg font-semibold text-primary">5/5</span>
-              <span className="text-sm font-light text-foreground/60">sur 67 avis Google</span>
+              <a
+                href={googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-light text-foreground/60 underline decoration-accent/40 underline-offset-4 hover:text-accent"
+              >
+                sur 67 avis Google
+              </a>
             </div>
           </Reveal>
         </div>
@@ -539,6 +547,20 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={200}>
+          <p className="mt-12 text-center text-sm font-light text-foreground/60">
+            Vous êtes déjà venu ?{" "}
+            <a
+              href={googleReviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline decoration-accent/40 underline-offset-4 hover:text-accent-dark"
+            >
+              Laissez-nous un avis sur Google
+            </a>
+          </p>
+        </Reveal>
       </section>
 
       {/* Visit / CTA */}
@@ -573,7 +595,7 @@ export default function Home() {
                     Nous contacter
                   </Link>
                   <a
-                    href="https://maps.google.com/?q=32+Avenue+Charles+Rouxel+77340+Pontault-Combault"
+                    href={googleMapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-luxury btn-luxury-outline"

@@ -28,7 +28,7 @@ Les tarifs complets et les conditions sont détaillés sur notre [page livraison
 
 ## Comment se passe une commande
 
-1. **Vous nous appelez** au 01 64 43 67 89 ou vous remplissez le [formulaire de contact](/contact) en précisant ce que vous souhaitez, ou simplement l'occasion et le nombre de personnes.
+1. **Vous nous appelez** au 06 95 98 40 75 ou vous remplissez le [formulaire de contact](/contact) en précisant ce que vous souhaitez, ou simplement l'occasion et le nombre de personnes.
 2. **Nous vous proposons une sélection** et un prix, par téléphone ou par mail. Vous ajustez.
 3. **Nous préparons la commande le jour de la livraison** : coupe, emballage individuel dans du papier de fromager, étiquetage, mise en caisse isotherme avec plaques réfrigérantes.
 4. **Livraison à votre porte** sous 48h, du mardi au samedi, sur le créneau convenu.

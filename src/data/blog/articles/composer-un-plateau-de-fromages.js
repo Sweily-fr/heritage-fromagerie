@@ -81,7 +81,7 @@ Peu, mais bien choisis :
 
 ## Le plateau tout fait
 
-Si vous préférez déléguer, nous composons des [plateaux sur mesure](/plateaux-de-fromages) selon ces principes, prêts à servir, avec les étiquettes et les accompagnements. Passez commande la veille au 01 64 43 67 89 ou par le [formulaire de contact](/contact), et retirez-le en boutique ou faites-vous le [livrer](/livraison).
+Si vous préférez déléguer, nous composons des [plateaux sur mesure](/plateaux-de-fromages) selon ces principes, prêts à servir, avec les étiquettes et les accompagnements. Passez commande la veille au 06 95 98 40 75 ou par le [formulaire de contact](/contact), et retirez-le en boutique ou faites-vous le [livrer](/livraison).
 `,
 };
 

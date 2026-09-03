@@ -53,7 +53,7 @@ Les clubs et associations de Lésigny et de Brie-Comte-Robert nous commandent de
 Nous ouvrons le **dimanche de 9h à 13h**. Depuis Lésigny ou Servon, c'est le moment de passer chercher le plateau du déjeuner. Pensez à réserver la veille pour plus de dix personnes.
 
 - **Adresse** : 32 avenue Charles Rouxel, 77340 Pontault-Combault
-- **Téléphone** : 01 64 43 67 89
+- **Téléphone** : 06 95 98 40 75
 - **Horaires** : mardi à samedi 9h30 – 20h, dimanche 9h – 13h
 
 Vous êtes au sud de la Francilienne et vous cherchiez un fromager ? Vous l'avez trouvé. [Contactez-nous](/contact) ou passez directement.

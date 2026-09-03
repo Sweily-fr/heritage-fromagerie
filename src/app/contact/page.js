@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import { googleMapsUrl } from "@/data/site";
 
 export const metadata = {
   title: "Contact",
@@ -44,7 +45,7 @@ export default function Contact() {
       {/* Quick info bar */}
       <section className="relative bg-cream">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-gold-line">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gold-line">
             {[
               {
                 icon: (
@@ -63,8 +64,19 @@ export default function Contact() {
                   </svg>
                 ),
                 label: "Téléphone",
-                value: "01 64 43 67 89",
-                href: "tel:+33164436789",
+                value: "06 95 98 40 75",
+                href: "tel:+33695984075",
+              },
+              {
+                icon: (
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="M3 7l9 6 9-6" />
+                  </svg>
+                ),
+                label: "E-mail",
+                value: "contact@heritage-fromagerie.fr",
+                href: "mailto:contact@heritage-fromagerie.fr",
               },
               {
                 icon: (
@@ -290,7 +302,7 @@ export default function Contact() {
                   Accès PMR - Parking - Carte bancaire
                 </p>
                 <a
-                  href="https://maps.google.com/?q=32+Avenue+Charles+Rouxel+77340+Pontault-Combault"
+                  href={googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 btn-luxury btn-luxury-outline text-center block"

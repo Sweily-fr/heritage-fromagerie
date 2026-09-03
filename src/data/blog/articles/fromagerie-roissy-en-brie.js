@@ -62,7 +62,7 @@ Mariage à la salle des fêtes, anniversaire, pot de départ dans une entreprise
 
 > Notre métier, c'est de vous faire découvrir. Le plus beau compliment qu'on reçoive, c'est un client de Roissy qui revient avec un voisin.
 
-Vous habitez Roissy-en-Brie et vous n'êtes jamais venu ? Poussez la porte, la première dégustation est offerte. Et si vous avez une question avant de passer, [contactez-nous](/contact) ou appelez le 01 64 43 67 89.
+Vous habitez Roissy-en-Brie et vous n'êtes jamais venu ? Poussez la porte, la première dégustation est offerte. Et si vous avez une question avant de passer, [contactez-nous](/contact) ou appelez le 06 95 98 40 75.
 `,
 };
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { socialLinks } from "@/data/site";
 
 export default function Footer() {
   return (
@@ -61,10 +62,18 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+33164436789"
+                  href="tel:+33695984075"
                   className="text-[0.75rem] font-light tracking-[0.05em] text-cream/40 hover:text-accent transition-colors"
                 >
-                  01 64 43 67 89
+                  06 95 98 40 75
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:contact@heritage-fromagerie.fr"
+                  className="text-[0.75rem] font-light tracking-[0.05em] text-cream/40 hover:text-accent transition-colors"
+                >
+                  contact@heritage-fromagerie.fr
                 </a>
               </li>
               <li className="mt-2">
@@ -85,7 +94,9 @@ export default function Footer() {
             </h4>
             <div className="mt-5 flex gap-5">
               <a
-                href="#"
+                href={socialLinks.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-cream/30 hover:text-accent transition-colors"
                 aria-label="Facebook"
               >
@@ -94,7 +105,9 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href={socialLinks.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-cream/30 hover:text-accent transition-colors"
                 aria-label="Instagram"
               >

@@ -48,7 +48,7 @@ Nos clients de ce secteur nous disent souvent qu'ils venaient jusqu'à Paris ou 
 
 Les entreprises d'Émerainville, de Croissy-Beaubourg et de la Cité Descartes nous commandent des [plateaux](/plateaux-de-fromages) pour leurs pots, séminaires et fêtes de fin d'année. Nous livrons directement sur site, prêt à servir, et nous pouvons fournir couteaux, pains et accompagnements. Une facture est établie pour chaque commande professionnelle.
 
-Pour toute commande ou question, appelez le 01 64 43 67 89 ou écrivez-nous depuis la [page contact](/contact). Et si vous passez simplement voir : nous sommes juste à côté de la gare, on vous fera goûter.
+Pour toute commande ou question, appelez le 06 95 98 40 75 ou écrivez-nous depuis la [page contact](/contact). Et si vous passez simplement voir : nous sommes juste à côté de la gare, on vous fera goûter.
 `,
 };
 

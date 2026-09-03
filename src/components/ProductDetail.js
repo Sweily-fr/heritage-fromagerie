@@ -22,28 +22,37 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
 
   const priceMatch = product.price?.match(/(\d+[.,]\d+)/);
   const priceValue = priceMatch ? priceMatch[1].replace(",", ".") : null;
+  // "22,95 € / kg" => prix au kilo ; "5,95 € / pièce" => prix unitaire.
+  const pricePerKg = /kg/i.test(product.price || "");
+  const productUrl = `${siteUrl}/${product.category}/${product.slug}`;
 
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
+    "@id": productUrl,
     name: product.name,
     description: product.description,
     image: `${siteUrl}${product.image}`,
+    url: productUrl,
     category: backLabel,
-    brand: {
-      "@type": "Brand",
-      name: "L'Héritage",
-    },
+    ...(product.origin && { countryOfOrigin: product.origin }),
     ...(priceValue && {
       offers: {
         "@type": "Offer",
+        url: productUrl,
         price: priceValue,
         priceCurrency: "EUR",
-        availability: "https://schema.org/InStock",
-        seller: {
-          "@type": "Organization",
-          name: "L'Héritage",
-        },
+        availability: "https://schema.org/InStoreOnly",
+        ...(pricePerKg && {
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            price: priceValue,
+            priceCurrency: "EUR",
+            unitCode: "KGM",
+            unitText: "kg",
+          },
+        }),
+        seller: { "@id": `${siteUrl}/#fromagerie` },
       },
     }),
   };

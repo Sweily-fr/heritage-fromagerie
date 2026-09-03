@@ -74,7 +74,7 @@ Un blanc sec et vif, pour trancher le gras : l'[Apremont](/epicerie-fine/apremon
 
 ## Commander sa raclette
 
-Nos raclettes sont en vitrine d'**octobre à mars**. Pour une soirée à plus de huit personnes, appelez-nous la veille au 01 64 43 67 89 : nous préparons les tranches et vous n'attendez pas. Nous [livrons](/livraison) aussi à domicile à Pontault-Combault et dans les communes voisines, le fromage prêt à poser sur l'appareil.
+Nos raclettes sont en vitrine d'**octobre à mars**. Pour une soirée à plus de huit personnes, appelez-nous la veille au 06 95 98 40 75 : nous préparons les tranches et vous n'attendez pas. Nous [livrons](/livraison) aussi à domicile à Pontault-Combault et dans les communes voisines, le fromage prêt à poser sur l'appareil.
 `,
 };
 

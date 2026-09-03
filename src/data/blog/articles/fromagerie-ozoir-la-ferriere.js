@@ -48,7 +48,7 @@ Ozoir a de bons boulangers ; nous ne cherchons pas à les remplacer. En revanche
 
 Vous n'avez pas envie de prendre la voiture ? Ozoir-la-Ferrière est dans notre **zone 2 de livraison** (5 à 15 km). La livraison coûte **5,90 € et devient gratuite à partir de 80 €**, ce qui correspond à peu près à un plateau pour six à huit personnes. Nous livrons sous 48h, du mardi au samedi, en emballage isotherme.
 
-Commandez par téléphone au 01 64 43 67 89 ou via notre [formulaire de contact](/contact) : décrivez-nous l'occasion, le nombre de convives et vos goûts, nous composons le reste.
+Commandez par téléphone au 06 95 98 40 75 ou via notre [formulaire de contact](/contact) : décrivez-nous l'occasion, le nombre de convives et vos goûts, nous composons le reste.
 
 ## Pour vos événements à Ozoir
 

@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SmoothSnap from "@/components/SmoothSnap";
+import { siteUrl, googleMapsUrl, nearbyCities, socialLinks } from "@/data/site";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -18,7 +19,6 @@ const raleway = Raleway({
   display: "swap",
 });
 
-const siteUrl = "https://heritage-fromagerie.fr";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -78,31 +78,6 @@ export const metadata = {
   },
 };
 
-// Communes voisines desservies : alimente le schéma LocalBusiness (areaServed)
-// et les pages locales du blog.
-export const nearbyCities = [
-  "Pontault-Combault",
-  "Roissy-en-Brie",
-  "Émerainville",
-  "Ozoir-la-Ferrière",
-  "Lésigny",
-  "La Queue-en-Brie",
-  "Le Plessis-Trévise",
-  "Villiers-sur-Marne",
-  "Champs-sur-Marne",
-  "Croissy-Beaubourg",
-  "Pontcarré",
-  "Torcy",
-  "Noisiel",
-  "Lognes",
-  "Brie-Comte-Robert",
-  "Servon",
-  "Chevry-Cossigny",
-  "Gretz-Armainvilliers",
-  "Tournan-en-Brie",
-  "Noisy-le-Grand",
-];
-
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": ["Store", "LocalBusiness"],
@@ -114,7 +89,8 @@ const localBusinessJsonLd = {
   image: `${siteUrl}/images/og-image.jpg`,
   logo: `${siteUrl}/logo/heritage_logo.png`,
   url: siteUrl,
-  telephone: "+33164436789",
+  telephone: "+33695984075",
+  email: "contact@heritage-fromagerie.fr",
   priceRange: "€€",
   currenciesAccepted: "EUR",
   paymentAccepted: "Espèces, Carte bancaire",
@@ -128,11 +104,11 @@ const localBusinessJsonLd = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 48.7969,
-    longitude: 2.6047,
+    latitude: 48.796264,
+    longitude: 2.604213,
   },
-  hasMap:
-    "https://maps.google.com/?q=32+Avenue+Charles+Rouxel+77340+Pontault-Combault",
+  hasMap: googleMapsUrl,
+  sameAs: [googleMapsUrl, socialLinks.instagram, socialLinks.facebook],
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",

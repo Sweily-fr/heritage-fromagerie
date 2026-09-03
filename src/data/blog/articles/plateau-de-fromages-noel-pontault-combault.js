@@ -70,7 +70,7 @@ Les fêtes sont notre période la plus chargée. Pour être sûr d'avoir ce que 
 
 ## Comment commander
 
-Par téléphone au **01 64 43 67 89**, via le [formulaire de contact](/contact), ou directement au comptoir. Dites-nous le nombre de personnes, le moment du repas, les goûts de vos invités (et ce qu'ils n'aiment pas), votre budget. Nous composons, vous validez. Le plateau est prêt à servir, avec les étiquettes.
+Par téléphone au **06 95 98 40 75**, via le [formulaire de contact](/contact), ou directement au comptoir. Dites-nous le nombre de personnes, le moment du repas, les goûts de vos invités (et ce qu'ils n'aiment pas), votre budget. Nous composons, vous validez. Le plateau est prêt à servir, avec les étiquettes.
 
 Comptez entre **8 et 15 € par personne** pour un plateau de fête complet, selon la part des fromages truffés et des pièces d'exception.
 

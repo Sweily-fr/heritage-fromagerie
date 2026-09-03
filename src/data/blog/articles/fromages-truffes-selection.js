@@ -60,7 +60,7 @@ La [Raclette à la truffe](/fromages/raclette-truffe) est notre raclette la plus
 
 ## Les réserver
 
-Les fromages truffés sont disponibles toute l'année, mais les stocks sont limités en fin d'année. Pour les fêtes, réservez à partir de début décembre au 01 64 43 67 89 ou via notre [formulaire](/contact). Nous les [livrons](/livraison) aussi, à Pontault-Combault et dans les communes voisines. Et pour un plateau de Noël complet, lisez notre [guide du plateau des fêtes](/blog/plateau-de-fromages-noel-pontault-combault).
+Les fromages truffés sont disponibles toute l'année, mais les stocks sont limités en fin d'année. Pour les fêtes, réservez à partir de début décembre au 06 95 98 40 75 ou via notre [formulaire](/contact). Nous les [livrons](/livraison) aussi, à Pontault-Combault et dans les communes voisines. Et pour un plateau de Noël complet, lisez notre [guide du plateau des fêtes](/blog/plateau-de-fromages-noel-pontault-combault).
 `,
 };
 

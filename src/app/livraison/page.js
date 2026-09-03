@@ -169,7 +169,7 @@ export default function Livraison() {
                 Commander une livraison
               </Link>
               <a
-                href="tel:+33164436789"
+                href="tel:+33695984075"
                 className="btn-luxury btn-luxury-outline"
               >
                 Nous appeler

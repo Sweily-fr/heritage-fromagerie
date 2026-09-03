@@ -67,7 +67,7 @@ Dans sa boîte, dans le bac à légumes du réfrigérateur, il se garde **une bo
 
 Le [Vacherin suisse](/fromages/vacherin-suisse), le Vacherin Mont-d'Or du canton de Vaud, est le jumeau d'outre-frontière : un peu plus salé, une croûte plus lisse. Le [Vacherin fribourgeois](/fromages/le-fribourg-creme) est un tout autre fromage, à pâte pressée, indispensable dans la fondue moitié-moitié.
 
-Le Mont d'Or est en boutique dès la fin septembre. Réservez le vôtre au 01 64 43 67 89 pour une soirée précise, ou faites-vous le [livrer](/livraison) : sa boîte en fait l'un des fromages qui voyagent le mieux.
+Le Mont d'Or est en boutique dès la fin septembre. Réservez le vôtre au 06 95 98 40 75 pour une soirée précise, ou faites-vous le [livrer](/livraison) : sa boîte en fait l'un des fromages qui voyagent le mieux.
 `,
 };
 

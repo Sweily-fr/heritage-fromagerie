@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
+import { googleMapsUrl } from "@/data/site";
 
 export const metadata = {
   title: "À propos",
@@ -467,7 +468,7 @@ export default function APropos() {
                 Nous contacter
               </Link>
               <a
-                href="https://maps.google.com/?q=32+Avenue+Charles+Rouxel+77340+Pontault-Combault"
+                href={googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury btn-luxury-outline"

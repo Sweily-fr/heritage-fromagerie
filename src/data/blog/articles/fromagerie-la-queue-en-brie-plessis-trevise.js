@@ -52,7 +52,7 @@ Pensez à commander la veille pour un plateau au-delà de dix personnes, nous pr
 
 - **Adresse** : 32 avenue Charles Rouxel, 77340 Pontault-Combault
 - **Horaires** : mardi à samedi 9h30 – 20h, dimanche 9h – 13h, fermé le lundi
-- **Téléphone** : 01 64 43 67 89
+- **Téléphone** : 06 95 98 40 75
 - **Stationnement** à proximité, accès PMR, carte bancaire acceptée
 
 Vous êtes du Val-de-Marne et vous ne connaissez pas encore la boutique ? Traversez, on est juste là.
