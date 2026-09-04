@@ -850,23 +850,6 @@ const fromages = [
     accord: "Sancerre, rosé de Provence",
   },
   {
-    slug: "chevres-aromatises-x2",
-    name: "Chèvres aromatisés X2",
-    origin: "France",
-    tag: "Chèvre",
-    category: "fromages",
-    image: "/images/produits/fromages/chevres-aromatises-x2.jpg",
-    price: "5,50 € / pièce",
-    description:
-      "Deux petits chèvres frais aromatisés, à composer selon vos envies.",
-    details:
-      "Ce lot de deux permet de goûter deux parfums différents parmi notre sélection du moment : herbes, poivre, piment ou fruits secs. La pâte fraîche et acidulée reste la même, seul l'aromate change. Une façon simple de varier les plaisirs sur un plateau d'apéritif.",
-    milkType: "Lait de chèvre",
-    texture: "Pâte fraîche aromatisée",
-    affinage: "Frais",
-    accord: "Sancerre, rosé de Provence",
-  },
-  {
     slug: "chevres-secs",
     name: "Chèvres Secs",
     origin: "France",
@@ -1065,23 +1048,6 @@ const fromages = [
       "Le Crottin de Chavignol, petit mais intense, l'emblème du chèvre ligérien.",
     details:
       "Le Crottin de Chavignol AOP est sans doute le chèvre français le plus connu. Petit et rond, il évolue du blanc au bleuté puis au brun selon l'affinage, sa pâte se resserrant à mesure. Jeune, il est frais et lactique ; sec, il devient dense et puissamment caprin. Délicieux aussi chaud sur une salade.",
-    milkType: "Lait de chèvre",
-    texture: "Pâte molle à croûte fleurie",
-    affinage: "10 jours minimum",
-    accord: "Sancerre, Menetou-Salon",
-  },
-  {
-    slug: "crottin-x2",
-    name: "Crottin X2",
-    origin: "Berry, France",
-    tag: "Chèvre",
-    category: "fromages",
-    image: "/images/produits/fromages/crottin-x2.jpg",
-    price: "5,10 € / pièce",
-    description:
-      "Deux Crottins de Chavignol, le format des salades de chèvre chaud.",
-    details:
-      "Ce lot de deux crottins est le format idéal pour préparer une salade de chèvre chaud : un crottin coupé en deux sur une tranche de pain grillé, quelques minutes sous le gril. Ils se dégustent aussi simplement en fin de repas, à différents stades d'affinage selon votre goût.",
     milkType: "Lait de chèvre",
     texture: "Pâte molle à croûte fleurie",
     affinage: "10 jours minimum",
@@ -2000,23 +1966,6 @@ const fromages = [
       "Un mini-clacbitou, format bouchée pour l'apéritif.",
     details:
       "Ce chèvre miniature reprend les codes du clacbitou dans un format bouchée. La croûte fleurie et la pâte tendre s'y trouvent concentrées, ce qui donne un fromage très expressif malgré sa petite taille. À servir tel quel à l'apéritif ou légèrement passé au four sur un toast.",
-    milkType: "Lait de chèvre",
-    texture: "Pâte molle à croûte fleurie",
-    affinage: "2 semaines",
-    accord: "Sancerre, Quincy",
-  },
-  {
-    slug: "mini-clac-x2",
-    name: "Mini Clac X2",
-    origin: "Berry, France",
-    tag: "Chèvre",
-    category: "fromages",
-    image: "/images/produits/fromages/mini-clac-x2.jpg",
-    price: "5,00 € / pièce",
-    description:
-      "Deux mini-clacbitous, pour un apéritif à deux ou une salade de chèvre chaud.",
-    details:
-      "Ce lot de deux mini-clacbitous est pensé pour l'apéritif ou pour garnir deux toasts de chèvre chaud. La pâte, tendre et fondante sous sa croûte fleurie, exprime un caprin franc et une acidité rafraîchissante. Un format qui évite le gaspillage pour les petites tablées.",
     milkType: "Lait de chèvre",
     texture: "Pâte molle à croûte fleurie",
     affinage: "2 semaines",
@@ -2952,23 +2901,6 @@ const fromages = [
       "AOP du Quercy, un petit palet crémeux et fondant d'une grande douceur.",
     details:
       "Le Rocamadour AOP est un tout petit chèvre du Quercy dont la pâte, crémeuse et fondante, coule légèrement quand il est bien affiné. Les arômes, d'une remarquable douceur, mêlent crème, noisette et un caprin très mesuré. À déguster nature ou tiédi quelques instants sur une tranche de pain.",
-    milkType: "Lait cru de chèvre",
-    texture: "Pâte molle à croûte fleurie",
-    affinage: "6 jours minimum",
-    accord: "Cahors blanc, Bergerac sec",
-  },
-  {
-    slug: "rocamadour-x3",
-    name: "Rocamadour X3",
-    origin: "Quercy, France",
-    tag: "Chèvre",
-    category: "fromages",
-    image: "/images/produits/fromages/rocamadour-x3.jpg",
-    price: "4,50 € / pièce",
-    description:
-      "Trois Rocamadours AOP, le format idéal pour une tablée ou une entrée chaude.",
-    details:
-      "Ce lot de trois Rocamadours permet de servir une entrée chaude - les palets tiédis sur un lit de salade et de noix - ou de garnir généreusement un plateau. La pâte crémeuse et les arômes doux de noisette et de crème font l'unanimité, y compris auprès des palais peu habitués au chèvre.",
     milkType: "Lait cru de chèvre",
     texture: "Pâte molle à croûte fleurie",
     affinage: "6 jours minimum",

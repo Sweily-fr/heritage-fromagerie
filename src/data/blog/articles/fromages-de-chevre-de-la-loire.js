@@ -45,7 +45,7 @@ Le [Pouligny-Saint-Pierre](/fromages/pouligny) est une pyramide haute et étroit
 
 ## Le Crottin de Chavignol : le petit dur
 
-Le [Crottin](/fromages/crottin) est le plus petit (60 g environ) et le plus polyvalent. Frais, il est doux et fondant ; **mi-sec**, il est parfait chaud sur une salade ; **sec** et bleuté, il devient un fromage de caractère à râper ou à croquer avec un Sancerre. Nous en avons toujours plusieurs stades d'affinage en vitrine. Le [lot de deux](/fromages/crottin-x2) part très bien pour l'apéritif.
+Le [Crottin](/fromages/crottin) est le plus petit (60 g environ) et le plus polyvalent. Frais, il est doux et fondant ; **mi-sec**, il est parfait chaud sur une salade ; **sec** et bleuté, il devient un fromage de caractère à râper ou à croquer avec un Sancerre. Nous en avons toujours plusieurs stades d'affinage en vitrine. Prenez-en deux ou trois, ils partent très bien à l'apéritif.
 
 ## Et les autres
 
@@ -53,7 +53,7 @@ Notre vitrine de chèvres ne s'arrête pas à la Loire :
 
 - **Poitou** : [Chabichou](/fromages/chabichou), [Palet](/fromages/palet-des-deux-sevres) et [Roue des Deux-Sèvres](/fromages/roue-des-deux-sevres), [Délice des Deux-Sèvres](/fromages/delice-des-deux-sevres) ;
 - **Berry et Loire** : [Galet de la Loire](/fromages/galet-loire), [Tomme du Berry truffée](/fromages/tomme-du-berry-truffe), [Clacbitou](/fromages/clacbitou) et [Mini Clac](/fromages/mini-clac) ;
-- **Sud-Ouest** : [Rocamadour](/fromages/rocamadour), [Cabécou](/fromages/rocamadour-x3), [Picodon](/fromages/picodon) ;
+- **Sud-Ouest** : [Rocamadour](/fromages/rocamadour), [Picodon](/fromages/picodon) ;
 - **Les frais et aromatisés** : [Palet frais](/fromages/palet-frais), [Bûchette le Pic](/fromages/buchette-le-pic), [Chèvre feuille](/fromages/chevre-feuille), et nos [chèvres aromatisés](/fromages/chevres-aromatises) (figue, miel, piment, pomme-mangue).
 
 ## Comment déguster un chèvre de la Loire

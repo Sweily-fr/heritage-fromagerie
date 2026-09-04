@@ -68,23 +68,6 @@ const cremerie = [
     accord: "Confiture, miel, fruits rouges",
   },
   {
-    slug: "fierbois-x6",
-    name: "Fierbois x6",
-    origin: "Touraine, France",
-    tag: "Fromage frais",
-    category: "cremerie",
-    image: "/images/produits/cremerie/fierbois-x6.jpg",
-    price: "12,00 € / pièce",
-    description:
-      "Un lot de six Fierbois, le format famille de ce fromage frais tourangeau.",
-    details:
-      "Ce lot de six permet d'avoir toujours un fromage frais sous la main pour le dessert ou le petit-déjeuner. La texture lisse et la douceur lactée du Fierbois plaisent à toute la famille, des plus jeunes aux plus grands. À conserver au frais et à consommer rapidement après ouverture.",
-    milkType: "Lait de vache",
-    texture: "Fromage frais moulé",
-    affinage: "Frais",
-    accord: "Confiture, miel, fruits rouges",
-  },
-  {
     slug: "fontainebleau",
     name: "Fontainebleau",
     origin: "Île-de-France",
@@ -289,23 +272,6 @@ const cremerie = [
     accord: "Confiture, miel, fruits rouges",
   },
   {
-    slug: "peupliers-x4-2",
-    name: "Peupliers x4",
-    origin: "Normandie, France",
-    tag: "Fromage frais",
-    category: "cremerie",
-    image: "/images/produits/cremerie/peupliers-x4-2.jpg",
-    price: "10,00 € / pièce",
-    description:
-      "Un lot de quatre fromages frais des Peupliers, format famille.",
-    details:
-      "Ce lot de quatre permet d'avoir toujours de quoi terminer un repas en légèreté. La texture lisse et la douceur lactée de ces fromages frais plaisent à tous les âges. À conserver au frais et à consommer rapidement, la fraîcheur étant l'essentiel de leur intérêt.",
-    milkType: "Lait de vache",
-    texture: "Fromage frais moulé",
-    affinage: "Frais",
-    accord: "Confiture, miel, fruits rouges",
-  },
-  {
     slug: "riz-au-lait",
     name: "Riz au Lait",
     origin: "Préparation maison",
@@ -317,23 +283,6 @@ const cremerie = [
       "Notre riz au lait maison, cuit lentement et vanillé à la gousse.",
     details:
       "Ce riz au lait est cuit longuement à feu doux dans du lait entier, jusqu'à ce que les grains se délitent et donnent cette texture crémeuse caractéristique. La vanille est infusée en gousse, jamais en arôme. Un dessert de mémoire, réconfortant, à déguster tiède ou bien frais selon la saison.",
-    milkType: "Lait entier de vache",
-    texture: "Crème de riz onctueuse",
-    affinage: "Frais",
-    accord: "Caramel, cannelle, fruits rouges",
-  },
-  {
-    slug: "riz-au-lait-x2",
-    name: "Riz au lait X2",
-    origin: "Préparation maison",
-    tag: "Dessert",
-    category: "cremerie",
-    image: "/images/produits/photo-a-venir.jpg",
-    price: "5,00 € / pièce",
-    description:
-      "Deux pots de notre riz au lait maison, cuit lentement et vanillé.",
-    details:
-      "Ce lot de deux pots permet de partager ou de garder une portion pour le lendemain. Le riz est cuit longuement dans du lait entier avec une gousse de vanille fendue, jusqu'à obtenir une texture crémeuse et généreuse. Un dessert simple et sincère, qui se déguste tiède comme froid.",
     milkType: "Lait entier de vache",
     texture: "Crème de riz onctueuse",
     affinage: "Frais",
