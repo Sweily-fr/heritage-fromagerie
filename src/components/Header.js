@@ -12,6 +12,7 @@ const navigation = [
     href: "/services",
     children: [
       { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
+      { name: "Événements", href: "/evenements" },
       { name: "Livraison à domicile", href: "/livraison" },
     ],
   },

@@ -98,7 +98,7 @@ const services = [
   },
   {
     title: "Événements & Traiteur",
-    href: "/contact",
+    href: "/evenements",
     description:
       "Pour vos cocktails, vernissages, séminaires ou fêtes privées, nous concevons des buffets fromagers complets. Un service traiteur sur mesure qui s'adapte à chaque occasion.",
     details: [
@@ -409,7 +409,7 @@ export default function Services() {
                 Nous contacter
               </Link>
               <a
-                href="tel:+33160000000"
+                href="tel:+33695984075"
                 className="btn-luxury btn-luxury-outline"
               >
                 01 60 00 00 00

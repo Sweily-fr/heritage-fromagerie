@@ -161,7 +161,7 @@ export default function PlateauxDeFromages() {
                 Commander un plateau
               </Link>
               <a
-                href="tel:+33160000000"
+                href="tel:+33695984075"
                 className="btn-luxury btn-luxury-outline"
               >
                 Nous appeler
@@ -400,7 +400,7 @@ export default function PlateauxDeFromages() {
                 Nous contacter
               </Link>
               <a
-                href="tel:+33160000000"
+                href="tel:+33695984075"
                 className="btn-luxury btn-luxury-outline"
               >
                 01 60 00 00 00

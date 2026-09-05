@@ -131,6 +131,10 @@ const localBusinessJsonLd = {
     },
     {
       "@type": "Offer",
+      itemOffered: { "@type": "Service", name: "Pièces montées et buffets de fromages pour événements", url: `${siteUrl}/evenements` },
+    },
+    {
+      "@type": "Offer",
       itemOffered: { "@type": "Service", name: "Livraison de fromages à domicile", url: `${siteUrl}/livraison` },
     },
   ],

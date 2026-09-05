@@ -289,7 +289,7 @@ export default function FAQ() {
                   Nous contacter
                 </Link>
                 <a
-                  href="tel:+33160000000"
+                  href="tel:+33695984075"
                   className="btn-luxury btn-luxury-outline border-cream/30 text-cream/70 hover:border-accent hover:text-accent"
                 >
                   01 60 00 00 00

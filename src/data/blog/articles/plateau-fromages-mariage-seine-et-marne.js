@@ -25,7 +25,7 @@ C'est la première question, et la réponse dépend de la place du fromage dans 
 - **Fromage en plat principal** (brunch du lendemain, cocktail dînatoire) : 150 à 200 g par personne.
 - **Fromage en fin de soirée**, servi vers minuit avec le pain : 60 g par personne suffisent, tout le monde n'y goûtera pas.
 
-Prévoyez toujours des **pièces entières** pour le visuel (une meule de [Brie de Meaux](/fromages/brie-de-meaux), une [Tête de Moine](/fromages/tete-de-moine) sur sa girolle, un [Mont d'Or](/fromages/moyen-mont-d-or) en saison), et des fromages **déjà coupés** pour le service.
+Pour un effet spectaculaire, pensez aussi à notre [pièce montée de fromages](/evenements), une tour à étages qui remplace ou accompagne le gâteau. Prévoyez toujours des **pièces entières** pour le visuel (une meule de [Brie de Meaux](/fromages/brie-de-meaux), une [Tête de Moine](/fromages/tete-de-moine) sur sa girolle, un [Mont d'Or](/fromages/moyen-mont-d-or) en saison), et des fromages **déjà coupés** pour le service.
 
 ## Composer une sélection qui plaît à tous
 

@@ -35,6 +35,7 @@ export default function Footer() {
             <ul className="mt-5 space-y-3">
               {[
                 { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
+                { name: "Événements", href: "/evenements" },
                 { name: "Livraison à domicile", href: "/livraison" },
                 { name: "Fromages", href: "/fromages" },
                 { name: "Crémeries", href: "/cremerie" },

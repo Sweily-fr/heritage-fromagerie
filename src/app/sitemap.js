@@ -11,6 +11,7 @@ const staticRoutes = [
   { path: "/cremerie", priority: 0.8, changeFrequency: "weekly" },
   { path: "/epicerie-fine", priority: 0.8, changeFrequency: "weekly" },
   { path: "/plateaux-de-fromages", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/evenements", priority: 0.8, changeFrequency: "monthly" },
   { path: "/livraison", priority: 0.7, changeFrequency: "monthly" },
   { path: "/a-propos", priority: 0.6, changeFrequency: "yearly" },
   { path: "/faq", priority: 0.6, changeFrequency: "monthly" },
