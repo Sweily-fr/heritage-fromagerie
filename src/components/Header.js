@@ -285,7 +285,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-primary text-cream">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
-        {/* Les deux logos restent superposés : la hauteur de la barre ne change pas au scroll */}
+        {/* Les deux logos restent superposés : la hauteur de la barre ne change pas au scroll.
+            Ils glissent ensemble du même décalage : le monogramme reste calé sur l'emblème du logo principal. */}
         <Link href="/" className="relative block h-20 w-[112px]">
           <Image
             src="/logo/logo_heritage_principal.svg"
@@ -293,8 +294,10 @@ export default function Header() {
             width={999}
             height={711}
             priority
-            className={`absolute left-0 top-0 h-20 w-auto transition-opacity duration-300 motion-reduce:transition-none ${
-              scrolled ? "opacity-0" : "opacity-100"
+            className={`absolute left-0 top-0 h-20 w-auto transition-[opacity,translate] duration-500 ease-in-out motion-reduce:transition-none ${
+              scrolled
+                ? "-translate-x-[34px] translate-y-[18px] opacity-0"
+                : "translate-x-0 translate-y-0 opacity-100"
             }`}
           />
           <Image
@@ -304,8 +307,10 @@ export default function Header() {
             width={941}
             height={961}
             loading="eager"
-            className={`absolute left-0 top-1/2 h-16 w-auto -translate-y-1/2 transition-opacity duration-300 motion-reduce:transition-none ${
-              scrolled ? "opacity-100" : "opacity-0"
+            className={`absolute left-0 top-[18px] h-11 w-auto transition-[opacity,translate] duration-500 ease-in-out motion-reduce:transition-none ${
+              scrolled
+                ? "translate-x-0 translate-y-0 opacity-100"
+                : "translate-x-[34px] -translate-y-[18px] opacity-0"
             }`}
           />
         </Link>
