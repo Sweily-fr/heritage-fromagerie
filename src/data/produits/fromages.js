@@ -6,7 +6,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "30,95 € / kg",
     description:
       "AOP savoyarde au talon concave, à la pâte souple et aux arômes francs de noisette.",
     details:
@@ -23,7 +22,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/fromages/agour.jpg",
-    price: "36,95 € / kg",
     description:
       "Un brebis basque de la maison Agour, fondant et aux arômes de noisette grillée.",
     details:
@@ -40,7 +38,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/appenzeller.jpg",
-    price: "39,95 € / kg",
     description:
       "Fromage suisse frotté à la saumure d'herbes, puissant, épicé et étonnamment aromatique.",
     details:
@@ -57,7 +54,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Un brebis basque affiné, dense et long en bouche, aux notes de fruits secs.",
     details:
@@ -74,7 +70,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "49,95 € / kg",
     description:
       "Le « prince des gruyères », fabriqué l'été en alpage avec le lait des pâturages fleuris.",
     details:
@@ -91,7 +86,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/bleu-d-auvergne.jpg",
-    price: "22,95 € / kg",
     description:
       "AOP auvergnate au persillé dense et régulier, franche et bien salée.",
     details:
@@ -108,7 +102,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Un bleu doux à croûte fleurie, crémeux et parfaitement accessible.",
     details:
@@ -125,7 +118,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/bleu-des-causses.jpg",
-    price: "25,95 € / kg",
     description:
       "Le cousin de vache du Roquefort, affiné dans les mêmes caves naturelles des Causses.",
     details:
@@ -142,7 +134,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "7,95 € / pièce",
     description:
       "Le « suppositoire du diable » : une boulette pétrie au persil et au paprika, redoutablement puissante.",
     details:
@@ -159,7 +150,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un brebis à la croûte lavée orange vif, d'une onctuosité fondante.",
     details:
@@ -176,7 +166,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "35,95 € / kg",
     description:
       "Un brebis basque relevé au piment d'Espelette, chaleureux et typé.",
     details:
@@ -193,7 +182,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un brebis roulé dans les fleurs et les herbes, délicat et parfumé.",
     details:
@@ -210,7 +198,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "45,95 € / kg",
     description:
       "Un brebis basque parsemé d'éclats de truffe, riche et profondément aromatique.",
     details:
@@ -227,7 +214,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/fromages/brebis-corse.jpg",
-    price: "36,96 € / kg",
     description:
       "Un brebis corse rustique, marqué par le maquis et une belle puissance.",
     details:
@@ -244,7 +230,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/fromages/brebis-papillon.jpg",
-    price: "34,95 € / kg",
     description:
       "Un brebis aveyronnais doux et fondant, signé de la maison Papillon.",
     details:
@@ -261,7 +246,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "26,90 € / kg",
     description:
       "Notre brie fourré aux noix, préparé à la boutique par nos fromagers.",
     details:
@@ -278,7 +262,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "22,95 € / kg",
     description:
       "Le « roi des fromages », un brie AOP au lait cru, crémeux et délicat.",
     details:
@@ -295,7 +278,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "35,95 € / kg",
     description:
       "Plus rustique et plus puissant que son cousin de Meaux, un brie AOP de caractère.",
     details:
@@ -312,7 +294,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "25,90 € / kg",
     description:
       "Un petit brie briard tendre et fruité, longtemps oublié puis remis à l'honneur.",
     details:
@@ -329,7 +310,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "54,95 € / kg",
     description:
       "Un brie garni de noix et de miel, l'accord sucré-salé le plus gourmand du plateau.",
     details:
@@ -346,7 +326,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/brie-truffe.jpg",
-    price: "96,95 € / kg",
     description:
       "Un brie fourré à la crème de mascarpone truffée, notre pièce la plus somptueuse.",
     details:
@@ -363,7 +342,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "52,95 € / kg",
     description:
       "Un brie fendu et garni de figues moelleuses et de noix croquantes.",
     details:
@@ -380,7 +358,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "49,95 € / kg",
     description:
       "Un brie fourré à la moutarde à l'ancienne, relevé et surprenant.",
     details:
@@ -397,7 +374,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/brillat-savarin.jpg",
-    price: "14,90 € / pièce",
     description:
       "Un triple crème d'une onctuosité beurrée, nommé en hommage au célèbre gastronome.",
     details:
@@ -414,7 +390,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/brillat-savarin-1-2.jpg",
-    price: "7,90 € / pièce",
     description:
       "Le Brillat-Savarin en demi-pièce, pour une table plus intime.",
     details:
@@ -431,7 +406,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/brillat-savarin-1-4.jpg",
-    price: "4,10 € / pièce",
     description:
       "Un quart de Brillat-Savarin, la juste portion pour deux.",
     details:
@@ -448,7 +422,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Le brocciu corse, un fromage frais de petit-lait, léger et d'une douceur infinie.",
     details:
@@ -465,7 +438,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/buchette-le-pic.jpg",
-    price: "6,50 € / pièce",
     description:
       "Une petite bûche de chèvre à la croûte fleurie, fine et délicatement caprine.",
     details:
@@ -482,7 +454,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une tomme au lait de bufflonne, d'une blancheur éclatante et d'une douceur beurrée.",
     details:
@@ -499,7 +470,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "59,95 € / kg",
     description:
       "Une tomme de bufflonne parsemée de pistaches de Sicile, gourmande et colorée.",
     details:
@@ -516,7 +486,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,95 € / pièce",
     description:
       "Une poche de mozzarella garnie de stracciatella et de crème, à déguster le jour même.",
     details:
@@ -533,7 +502,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,95 € / pièce",
     description:
       "Un camembert au lait de bufflonne, d'un blanc pur et d'une onctuosité surprenante.",
     details:
@@ -550,7 +518,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,30 € / pièce",
     description:
       "Un camembert fermier moulé à la louche, vivant et profondément normand.",
     details:
@@ -567,7 +534,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/camembert-normandie.jpg",
-    price: "7,30 € / pièce",
     description:
       "Le véritable Camembert de Normandie AOP au lait cru, moulé à la louche.",
     details:
@@ -584,7 +550,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "20,90 € / kg",
     description:
       "Un Cantal doux et lactique, à la pâte souple et au goût franc de crème fraîche.",
     details:
@@ -601,7 +566,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un brebis castillan à la croûte tressée, ferme et aux arômes de fruits secs.",
     details:
@@ -618,7 +582,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/fromages/caussenard.jpg",
-    price: "30,90 € / kg",
     description:
       "Un brebis des Causses souple et doux, aux notes lactées et noisettées.",
     details:
@@ -635,7 +598,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Le Caussenard longuement affiné, dense, cristallin et puissant.",
     details:
@@ -652,7 +614,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/chabichou.jpg",
-    price: "7,10 € / pièce",
     description:
       "AOP du Poitou en forme de bonde, à la pâte fine et au goût caprin franc.",
     details:
@@ -669,7 +630,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/chaource.jpg",
-    price: "7,50 € / pièce",
     description:
       "AOP champenoise à la pâte crayeuse et fondante, d'une grande finesse lactique.",
     details:
@@ -686,7 +646,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/cheddar-coupe.jpg",
-    price: "23,95 € / kg",
     description:
       "Un cheddar affiné à la texture friable et au goût franc, légèrement acidulé.",
     details:
@@ -703,7 +662,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "44,95 € / kg",
     description:
       "Un chèvre roulé dans les pétales et les herbes, aussi beau que parfumé.",
     details:
@@ -720,7 +678,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,90 € / pièce",
     description:
       "Un chèvre garni de cuberdon, la confiserie belge à la framboise, sucré et surprenant.",
     details:
@@ -737,7 +694,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/chevre-feuille.jpg",
-    price: "6,50 € / pièce",
     description:
       "Un chèvre affiné enveloppé dans sa feuille, aux arômes boisés et végétaux.",
     details:
@@ -754,7 +710,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,60 € / pièce",
     description:
       "Un chèvre frais garni de figues moelleuses, l'accord sucré-salé par excellence.",
     details:
@@ -771,7 +726,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,40 € / pièce",
     description:
       "Un chèvre au miel parfumé à la fleur d'oranger, floral et délicatement sucré.",
     details:
@@ -788,7 +742,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,10 € / pièce",
     description:
       "Un chèvre relevé au piment, frais devant et chaleureux derrière.",
     details:
@@ -805,7 +758,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,90 € / pièce",
     description:
       "Un chèvre fruité aux éclats de pomme et de mangue, exotique et rafraîchissant.",
     details:
@@ -822,7 +774,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un chèvre au thym et au miel, l'accord provençal dans toute sa simplicité.",
     details:
@@ -839,7 +790,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/chevres-aromatises.jpg",
-    price: "2,95 € / pièce",
     description:
       "De petits chèvres frais aromatisés, à choisir selon les arrivages et les saisons.",
     details:
@@ -856,7 +806,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "45,95 € / kg",
     description:
       "Des chèvres longuement affinés, secs, denses et intensément caprins.",
     details:
@@ -873,7 +822,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "10,30 € / pièce",
     description:
       "Un gros chèvre bourguignon de la région de Charolles, dense et savoureux.",
     details:
@@ -890,7 +838,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/coeur-normand.jpg",
-    price: "5,10 € / pièce",
     description:
       "Un fromage normand en forme de cœur, tendre et lacté.",
     details:
@@ -907,7 +854,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "84,95 € / kg",
     description:
       "Un triple crème fourré à la truffe, notre fromage le plus somptueux.",
     details:
@@ -924,7 +870,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "24,95 € / kg",
     description:
       "Un Comté d'équilibre, aux notes lactées et fruitées, souple et accessible.",
     details:
@@ -941,7 +886,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "30,95 € / kg",
     description:
       "Un affinage long qui révèle les notes de fruits secs, de caramel et de bouillon.",
     details:
@@ -958,7 +902,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Deux ans de cave pour un Comté cassant, cristallin et d'une puissance aromatique rare.",
     details:
@@ -975,7 +918,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/coulommiers.jpg",
-    price: "11,90 € / pièce",
     description:
       "Le briard le plus épais et le plus tendre, doux et parfaitement crémeux.",
     details:
@@ -992,7 +934,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/coulommiers-1-2.jpg",
-    price: "6,90 € / pièce",
     description:
       "Le Coulommiers en demi-pièce, format idéal pour une petite table.",
     details:
@@ -1009,7 +950,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/coulommiers-1-4.jpg",
-    price: "3,90 € / pièce",
     description:
       "Un quart de Coulommiers, la portion juste pour deux personnes.",
     details:
@@ -1026,7 +966,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,90 € / pièce",
     description:
       "Un petit chèvre à la croûte fleurie, doux et fondant sous la dent.",
     details:
@@ -1043,7 +982,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/crottin.jpg",
-    price: "2,95 € / pièce",
     description:
       "Le Crottin de Chavignol, petit mais intense, l'emblème du chèvre ligérien.",
     details:
@@ -1060,7 +998,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/cremeux-de-bourgogne.jpg",
-    price: "27,90 € / pièce",
     description:
       "Un double crème bourguignon d'une richesse veloutée, doux et enveloppant.",
     details:
@@ -1077,7 +1014,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/cremeux-de-bourgogne-1-2.jpg",
-    price: "14,90 € / pièce",
     description:
       "Le Crémeux de Bourgogne en demi-pièce, richesse veloutée en format réduit.",
     details:
@@ -1094,7 +1030,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/cremeux-de-bourgogne-1-4.jpg",
-    price: "7,90 € / pièce",
     description:
       "Un quart de Crémeux de Bourgogne, pour une découverte en petit comité.",
     details:
@@ -1111,7 +1046,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "4,95 € / pièce",
     description:
       "Un chèvre en forme de cœur, tendre et lacté, aussi joli que bon.",
     details:
@@ -1128,7 +1062,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "7,95 € / pièce",
     description:
       "Un chèvre poitevin enrichi en crème, d'une onctuosité remarquable.",
     details:
@@ -1145,7 +1078,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/domino.jpg",
-    price: "6,95 € / pièce",
     description:
       "Un chèvre cendré à la silhouette contrastée, fin et élégant.",
     details:
@@ -1162,7 +1094,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "19,95 € / kg",
     description:
       "L'authentique emmental savoyard IGP, aux grandes ouvertures et au goût de noisette fraîche.",
     details:
@@ -1179,7 +1110,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/epoisses.jpg",
-    price: "39,95 € / kg",
     description:
       "AOP bourguignonne à la croûte lavée au marc, puissante en odeur et fondante en bouche.",
     details:
@@ -1196,7 +1126,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "44,80 € / kg",
     description:
       "Fabriqué au feu de bois en chalet d'alpage, un fromage suisse rare aux notes fumées.",
     details:
@@ -1213,7 +1142,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,95 € / kg",
     description:
       "La feta AOP grecque en saumure, friable, saline et rafraîchissante.",
     details:
@@ -1230,7 +1158,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "42,95 € / kg",
     description:
       "Une feta relevée d'éclats de truffe, salée et boisée à la fois.",
     details:
@@ -1247,7 +1174,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/fromages/fleurs-du-macquis.jpg",
-    price: "36,95 € / kg",
     description:
       "Un brebis corse enrobé d'herbes du maquis, romarin, sarriette et baies de genièvre.",
     details:
@@ -1264,7 +1190,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Un brebis à pâte molle d'une onctuosité fondante, doux et beurré.",
     details:
@@ -1281,7 +1206,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "25,00 € / pièce",
     description:
       "Notre mélange maison de fromages suisses, prêt à fondre pour une fondue onctueuse.",
     details:
@@ -1298,7 +1222,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "18,95 € / pièce",
     description:
       "Un grand briard coiffé d'une fougère, tendre et parfumé.",
     details:
@@ -1315,7 +1238,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Le Fougerus en demi-pièce, avec sa fougère caractéristique.",
     details:
@@ -1332,7 +1254,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,60 € / pièce",
     description:
       "Un quart de Fougerus, format découverte de ce grand briard.",
     details:
@@ -1349,7 +1270,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/fourme-d-ambert.jpg",
-    price: "20,95 € / kg",
     description:
       "AOP auvergnate en haute colonne, l'un des bleus les plus doux et les plus crémeux.",
     details:
@@ -1366,7 +1286,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "21,95 € / kg",
     description:
       "La sœur ligérienne de la Fourme d'Ambert, plus sèche et légèrement fruitée.",
     details:
@@ -1383,7 +1302,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/galet-loire.jpg",
-    price: "7,90 € / pièce",
     description:
       "Un petit fromage ligérien en forme de galet, doux et crémeux.",
     details:
@@ -1400,7 +1318,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,10 € / pièce",
     description:
       "Un petit chèvre tendre à la croûte fleurie, doux et facile d'accès.",
     details:
@@ -1417,7 +1334,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Des couches alternées de gorgonzola et de mascarpone, la douceur portée à son sommet.",
     details:
@@ -1434,7 +1350,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "25,95 € / kg",
     description:
       "Le gorgonzola dolce à la coupe, crémeux et d'une douceur enveloppante.",
     details:
@@ -1451,7 +1366,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/gorgonzola-a-la-louche.jpg",
-    price: "29,95 € / kg",
     description:
       "Un gorgonzola servi à la louche tant sa pâte est coulante, d'une gourmandise absolue.",
     details:
@@ -1468,7 +1382,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "17,95 € / kg",
     description:
       "Un gouda doux parsemé de graines de cumin, chaleureux et parfumé.",
     details:
@@ -1485,7 +1398,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,95 € / kg",
     description:
       "Un gouda affiné puis fumé au bois, à la croûte ambrée et au goût boisé.",
     details:
@@ -1502,7 +1414,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,95 € / kg",
     description:
       "Un gouda crémeux marbré de pesto au basilic, gourmand et estival.",
     details:
@@ -1519,7 +1430,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/gouda-truffe.jpg",
-    price: "32,95 € / kg",
     description:
       "Un gouda onctueux parsemé d'éclats de truffe d'été, généreux et parfumé.",
     details:
@@ -1536,7 +1446,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "28,95 € / kg",
     description:
       "Le fromage auvergnat au trou central, à la croûte orangée et au goût doux.",
     details:
@@ -1553,7 +1462,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Le Gruyère AOP suisse, ferme et sans trous, aux arômes lactés et fruités.",
     details:
@@ -1570,7 +1478,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "7,95 € / pièce",
     description:
       "Le fromage chypriote qui se grille sans fondre, salé et délicieusement croustillant.",
     details:
@@ -1587,7 +1494,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/kaltbach.jpg",
-    price: "37,95 € / kg",
     description:
       "Affiné dans les grottes de grès de Kaltbach, un fromage suisse à la croûte brune et au goût profond.",
     details:
@@ -1604,7 +1510,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "La version longuement affinée du Kaltbach, plus corsée, cassante et cristalline.",
     details:
@@ -1621,7 +1526,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/kaltbach-truffe.jpg",
-    price: "44,95 € / kg",
     description:
       "L'affinage en grotte de grès rehaussé d'éclats de truffe, une alliance rare et racée.",
     details:
@@ -1638,7 +1542,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une tomme suisse roulée dans un lit de fleurs et d'herbes alpines.",
     details:
@@ -1655,7 +1558,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Une tomme suisse à la lavande, florale et surprenante.",
     details:
@@ -1672,7 +1574,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "47,95 € / kg",
     description:
       "Une tomme suisse généreusement truffée, fondante et intensément parfumée.",
     details:
@@ -1689,7 +1590,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "AOP de l'Aubrac, cousin du Cantal, à la pâte ferme et au goût lactique puissant.",
     details:
@@ -1706,7 +1606,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/langres.jpg",
-    price: "6,95 € / pièce",
     description:
       "AOP champenoise à la fontaine creusée au sommet, corsée et légèrement salée.",
     details:
@@ -1723,7 +1622,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Un fribourgeois enrichi en crème, exceptionnellement fondant et doux.",
     details:
@@ -1740,7 +1638,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "3,50 € / pièce",
     description:
       "Un petit chèvre du Sud-Ouest, frais et lactique.",
     details:
@@ -1757,7 +1654,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/lingot-du-berger.jpg",
-    price: "6,95 € / pièce",
     description:
       "Un lingot de chèvre à la croûte fleurie, dense et régulier à la coupe.",
     details:
@@ -1774,7 +1670,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "17,90 € / pièce",
     description:
       "Le « colonel » normand, ceinturé de laîche, puissant et profondément aromatique.",
     details:
@@ -1791,7 +1686,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,10 € / pièce",
     description:
       "Le Livarot AOP en demi-pièce, avec ses bandes de laîche.",
     details:
@@ -1808,7 +1702,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Le grand fromage espagnol AOP, ferme et aux arômes puissants de fruits secs.",
     details:
@@ -1825,7 +1718,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / pièce",
     description:
       "Un Manchego relevé au piment, chaleureux et typé.",
     details:
@@ -1842,7 +1734,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un Manchego aux éclats de truffe, l'alliance de l'Espagne et du sous-bois.",
     details:
@@ -1859,7 +1750,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "32,95 € / kg",
     description:
       "Un fromage de Manigod à la croûte lavée, cousin savoyard du Reblochon.",
     details:
@@ -1876,7 +1766,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/maroilles-fermier.jpg",
-    price: "20,90 € / pièce",
     description:
       "Le géant du Nord à la croûte rouge orangé, puissant au nez et étonnamment doux en bouche.",
     details:
@@ -1893,7 +1782,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/maroilles-fermier-1-2.jpg",
-    price: "11,90 € / pièce",
     description:
       "Le Maroilles fermier AOP en demi-pièce.",
     details:
@@ -1910,7 +1798,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/maroilles-fermier-1-4.jpg",
-    price: "6,50 € / pièce",
     description:
       "Un quart de Maroilles fermier AOP, format découverte.",
     details:
@@ -1927,7 +1814,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "57,95 € / kg",
     description:
       "Une pâte pressée d'exception généreusement truffée, notre pièce la plus racée.",
     details:
@@ -1944,7 +1830,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/mimolette-vieille.jpg",
-    price: "32,95 € / kg",
     description:
       "Orange vif et cassante, une mimolette longuement affinée aux arômes de fruits secs.",
     details:
@@ -1961,7 +1846,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/mini-clac.jpg",
-    price: "2,90 € / pièce",
     description:
       "Un mini-clacbitou, format bouchée pour l'apéritif.",
     details:
@@ -1978,7 +1862,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "7,90 € / pièce",
     description:
       "Le Livarot en format individuel, toute la puissance normande en miniature.",
     details:
@@ -1995,7 +1878,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "7,95 € / pièce",
     description:
       "Une petite rouelle de chèvre cendrée, percée en son centre, fine et élégante.",
     details:
@@ -2012,7 +1894,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "16,00 € / pièce",
     description:
       "Un moelleux alpin fourré à la crème truffée, d'une onctuosité remarquable.",
     details:
@@ -2029,7 +1910,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,95 € / pièce",
     description:
       "Le moelleux des Alpes truffé en demi-pièce.",
     details:
@@ -2046,7 +1926,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/moelleux-a-ail-des-ours.jpg",
-    price: "12,90 € / pièce",
     description:
       "Un fromage moelleux fourré à l'ail des ours, végétal et fondant.",
     details:
@@ -2063,7 +1942,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/moelleux-a-ail-des-ours-1-2.jpg",
-    price: "6,90 € / pièce",
     description:
       "Le moelleux à l'ail des ours en demi-pièce.",
     details:
@@ -2080,7 +1958,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "69,95 € / kg",
     description:
       "Un pecorino sarde veiné de truffe, spectaculaire et d'une intensité rare.",
     details:
@@ -2097,7 +1974,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/mont-d-or-coupe.jpg",
-    price: "28,95 € / kg",
     description:
       "Le Mont d'Or AOP à la coupe, cerclé d'épicéa, coulant et boisé.",
     details:
@@ -2114,7 +1990,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/montbriac.jpg",
-    price: "30,95 € / kg",
     description:
       "Un fromage auvergnat à croûte cendrée, à mi-chemin entre le bleu et la pâte molle.",
     details:
@@ -2131,7 +2006,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/morbier.jpg",
-    price: "25,95 € / kg",
     description:
       "Reconnaissable à sa raie cendrée, un fromage souple et fruité au caractère doux.",
     details:
@@ -2148,7 +2022,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,50 € / pièce",
     description:
       "Un chèvre bourguignon du Morvan, rustique et franchement caprin.",
     details:
@@ -2165,7 +2038,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/moyen-mont-d-or.jpg",
-    price: "19,90 € / pièce",
     description:
       "Le Mont d'Or AOP en boîte moyenne, à déguster à la cuillère ou au four.",
     details:
@@ -2182,7 +2054,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "Des billes de mozzarella fraîche, prêtes à piquer pour l'apéritif ou la salade.",
     details:
@@ -2199,7 +2070,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "La mozzarella en boule, fraîche et lactée, à trancher sur les tomates de saison.",
     details:
@@ -2216,7 +2086,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,95 € / pièce",
     description:
       "Une tresse de mozzarella, spectaculaire à présenter et délicieusement filante.",
     details:
@@ -2233,7 +2102,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/munster.jpg",
-    price: "32,95 € / kg",
     description:
       "AOP alsacienne à la croûte orangée, puissante au nez et fondante en bouche.",
     details:
@@ -2250,7 +2118,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/munster-au-cumin.jpg",
-    price: "32,95 € / kg",
     description:
       "Le Munster servi avec son cumin, l'accord traditionnel alsacien.",
     details:
@@ -2267,7 +2134,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "30,90 € / kg",
     description:
       "Un Munster fermier au lait cru, plus long en affinage et plus expressif.",
     details:
@@ -2284,7 +2150,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,90 € / kg",
     description:
       "Un fromage à croûte lavée à la liqueur de noix, doux et original.",
     details:
@@ -2301,7 +2166,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "31,90 € / kg",
     description:
       "Un brebis basque de la maison Onetik relevé au piment d'Espelette.",
     details:
@@ -2318,7 +2182,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Un Ossau-Iraty fermier au lait cru, dense et profondément aromatique.",
     details:
@@ -2335,7 +2198,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/fromages/ossau-iraty.jpg",
-    price: "32,95 € / kg",
     description:
       "L'AOP pyrénéenne de référence, souple et aux arômes francs de noisette.",
     details:
@@ -2352,7 +2214,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,95 € / pièce",
     description:
       "Un chèvre d'inspiration japonaise, aux notes de sésame et d'algues.",
     details:
@@ -2369,7 +2230,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/palet-des-deux-sevres.jpg",
-    price: "6,30 € / pièce",
     description:
       "Un palet de chèvre poitevin, plat et régulier, à la pâte fine.",
     details:
@@ -2386,7 +2246,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/palet-frais.jpg",
-    price: "5,90 € / pièce",
     description:
       "Un palet de chèvre frais, léger et acidulé, à déguster sans attendre.",
     details:
@@ -2403,7 +2262,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Le Parmigiano Reggiano DOP affiné 24 mois, cristallin et d'une puissance umami rare.",
     details:
@@ -2420,7 +2278,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "Un pavé normand à croûte lavée, cousin du Pont-l'Évêque, corsé et fondant.",
     details:
@@ -2437,7 +2294,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,96 € / kg",
     description:
       "Un pecorino italien parsemé de grains de poivre, salin et chaleureux.",
     details:
@@ -2454,7 +2310,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/petit-mont-d-or.jpg",
-    price: "14,90 € / pièce",
     description:
       "Le Mont d'Or AOP en petite boîte, pour deux à trois personnes.",
     details:
@@ -2471,7 +2326,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "3,90 € / pièce",
     description:
       "AOP drômoise et ardéchoise, petit et sec, au caprin puissant et à l'acidité vive.",
     details:
@@ -2488,7 +2342,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "11,30 € / pièce",
     description:
       "AOP normande carrée, à la croûte lavée dorée et à la pâte souple et savoureuse.",
     details:
@@ -2505,7 +2358,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,30 € / pièce",
     description:
       "Le Pont-l'Évêque AOP en demi-pièce.",
     details:
@@ -2522,7 +2374,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Une meule du Haut-Doubs longuement affinée, aux arômes de noisette grillée et d'épices.",
     details:
@@ -2539,7 +2390,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Le fromage des moines de Port-du-Salut, doux, souple et consensuel.",
     details:
@@ -2556,7 +2406,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "10,90 € / pièce",
     description:
       "Le « tour Eiffel » du Berry, une pyramide de chèvre AOP d'une grande finesse.",
     details:
@@ -2573,7 +2422,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Un petit palet de brebis d'une douceur fondante, emblème du Sud-Aveyron.",
     details:
@@ -2590,7 +2438,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/raclette-ail-des-ours.jpg",
-    price: "27,95 € / kg",
     description:
       "Une raclette parsemée d'ail des ours, à la fois fondante et parfumée.",
     details:
@@ -2607,7 +2454,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "27,95 € / kg",
     description:
       "La raclette savoyarde fumée au bois de hêtre, onctueuse et délicatement boisée.",
     details:
@@ -2624,7 +2470,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Une raclette au lait de chèvre, plus fine et plus fraîche que la raclette classique.",
     details:
@@ -2641,7 +2486,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/raclette-piment.jpg",
-    price: "28,95 € / kg",
     description:
       "Une raclette relevée au piment, pour ceux qui aiment le fondant avec du caractère.",
     details:
@@ -2658,7 +2502,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une raclette à la croûte lavée au Pinot noir, fruitée et élégante.",
     details:
@@ -2675,7 +2518,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/raclette-poivre.jpg",
-    price: "27,95 € / kg",
     description:
       "Une raclette au poivre concassé, chaleureuse et parfumée.",
     details:
@@ -2692,7 +2534,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/raclette-savoie.jpg",
-    price: "24,95 € / kg",
     description:
       "La raclette de Savoie IGP, référence du genre, douce et parfaitement fondante.",
     details:
@@ -2709,7 +2550,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "38,95 € / kg",
     description:
       "La raclette valaisanne au lait cru, plus corsée et plus aromatique que sa cousine française.",
     details:
@@ -2726,7 +2566,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "La puissance de la raclette suisse relevée par l'ail des ours printanier.",
     details:
@@ -2743,7 +2582,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une raclette suisse à l'ail noir fermenté, douce, sucrée et légèrement balsamique.",
     details:
@@ -2760,7 +2598,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un assortiment de raclettes suisses aromatisées, pour varier les plaisirs autour du four.",
     details:
@@ -2777,7 +2614,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "56,95 € / kg",
     description:
       "Une raclette suisse aux morilles, la plus luxueuse et la plus boisée de la gamme.",
     details:
@@ -2794,7 +2630,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Une raclette suisse aux oignons braisés, douce, sucrée et réconfortante.",
     details:
@@ -2811,7 +2646,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/raclette-truffe.jpg",
-    price: "39,95 € / kg",
     description:
       "Une raclette aux éclats de truffe, l'élégance invitée à la soirée montagnarde.",
     details:
@@ -2828,7 +2662,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,95 € / kg",
     description:
       "Une raclette jurassienne à la croûte lavée au vin jaune, complexe et racée.",
     details:
@@ -2845,7 +2678,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,10 € / pièce",
     description:
       "Un petit chèvre bourguignon tendre, à la croûte légèrement bleutée.",
     details:
@@ -2862,7 +2694,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/reblochon.jpg",
-    price: "34,95 € / kg",
     description:
       "AOP savoyarde à la croûte safranée, fondante et au goût de noisette.",
     details:
@@ -2879,7 +2710,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "4,95 € / pièce",
     description:
       "La ricotta italienne, légère et granuleuse, aussi juste en salé qu'en sucré.",
     details:
@@ -2896,7 +2726,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/rocamadour.jpg",
-    price: "1,95 € / pièce",
     description:
       "AOP du Quercy, un petit palet crémeux et fondant d'une grande douceur.",
     details:
@@ -2913,7 +2742,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/roquefort-carles.jpg",
-    price: "49,95 € / kg",
     description:
       "Un Roquefort artisanal d'exception, affiné selon des méthodes ancestrales.",
     details:
@@ -2930,7 +2758,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un Roquefort de maison familiale, équilibré entre puissance et onctuosité.",
     details:
@@ -2947,7 +2774,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/roquefort-papillon.jpg",
-    price: "39,95 € / kg",
     description:
       "Le roi des fromages bleus, affiné dans les caves naturelles de Roquefort-sur-Soulzon.",
     details:
@@ -2964,7 +2790,6 @@ const fromages = [
     tag: "Pâte Persillée",
     category: "fromages",
     image: "/images/produits/fromages/roquefort-vieux-berger.jpg",
-    price: "44,95 € / kg",
     description:
       "Un Roquefort artisanal longuement affiné, puissant et d'une profondeur rare.",
     details:
@@ -2981,7 +2806,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/roue-des-deux-sevres.jpg",
-    price: "7,50 € / pièce",
     description:
       "Une roue de chèvre poitevine, large et plate, à la pâte fine et régulière.",
     details:
@@ -2998,7 +2822,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/rouelle.jpg",
-    price: "10,95 € / pièce",
     description:
       "Une grande rouelle de chèvre cendrée, percée en son centre, spectaculaire sur un plateau.",
     details:
@@ -3015,7 +2838,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "2,90 € / pièce",
     description:
       "Un petit fromage dauphinois qui passe du crayeux au coulant selon l'affinage.",
     details:
@@ -3032,7 +2854,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/saint-nectaire.jpg",
-    price: "29,95 € / kg",
     description:
       "AOP auvergnate affinée sur paille de seigle, aux arômes profonds de noisette et de cave.",
     details:
@@ -3049,7 +2870,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/sainte-maure-de-tourraine.jpg",
-    price: "9,95 € / pièce",
     description:
       "AOP tourangelle traversée d'une paille de seigle, cendrée et d'une grande finesse.",
     details:
@@ -3066,7 +2886,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "AOP fermière fabriquée uniquement de printemps en automne, puissante et végétale.",
     details:
@@ -3083,7 +2902,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/selles-sur-cher.jpg",
-    price: "6,95 € / pièce",
     description:
       "AOP berrichonne cendrée, à la pâte fine et au parfait équilibre acidité-caprin.",
     details:
@@ -3100,7 +2918,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Un fromage briard à croûte lavée, corsé et fondant.",
     details:
@@ -3117,7 +2934,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/st-felicien.jpg",
-    price: "7,95 € / pièce",
     description:
       "Le grand frère crémeux du Saint-Marcellin, si coulant qu'il se sert dans sa faisselle.",
     details:
@@ -3134,7 +2950,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,95 € / pièce",
     description:
       "Le cœur de la burrata servi seul : des filaments de mozzarella noyés de crème.",
     details:
@@ -3151,7 +2966,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "7,95 € / pièce",
     description:
       "Un double crème fondant et doux, à la texture beurrée irrésistible.",
     details:
@@ -3168,7 +2982,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "15,90 € / pièce",
     description:
       "Un fromage d'abbaye à la croûte frottée à la liqueur de noix, doux et parfumé.",
     details:
@@ -3185,7 +2998,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,90 € / pièce",
     description:
       "Le Timanoix en demi-pièce, avec sa croûte à la liqueur de noix.",
     details:
@@ -3202,7 +3014,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/tomme-aux-fleurs.jpg",
-    price: "32,95 € / kg",
     description:
       "Une tomme roulée dans un lit de fleurs et d'herbes de montagne, délicate et parfumée.",
     details:
@@ -3219,7 +3030,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,95 € / kg",
     description:
       "Une tomme de brebis pyrénéenne, souple et aux arômes doux de noisette.",
     details:
@@ -3236,7 +3046,6 @@ const fromages = [
     tag: "Brebis",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une tomme de laits mélangés, où le gras du brebis rencontre l'acidité du chèvre.",
     details:
@@ -3253,7 +3062,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/tomme-de-chevre-au-bleu.jpg",
-    price: "39,95 € / kg",
     description:
       "Une tomme de chèvre veinée de bleu, alliance rare du caprin et du persillé.",
     details:
@@ -3270,7 +3078,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une tomme de chèvre fumée au bois, boisée et originale.",
     details:
@@ -3287,7 +3094,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Une tomme de chèvre jeune, douce et souple, au caprin discret.",
     details:
@@ -3304,7 +3110,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "38,95 € / kg",
     description:
       "Une tomme de chèvre relevée au piment, fraîche et chaleureuse à la fois.",
     details:
@@ -3321,7 +3126,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Une tomme de chèvre aux éclats de truffe, fine et profondément parfumée.",
     details:
@@ -3338,7 +3142,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une tomme de chèvre longuement affinée, dense et intensément caprine.",
     details:
@@ -3355,7 +3158,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,95 € / pièce",
     description:
       "Une petite tomme provençale au lait de chèvre, souvent parfumée aux herbes.",
     details:
@@ -3372,7 +3174,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "24,95 € / kg",
     description:
       "La tomme savoyarde IGP à la croûte grise, souple et au bon goût de cave.",
     details:
@@ -3389,7 +3190,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "26,95 € / kg",
     description:
       "Une tomme savoyarde souple et douce, au goût lacté et légèrement champignonné.",
     details:
@@ -3406,7 +3206,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "AOP du massif des Bauges, à la croûte tourmentée et aux arômes de sous-bois.",
     details:
@@ -3423,7 +3222,6 @@ const fromages = [
     tag: "Fromages Frais",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "44,95 € / kg",
     description:
       "Une tomme de bufflonne affinée, blanche, dense et d'une richesse beurrée.",
     details:
@@ -3440,7 +3238,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/tomme-du-berry-truffe.jpg",
-    price: "39,95 € / kg",
     description:
       "Une tomme berrichonne parsemée d'éclats de truffe, fondante et parfumée.",
     details:
@@ -3457,7 +3254,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "25,95 € / kg",
     description:
       "Une tomme jurassienne douce et fruitée, aux arômes subtils de noisette.",
     details:
@@ -3474,7 +3270,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "26,95 € / kg",
     description:
       "Une tomme auvergnate rustique, à la pâte ferme et au goût franc de terroir.",
     details:
@@ -3491,7 +3286,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "36,95 € / kg",
     description:
       "Une tomme fermière suisse au lait cru, dense et profondément aromatique.",
     details:
@@ -3508,7 +3302,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,95 € / kg",
     description:
       "Une tomme suisse à l'ail des ours, plus corsée que sa cousine savoyarde.",
     details:
@@ -3525,7 +3318,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Une tomme souple parfumée à l'ail des ours, végétale et printanière.",
     details:
@@ -3542,7 +3334,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,40 € / pièce",
     description:
       "Un chèvre en triangle à la croûte fleurie, tendre et sympathique.",
     details:
@@ -3559,7 +3350,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/tete-de-moine.jpg",
-    price: "44,95 € / kg",
     description:
       "À racler en rosettes avec la girolle, un fromage suisse dont la finesse de coupe libère les arômes.",
     details:
@@ -3576,7 +3366,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "34,90 € / kg",
     description:
       "Le vacherin fribourgeois, indispensable à la fondue moitié-moitié, fondant et légèrement acidulé.",
     details:
@@ -3593,7 +3382,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "33,90 € / kg",
     description:
       "Un fromage à croûte lavée d'un orange chaleureux, très fondant et étonnamment doux.",
     details:
@@ -3610,7 +3398,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "24,95 € / kg",
     description:
       "Un brie doux et crémeux, accessible et régulier tout au long de l'année.",
     details:
@@ -3627,7 +3414,6 @@ const fromages = [
     tag: "Chèvre",
     category: "fromages",
     image: "/images/produits/fromages/valencay.jpg",
-    price: "9,90 € / pièce",
     description:
       "AOP berrichonne en pyramide tronquée et cendrée, fine et racée.",
     details:
@@ -3644,7 +3430,6 @@ const fromages = [
     tag: "Pâtes Dures",
     category: "fromages",
     image: "/images/produits/fromages/vieux-gouda.jpg",
-    price: "29,95 € / kg",
     description:
       "Un gouda longuement affiné, cassant et cristallin, aux notes de caramel salé.",
     details:
@@ -3661,7 +3446,6 @@ const fromages = [
     tag: "Pâtes Molles",
     category: "fromages",
     image: "/images/produits/fromages/epoisses-boite.jpg",
-    price: "9,95 € / pièce",
     description:
       "L'Époisses AOP en boîte, prêt à servir à la cuillère.",
     details:

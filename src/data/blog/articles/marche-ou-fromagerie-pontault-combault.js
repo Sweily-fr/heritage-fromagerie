@@ -50,7 +50,7 @@ C'est le cœur du métier. Vous nous dites « je reçois des amis qui n'aiment p
 
 C'est l'idée reçue la plus tenace. Comparez au kilo un Comté 18 mois de grande surface et notre [Comté Réserve](/fromages/comte-reserve) : les prix sont proches, et le second a été affiné plus longtemps. Sur les fromages industriels bas de gamme, le supermarché est moins cher, c'est vrai. Sur les fromages AOP affinés, la fromagerie est au même niveau, parfois en dessous, et vous achetez exactement la quantité qu'il vous faut.
 
-Nos prix sont affichés sur chaque [fiche produit](/fromages) du site, au kilo ou à la pièce, sans surprise.
+Les prix sont affichés en vitrine, au kilo ou à la pièce, et nous vous coupons la quantité exacte que vous souhaitez.
 
 ## Le bon usage des trois
 

@@ -20,10 +20,6 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
     { label: labels[3], value: product.accord },
   ].filter((item) => item.value);
 
-  const priceMatch = product.price?.match(/(\d+[.,]\d+)/);
-  const priceValue = priceMatch ? priceMatch[1].replace(",", ".") : null;
-  // "22,95 € / kg" => prix au kilo ; "5,95 € / pièce" => prix unitaire.
-  const pricePerKg = /kg/i.test(product.price || "");
   const productUrl = `${siteUrl}/${product.category}/${product.slug}`;
 
   const productJsonLd = {
@@ -36,25 +32,14 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
     url: productUrl,
     category: backLabel,
     ...(product.origin && { countryOfOrigin: product.origin }),
-    ...(priceValue && {
-      offers: {
-        "@type": "Offer",
-        url: productUrl,
-        price: priceValue,
-        priceCurrency: "EUR",
-        availability: "https://schema.org/InStoreOnly",
-        ...(pricePerKg && {
-          priceSpecification: {
-            "@type": "UnitPriceSpecification",
-            price: priceValue,
-            priceCurrency: "EUR",
-            unitCode: "KGM",
-            unitText: "kg",
-          },
-        }),
-        seller: { "@id": `${siteUrl}/#fromagerie` },
-      },
-    }),
+    // Vente uniquement en boutique : pas de prix en ligne, on indique juste
+    // la disponibilité et le vendeur.
+    offers: {
+      "@type": "Offer",
+      url: productUrl,
+      availability: "https://schema.org/InStoreOnly",
+      seller: { "@id": `${siteUrl}/#fromagerie` },
+    },
   };
 
   const breadcrumbJsonLd = {
@@ -133,10 +118,6 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
 
           <p className="mt-6 text-base font-light leading-8 text-foreground/60 animate-fade-up delay-400">
             {product.details}
-          </p>
-
-          <p className="mt-8 text-lg font-serif text-primary animate-fade-up delay-400">
-            {product.price}
           </p>
 
           <div className="mt-8 animate-fade-up delay-500">

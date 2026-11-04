@@ -6,7 +6,6 @@ const cremerie = [
     tag: "Beurre",
     category: "cremerie",
     image: "/images/produits/cremerie/beurre-a-la-motte.jpg",
-    price: "22,95 € / kg",
     description:
       "Un beurre de baratte coupé à la motte, façonné devant vous à la demande.",
     details:
@@ -23,7 +22,6 @@ const cremerie = [
     tag: "Crème",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "12,95 € / kg",
     description:
       "Une crème crue non pasteurisée, épaisse et d'une richesse aromatique rare.",
     details:
@@ -40,7 +38,6 @@ const cremerie = [
     tag: "Fromage frais",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "Une faisselle de chèvre fraîche, légère et acidulée, servie dans son petit-lait.",
     details:
@@ -57,7 +54,6 @@ const cremerie = [
     tag: "Fromage frais",
     category: "cremerie",
     image: "/images/produits/cremerie/fierbois.jpg",
-    price: "2,70 € / pièce",
     description:
       "Un petit fromage frais tourangeau, lisse et doux, à consommer nature ou sucré.",
     details:
@@ -74,7 +70,6 @@ const cremerie = [
     tag: "Dessert",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "3,95 € / pièce",
     description:
       "Un nuage de fromage blanc et de crème fouettée, le dessert le plus léger qui soit.",
     details:
@@ -91,7 +86,6 @@ const cremerie = [
     tag: "Fromage frais",
     category: "cremerie",
     image: "/images/produits/cremerie/fromage-blanc.jpg",
-    price: "8,95 € / kg",
     description:
       "Un fromage blanc onctueux à la coupe, doux et légèrement acidulé.",
     details:
@@ -108,7 +102,6 @@ const cremerie = [
     tag: "Dessert",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "24,95 € / kg",
     description:
       "Notre gâteau au fromage blanc maison, léger et à peine sucré.",
     details:
@@ -125,7 +118,6 @@ const cremerie = [
     tag: "Lait",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "2,70 € / pièce",
     description:
       "Du lait entier frais de ferme, riche et savoureux.",
     details:
@@ -142,7 +134,6 @@ const cremerie = [
     tag: "Lait",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "1,95 € / pièce",
     description:
       "Le lait de la célèbre laiterie d'Échiré, riche et non homogénéisé.",
     details:
@@ -159,7 +150,6 @@ const cremerie = [
     tag: "Crème",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "3,70 € / pièce",
     description:
       "Du mascarpone italien en pot de 250 g, dense et beurré.",
     details:
@@ -176,7 +166,6 @@ const cremerie = [
     tag: "Crème",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "4,95 € / pièce",
     description:
       "Du mascarpone italien en pot de 500 g, le format des grandes tablées.",
     details:
@@ -193,7 +182,6 @@ const cremerie = [
     tag: "Yaourt",
     category: "cremerie",
     image: "/images/produits/cremerie/mavromatis-150g.jpg",
-    price: "2,30 € / pièce",
     description:
       "Le yaourt grec Mavromatis en pot de 150 g, dense et onctueux.",
     details:
@@ -210,7 +198,6 @@ const cremerie = [
     tag: "Yaourt",
     category: "cremerie",
     image: "/images/produits/cremerie/mavromatis-500g.jpg",
-    price: "4,95 € / pièce",
     description:
       "Le yaourt grec Mavromatis en pot familial de 500 g.",
     details:
@@ -227,7 +214,6 @@ const cremerie = [
     tag: "Yaourt",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "Le yaourt grec au lait de brebis, plus riche et plus onctueux encore.",
     details:
@@ -244,7 +230,6 @@ const cremerie = [
     tag: "Dessert",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "3,95 € / pièce",
     description:
       "Notre mousse au chocolat maison, dense en cacao et légère en texture.",
     details:
@@ -261,7 +246,6 @@ const cremerie = [
     tag: "Fromage frais",
     category: "cremerie",
     image: "/images/produits/cremerie/peupliers.jpg",
-    price: "2,90 € / pièce",
     description:
       "Un petit fromage frais des Peupliers, lisse et doux.",
     details:
@@ -278,7 +262,6 @@ const cremerie = [
     tag: "Dessert",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "2,90 € / pièce",
     description:
       "Notre riz au lait maison, cuit lentement et vanillé à la gousse.",
     details:
@@ -295,7 +278,6 @@ const cremerie = [
     tag: "Yaourt",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,50 € / pièce",
     description:
       "Le skyr islandais, ultra-dense en protéines et pratiquement sans matière grasse.",
     details:
@@ -312,7 +294,6 @@ const cremerie = [
     tag: "Dessert",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "4,95 € / pièce",
     description:
       "Notre tiramisu maison, au mascarpone italien et au café serré.",
     details:
@@ -329,7 +310,6 @@ const cremerie = [
     tag: "Fromage frais",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,20 € / pièce",
     description:
       "Un fromage frais normand enrichi en crème, d'une onctuosité remarquable.",
     details:
@@ -346,7 +326,6 @@ const cremerie = [
     tag: "Yaourt",
     category: "cremerie",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "2,95 € / pièce",
     description:
       "Un yaourt au lait de brebis, naturellement onctueux et légèrement caprin.",
     details:

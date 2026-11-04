@@ -6,6 +6,9 @@ import { useState, useRef, useEffect } from "react";
 import SearchOverlay from "./SearchOverlay";
 import { business, socialLinks } from "@/data/site";
 
+// Distance de scroll (px) à partir de laquelle le logo passe au monogramme
+const SCROLL_THRESHOLD = 40;
+
 const navigation = [
   {
     name: "Nos Services",
@@ -161,11 +164,11 @@ function MobileMenu({ open, onClose, onSearch }) {
       <div className="relative flex items-center justify-between px-6 py-5">
         <Link href="/" onClick={onClose} className="flex items-center">
           <Image
-            src="/logo/heritage_logo_blanc.png"
+            src="/logo/logo_heritage_principal.svg"
             alt="L'Héritage - Fromagerie Artisanale"
-            width={344}
-            height={208}
-            className="h-14 w-auto"
+            width={999}
+            height={711}
+            className="h-16 w-auto"
           />
         </Link>
         <button
@@ -270,18 +273,40 @@ function MobileMenu({ open, onClose, onSearch }) {
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > SCROLL_THRESHOLD);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 bg-primary text-cream">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-        <Link href="/" className="flex items-center gap-3">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
+        {/* Les deux logos restent superposés : la hauteur de la barre ne change pas au scroll */}
+        <Link href="/" className="relative block h-20 w-[112px]">
           <Image
-            src="/logo/heritage_logo_blanc.png"
+            src="/logo/logo_heritage_principal.svg"
             alt="L'Héritage - Fromagerie Artisanale"
-            width={344}
-            height={208}
+            width={999}
+            height={711}
             priority
-            className="h-16 w-auto"
+            className={`absolute left-0 top-0 h-20 w-auto transition-opacity duration-300 motion-reduce:transition-none ${
+              scrolled ? "opacity-0" : "opacity-100"
+            }`}
+          />
+          <Image
+            src="/logo/logo_heritage_monogramme.svg"
+            alt=""
+            aria-hidden="true"
+            width={941}
+            height={961}
+            loading="eager"
+            className={`absolute left-0 top-1/2 h-16 w-auto -translate-y-1/2 transition-opacity duration-300 motion-reduce:transition-none ${
+              scrolled ? "opacity-100" : "opacity-0"
+            }`}
           />
         </Link>
 

@@ -6,7 +6,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "11,00 € / pièce",
     description:
       "Un blanc de Savoie vif et minéral, le compagnon naturel des fromages fondus.",
     details:
@@ -23,7 +22,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "17,90 € / pièce",
     description:
       "Un Bandol rouge charpenté, dominé par le Mourvèdre, aux notes de garrigue.",
     details:
@@ -40,7 +38,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "66,95 € / kg",
     description:
       "Un filet de bœuf séché de Valteline, maigre, tendre et délicatement épicé.",
     details:
@@ -57,7 +54,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,30 € / pièce",
     description:
       "Une brioche pur beurre généreusement garnie de pépites de chocolat.",
     details:
@@ -74,7 +70,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "6,95 € / pièce",
     description:
       "La cancoillotte franc-comtoise, coulante et légère, à déguster tiède.",
     details:
@@ -91,7 +86,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "14,50 € / pièce",
     description:
       "Un blanc ligérien frais et aromatique, l'accord évident avec les chèvres de Loire.",
     details:
@@ -108,7 +102,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "14,90 € / pièce",
     description:
       "Un Chinon souple et fruité, aux notes de fruits rouges et de poivron.",
     details:
@@ -125,7 +118,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "Des chips artisanales épaisses, frites en petites quantités et salées à la main.",
     details:
@@ -142,7 +134,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un chorizo espagnol au paprika fumé, relevé et parfumé.",
     details:
@@ -159,7 +150,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Notre chorizo espagnol vendu à la coupe, tranché à la demande.",
     details:
@@ -176,7 +166,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Nos confitures artisanales, cuites au chaudron et riches en fruits.",
     details:
@@ -193,7 +182,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "49,95 € / kg",
     description:
       "Une coppa italienne, échine de porc séchée au marbré généreux.",
     details:
@@ -210,7 +198,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "20,95 € / kg",
     description:
       "De l'emmental râpé sur place, sans additif ni anti-agglomérant.",
     details:
@@ -227,7 +214,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "4,95 € / pièce",
     description:
       "Des feuilletés au fromage, croustillants dehors et fondants dedans.",
     details:
@@ -244,7 +230,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,50 € / pièce",
     description:
       "Notre grand format de feuilletés au fromage, pour recevoir sans compter.",
     details:
@@ -261,7 +246,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/epicerie-fine/gache.jpg",
-    price: "8,10 € / pièce",
     description:
       "La gâche vendéenne à la crème fraîche, dense, moelleuse et parfumée.",
     details:
@@ -278,7 +262,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "13,95 € / pièce",
     description:
       "Une cuvée d'assemblage souple et accessible, idéale sur un plateau varié.",
     details:
@@ -295,7 +278,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "14,95 € / pièce",
     description:
       "Une huile d'olive extra vierge de première pression à froid, en flacon de 150 ml.",
     details:
@@ -312,7 +294,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "19,95 € / pièce",
     description:
       "La même huile d'olive extra vierge, en flacon de 250 ml.",
     details:
@@ -329,7 +310,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "Un jambon blanc supérieur, cuit à l'os et tranché à la demande.",
     details:
@@ -346,7 +326,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "39,95 € / kg",
     description:
       "Un jambon sec affiné longuement, aux arômes profonds et à la belle salinité.",
     details:
@@ -363,7 +342,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "13,95 € / pièce",
     description:
       "Une cuvée ronde et fruitée, gourmande dès l'ouverture.",
     details:
@@ -380,7 +358,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "16,00 € / pièce",
     description:
       "Un rosé de Provence sec et fruité, à servir bien frais.",
     details:
@@ -397,7 +374,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "14,95 € / pièce",
     description:
       "Nos miels de producteurs français, récoltés en petites quantités.",
     details:
@@ -414,7 +390,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,10 € / pièce",
     description:
       "Des mini-chinois briochés garnis de crème pâtissière.",
     details:
@@ -431,7 +406,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/epicerie-fine/mini-gache.jpg",
-    price: "6,10 € / pièce",
     description:
       "La gâche vendéenne en format individuel.",
     details:
@@ -448,7 +422,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "25,00 € / pièce",
     description:
       "Le rosé de la maison Minuty, référence provençale à la robe pâle et au nez floral.",
     details:
@@ -465,7 +438,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "10,90 € / pièce",
     description:
       "Une cuvée souple et accessible, à ouvrir sans cérémonie.",
     details:
@@ -482,7 +454,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "29,95 € / kg",
     description:
       "La mortadelle de Bologne, moelleuse, parfumée et parsemée de pistaches.",
     details:
@@ -499,7 +470,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "3,50 € / pièce",
     description:
       "Des œufs biologiques de poules élevées en plein air, à la coquille marquée du code 0.",
     details:
@@ -516,7 +486,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "2,60 € / pièce",
     description:
       "Des œufs de poules élevées en plein air, frais et de belle qualité.",
     details:
@@ -533,7 +502,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/epicerie-fine/pain-burgers.jpg",
-    price: "4,95 € / pièce",
     description:
       "Des pains à burger briochés, moelleux et parsemés de sésame.",
     details:
@@ -550,7 +518,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Un pain d'épice artisanal au miel et aux épices, dense et parfumé.",
     details:
@@ -567,7 +534,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "5,95 € / pièce",
     description:
       "Une pâte de coing artisanale, l'accompagnement traditionnel des brebis.",
     details:
@@ -584,7 +550,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "55,00 € / kg",
     description:
       "Des pâtes de fruits artisanales, riches en fruits et peu sucrées.",
     details:
@@ -601,7 +566,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "42,95 € / kg",
     description:
       "La rosette de Lyon, un saucisson sec de gros diamètre, moelleux et racé.",
     details:
@@ -618,7 +582,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "12,95 € / pièce",
     description:
       "Un vin de la Sarthe léger et frais, typique des coteaux du Loir.",
     details:
@@ -635,7 +598,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "9,95 € / pièce",
     description:
       "Nos saucissons aromatisés, aux noisettes, aux herbes ou au fromage selon les arrivages.",
     details:
@@ -652,7 +614,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "8,95 € / pièce",
     description:
       "Un saucisson sec nature, séché lentement et simplement poivré.",
     details:
@@ -669,7 +630,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "14,95 € / pièce",
     description:
       "Un saucisson sec parsemé d'éclats de truffe, généreux et parfumé.",
     details:
@@ -686,7 +646,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "16,90 € / pièce",
     description:
       "Un Saumur-Champigny sur le fruit, souple et digeste, à servir légèrement frais.",
     details:
@@ -703,7 +662,6 @@ const epicerieFine = [
     tag: "Vins",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "11,95 € / pièce",
     description:
       "Une Syrah franche et poivrée, aux arômes de fruits noirs et de violette.",
     details:
@@ -720,7 +678,6 @@ const epicerieFine = [
     tag: "Charcuterie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "89,95 € / kg",
     description:
       "La viande des Grisons, bœuf séché à l'air des Alpes, maigre et concentré.",
     details:
@@ -737,7 +694,6 @@ const epicerieFine = [
     tag: "Épicerie",
     category: "epicerie-fine",
     image: "/images/produits/photo-a-venir.jpg",
-    price: "4,95 € / pièce",
     description:
       "Des vinaigres aromatisés artisanaux, pour relever salades et légumes.",
     details:

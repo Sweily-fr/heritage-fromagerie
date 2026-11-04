@@ -87,7 +87,7 @@ const localBusinessJsonLd = {
   description:
     "Fromagerie artisanale à Pontault-Combault (77) : fromages affinés, crèmerie fermière, épicerie fine, plateaux sur mesure et livraison en Île-de-France.",
   image: `${siteUrl}/images/og-image.jpg`,
-  logo: `${siteUrl}/logo/heritage_logo.png`,
+  logo: `${siteUrl}/logo/heritage_logo_fond.png`,
   url: siteUrl,
   telephone: "+33695984075",
   email: "contact@heritage-fromagerie.fr",

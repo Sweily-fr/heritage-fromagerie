@@ -38,11 +38,8 @@ export default function ProductCard({ product, index = 0 }) {
           {product.description}
         </p>
 
-        {/* Price + CTA */}
-        <div className="mt-4 flex items-center justify-between">
-          <p className="text-sm font-medium text-primary/80">
-            {product.price}
-          </p>
+        {/* CTA */}
+        <div className="mt-4 flex items-center justify-end">
           <span className="text-[0.65rem] font-light tracking-[0.2em] uppercase text-accent group-hover:tracking-[0.3em] transition-all duration-500">
             Voir &rarr;
           </span>

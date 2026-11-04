@@ -14,11 +14,11 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block">
               <Image
-                src="/logo/heritage_logo_blanc.png"
+                src="/logo/logo_heritage_principal.svg"
                 alt="L'Héritage - Fromagerie Artisanale"
-                width={344}
-                height={208}
-                className="h-20 w-auto"
+                width={999}
+                height={711}
+                className="h-24 w-auto"
               />
             </Link>
             <p className="mt-4 text-[0.75rem] font-light leading-6 text-cream/40">
