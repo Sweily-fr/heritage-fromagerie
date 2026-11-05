@@ -168,7 +168,7 @@ function MobileMenu({ open, onClose, onSearch }) {
       <div className="pointer-events-none absolute top-0 right-0 w-px h-full bg-gradient-to-b from-transparent via-accent/20 to-transparent" />
 
       {/* Barre du haut : logo + fermer */}
-      <div className="relative flex items-center justify-between px-6 py-5">
+      <div className="relative flex items-center justify-between px-6 py-3">
         <Link href="/" onClick={onClose} className="flex items-center">
           <Image
             src="/logo/logo_heritage_monogramme.svg"
@@ -191,7 +191,7 @@ function MobileMenu({ open, onClose, onSearch }) {
       </div>
 
       {/* Navigation */}
-      <nav className="relative flex-1 overflow-y-auto overscroll-contain px-6 pt-3 pb-6">
+      <nav className="relative flex-1 overflow-y-auto overscroll-contain px-6 pb-6">
         <ul className="space-y-5">
           {navigation.map((item, i) => (
             <li key={item.name} className={`animate-fade-up delay-${(i + 1) * 100}`}>
