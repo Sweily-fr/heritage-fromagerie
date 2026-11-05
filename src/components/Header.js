@@ -191,7 +191,8 @@ function MobileMenu({ open, onClose, onSearch }) {
       </div>
 
       {/* Navigation */}
-      <nav className="relative flex-1 overflow-y-auto overscroll-contain px-6 pb-6">
+      {/* data-lenis-prevent : Lenis est à l'arrêt tant que le menu est ouvert et bloquerait sinon le défilement */}
+      <nav data-lenis-prevent className="relative flex-1 overflow-y-auto overscroll-contain px-6 pb-6">
         <ul className="space-y-5">
           {navigation.map((item, i) => (
             <li key={item.name} className={`animate-fade-up delay-${(i + 1) * 100}`}>
