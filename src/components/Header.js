@@ -171,11 +171,11 @@ function MobileMenu({ open, onClose, onSearch }) {
       <div className="relative flex items-center justify-between px-6 py-5">
         <Link href="/" onClick={onClose} className="flex items-center">
           <Image
-            src="/logo/logo_heritage_principal.svg"
+            src="/logo/logo_heritage_monogramme.svg"
             alt="L'Héritage - Fromagerie Artisanale"
-            width={999}
-            height={711}
-            className="h-16 w-auto"
+            width={941}
+            height={961}
+            className="h-11 w-auto"
           />
         </Link>
         <button
