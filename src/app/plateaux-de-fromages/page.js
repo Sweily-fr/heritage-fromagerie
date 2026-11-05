@@ -25,7 +25,6 @@ const plateaux = [
       "Pain artisanal",
       "Fruits secs & confiture",
     ],
-    price: "À partir de 35 €",
     accent: false,
   },
   {
@@ -39,7 +38,6 @@ const plateaux = [
       "Fruits frais, secs & confitures",
       "Miel & chutney maison",
     ],
-    price: "À partir de 65 €",
     accent: true,
   },
   {
@@ -54,7 +52,6 @@ const plateaux = [
       "Charcuterie fine (en option)",
       "Décoration florale",
     ],
-    price: "À partir de 120 €",
     accent: false,
   },
 ];
@@ -250,12 +247,9 @@ export default function PlateauxDeFromages() {
                 </ul>
 
                 <div className="mt-8 pt-6 border-t border-gold-line">
-                  <p className="font-serif text-xl font-light text-primary">
-                    {plateau.price}
-                  </p>
                   <Link
                     href="/contact"
-                    className={`mt-4 btn-luxury w-full text-center ${
+                    className={`btn-luxury w-full text-center ${
                       plateau.accent
                         ? "btn-luxury-filled"
                         : "btn-luxury-outline"

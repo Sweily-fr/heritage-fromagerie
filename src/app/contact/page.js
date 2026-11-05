@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import ContactForm from "@/components/ContactForm";
 import { googleMapsUrl } from "@/data/site";
 
 export const metadata = {
@@ -133,101 +134,7 @@ export default function Contact() {
             <Reveal variant="line" delay={200} className="mt-5 gold-separator" />
 
             <Reveal delay={300}>
-              <form className="mt-10 space-y-8">
-                <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-[0.65rem] font-medium tracking-[0.2em] uppercase text-primary/70"
-                    >
-                      Nom
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      className="mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground placeholder:text-foreground/30 focus:border-accent focus:outline-none focus:ring-0 transition-colors"
-                      placeholder="Votre nom"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-[0.65rem] font-medium tracking-[0.2em] uppercase text-primary/70"
-                    >
-                      Téléphone
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      className="mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground placeholder:text-foreground/30 focus:border-accent focus:outline-none focus:ring-0 transition-colors"
-                      placeholder="06 00 00 00 00"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-[0.65rem] font-medium tracking-[0.2em] uppercase text-primary/70"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground placeholder:text-foreground/30 focus:border-accent focus:outline-none focus:ring-0 transition-colors"
-                      placeholder="votre@email.com"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="subject"
-                      className="block text-[0.65rem] font-medium tracking-[0.2em] uppercase text-primary/70"
-                    >
-                      Objet
-                    </label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      className="mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground focus:border-accent focus:outline-none focus:ring-0 transition-colors"
-                    >
-                      <option value="">Choisir un sujet</option>
-                      <option value="commande">Commande de fromages</option>
-                      <option value="plateau">Plateau sur mesure</option>
-                      <option value="livraison">Livraison</option>
-                      <option value="evenement">Événement / Réception</option>
-                      <option value="autre">Autre demande</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-[0.65rem] font-medium tracking-[0.2em] uppercase text-primary/70"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={6}
-                    required
-                    className="mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground placeholder:text-foreground/30 focus:border-accent focus:outline-none focus:ring-0 transition-colors resize-none"
-                    placeholder="Décrivez votre demande..."
-                  />
-                </div>
-
-                <button type="submit" className="btn-luxury btn-luxury-filled">
-                  Envoyer le message
-                </button>
-              </form>
+              <ContactForm />
             </Reveal>
           </div>
 

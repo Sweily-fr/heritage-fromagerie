@@ -15,6 +15,15 @@ export const business = {
   geo: { latitude: 48.796264, longitude: 2.604213 },
 };
 
+// Sujets proposés dans le formulaire de contact.
+export const contactSubjects = [
+  { value: "commande", label: "Commande de fromages" },
+  { value: "plateau", label: "Plateau sur mesure" },
+  { value: "livraison", label: "Livraison" },
+  { value: "evenement", label: "Événement / Réception" },
+  { value: "autre", label: "Autre demande" },
+];
+
 // Fiche Google Business Profile (place_id) : lien Maps stable + lien "laisser un avis".
 export const googlePlaceId = "ChIJvV58AbcP5kcRh9NWstYDpRc";
 export const googleMapsUrl = `https://www.google.com/maps/place/?q=place_id:${googlePlaceId}`;
