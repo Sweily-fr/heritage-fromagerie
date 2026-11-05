@@ -2,12 +2,19 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useSyncExternalStore } from "react";
 import SearchOverlay from "./SearchOverlay";
 import { business, socialLinks } from "@/data/site";
 
 // Distance de scroll (px) à partir de laquelle le logo passe au monogramme
 const SCROLL_THRESHOLD = 40;
+
+const isScrolled = () => window.scrollY > SCROLL_THRESHOLD;
+
+function subscribeToScroll(onChange) {
+  window.addEventListener("scroll", onChange, { passive: true });
+  return () => window.removeEventListener("scroll", onChange);
+}
 
 const navigation = [
   {
@@ -273,121 +280,114 @@ function MobileMenu({ open, onClose, onSearch }) {
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > SCROLL_THRESHOLD);
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  // Mise à jour synchrone, avant l'affichage de l'image : au retour en haut,
+  // un retard d'une image suffirait à montrer le fond de page sous la navbar.
+  const scrolled = useSyncExternalStore(subscribeToScroll, isScrolled, () => false);
 
   return (
-    <>
-      {/* Fond fixe de la zone de la navbar en haut du document : évite de voir le fond de page
-          dans la marge pendant que la barre s'agrandit au retour en haut. */}
-      <div aria-hidden="true" className="absolute inset-x-0 top-0 h-[104px] bg-primary" />
-
-      {/* La marge compense la réduction de hauteur : le contenu de la page ne bouge pas au scroll. */}
-      <header
-            className={`sticky top-0 z-50 bg-primary text-cream transition-[height,margin-bottom] duration-500 ease-in-out motion-reduce:transition-none ${
-              scrolled ? "mb-8 h-[72px]" : "mb-0 h-[104px]"
+    // La marge compense la réduction de hauteur : le contenu de la page ne bouge pas au scroll.
+    // Animée uniquement à la descente : au retour en haut, la barre reprend sa hauteur d'un coup,
+    // sinon la marge laisserait voir le fond de page pendant l'animation.
+    <header
+      className={`sticky top-0 z-50 bg-primary text-cream ${
+        scrolled
+          ? "mb-8 h-[72px] transition-[height,margin-bottom] duration-500 ease-in-out motion-reduce:transition-none"
+          : "mb-0 h-[104px]"
+      }`}
+    >
+      <nav className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 lg:px-8">
+        {/* Les deux logos restent superposés et glissent ensemble du même décalage :
+            le monogramme reste calé sur l'emblème du logo principal. */}
+        <Link href="/" className="relative block h-20 w-[112px]">
+          <Image
+            src="/logo/logo_heritage_principal.svg"
+            alt="L'Héritage - Fromagerie Artisanale"
+            width={999}
+            height={711}
+            priority
+            className={`absolute left-0 top-0 h-20 w-auto transition-[opacity,translate] duration-[250ms,500ms] ease-in-out motion-reduce:transition-none ${
+              scrolled
+                ? "-translate-x-[34px] translate-y-[18px] opacity-0"
+                : "translate-x-0 translate-y-0 opacity-100"
             }`}
+          />
+          <Image
+            src="/logo/logo_heritage_monogramme.svg"
+            alt=""
+            aria-hidden="true"
+            width={941}
+            height={961}
+            loading="eager"
+            className={`absolute left-0 top-[18px] h-11 w-auto transition-[opacity,translate] duration-500 ease-in-out motion-reduce:transition-none ${
+              scrolled
+                ? "translate-x-0 translate-y-0 opacity-100"
+                : "translate-x-[34px] -translate-y-[18px] opacity-0"
+            }`}
+          />
+        </Link>
+
+        {/* Desktop navigation */}
+        <div className="hidden lg:flex lg:items-center lg:gap-x-10">
+          {navigation.map((item) => (
+            <DesktopDropdown key={item.name} item={item} />
+          ))}
+
+          {/* Search button */}
+          <button
+            type="button"
+            onClick={() => setSearchOpen(true)}
+            className="text-cream/60 hover:text-accent transition-colors cursor-pointer"
+            aria-label="Rechercher un produit"
           >
-            <nav className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 lg:px-8">
-              {/* Les deux logos restent superposés et glissent ensemble du même décalage :
-                  le monogramme reste calé sur l'emblème du logo principal. */}
-              <Link href="/" className="relative block h-20 w-[112px]">
-                <Image
-                  src="/logo/logo_heritage_principal.svg"
-                  alt="L'Héritage - Fromagerie Artisanale"
-                  width={999}
-                  height={711}
-                  priority
-                  className={`absolute left-0 top-0 h-20 w-auto transition-[opacity,translate] duration-[250ms,500ms] ease-in-out motion-reduce:transition-none ${
-                    scrolled
-                      ? "-translate-x-[34px] translate-y-[18px] opacity-0"
-                      : "translate-x-0 translate-y-0 opacity-100"
-                  }`}
-                />
-                <Image
-                  src="/logo/logo_heritage_monogramme.svg"
-                  alt=""
-                  aria-hidden="true"
-                  width={941}
-                  height={961}
-                  loading="eager"
-                  className={`absolute left-0 top-[18px] h-11 w-auto transition-[opacity,translate] duration-500 ease-in-out motion-reduce:transition-none ${
-                    scrolled
-                      ? "translate-x-0 translate-y-0 opacity-100"
-                      : "translate-x-[34px] -translate-y-[18px] opacity-0"
-                  }`}
-                />
-              </Link>
+            <svg className="h-[18px] w-[18px]" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </button>
+        </div>
 
-              {/* Desktop navigation */}
-              <div className="hidden lg:flex lg:items-center lg:gap-x-10">
-                {navigation.map((item) => (
-                  <DesktopDropdown key={item.name} item={item} />
-                ))}
+        {/* Mobile: search + menu buttons */}
+        <div className="flex items-center gap-4 lg:hidden">
+          <button
+            type="button"
+            onClick={() => setSearchOpen(true)}
+            className="text-cream/60 hover:text-accent transition-colors cursor-pointer"
+            aria-label="Rechercher un produit"
+          >
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </button>
 
-                {/* Search button */}
-                <button
-                  type="button"
-                  onClick={() => setSearchOpen(true)}
-                  className="text-cream/60 hover:text-accent transition-colors cursor-pointer"
-                  aria-label="Rechercher un produit"
-                >
-                  <svg className="h-[18px] w-[18px]" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                  </svg>
-                </button>
-              </div>
+          <button
+            type="button"
+            className="text-cream/60 hover:text-accent transition-colors"
+            onClick={() => setMobileMenuOpen(true)}
+            aria-label="Ouvrir le menu"
+          >
+            <svg
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
 
-              {/* Mobile: search + menu buttons */}
-              <div className="flex items-center gap-4 lg:hidden">
-                <button
-                  type="button"
-                  onClick={() => setSearchOpen(true)}
-                  className="text-cream/60 hover:text-accent transition-colors cursor-pointer"
-                  aria-label="Rechercher un produit"
-                >
-                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                  </svg>
-                </button>
+      <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
 
-                <button
-                  type="button"
-                  className="text-cream/60 hover:text-accent transition-colors"
-                  onClick={() => setMobileMenuOpen(true)}
-                  aria-label="Ouvrir le menu"
-                >
-                  <svg
-                    className="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </nav>
-
-            <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
-
-            <MobileMenu
-              open={mobileMenuOpen}
-              onClose={() => setMobileMenuOpen(false)}
-              onSearch={() => setSearchOpen(true)}
-            />
-      </header>
-    </>
+      <MobileMenu
+        open={mobileMenuOpen}
+        onClose={() => setMobileMenuOpen(false)}
+        onSearch={() => setSearchOpen(true)}
+      />
+    </header>
   );
 }
