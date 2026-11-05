@@ -2,43 +2,24 @@
 
 import { Resend } from "resend";
 import { business, contactSubjects } from "@/data/site";
+import {
+  hasContactErrors,
+  readContactFields,
+  validateContactFields,
+} from "@/lib/contactValidation";
 
 // L'adresse d'expédition doit appartenir au domaine vérifié dans Resend.
 const FROM_ADDRESS = "L'Héritage <site@heritage-fromagerie.fr>";
-const MAX_LENGTHS = { name: 100, phone: 30, email: 254, message: 5000 };
-const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const SEND_ERROR = `Votre message n'a pas pu être envoyé. Réessayez dans quelques instants ou appelez-nous au ${business.telephoneDisplay}.`;
 
-function validate({ name, phone, email, message }) {
-  if (!name || !email || !message) {
-    return "Merci de renseigner votre nom, votre e-mail et votre message.";
-  }
-  if (!EMAIL_PATTERN.test(email)) {
-    return "Cette adresse e-mail ne semble pas valide.";
-  }
-  const tooLong =
-    name.length > MAX_LENGTHS.name ||
-    phone.length > MAX_LENGTHS.phone ||
-    email.length > MAX_LENGTHS.email ||
-    message.length > MAX_LENGTHS.message;
-  return tooLong ? "Un des champs est trop long." : null;
-}
-
 export async function sendContactMessage(_previousState, formData) {
-  const field = (key) => String(formData.get(key) ?? "").trim();
-  const values = {
-    name: field("name").replace(/\s+/g, " "),
-    phone: field("phone"),
-    email: field("email"),
-    subject: field("subject"),
-    message: field("message"),
-  };
+  const values = readContactFields(formData);
 
   // Champ invisible rempli uniquement par les robots : on simule un succès sans rien envoyer.
-  if (field("website")) return { status: "success" };
+  if (formData.get("website")) return { status: "success" };
 
-  const validationError = validate(values);
-  if (validationError) return { status: "error", message: validationError, values };
+  const fieldErrors = validateContactFields(values);
+  if (hasContactErrors(fieldErrors)) return { status: "error", fieldErrors, values };
 
   if (!process.env.RESEND_API_KEY) {
     console.error("Formulaire de contact : RESEND_API_KEY n'est pas définie.");

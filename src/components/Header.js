@@ -298,7 +298,9 @@ export default function Header() {
     >
       <nav className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 lg:px-8">
         {/* Les deux logos restent superposés et glissent ensemble du même décalage :
-            le monogramme reste calé sur l'emblème du logo principal. */}
+            le monogramme reste calé sur l'emblème du logo principal.
+            Une fois réduit, le logo principal dépasse de la barre : invisible, il ne capte plus les clics
+            et ne perturbe plus le rendu sur mobile. */}
         <Link href="/" className="relative block h-20 w-[112px]">
           <Image
             src="/logo/logo_heritage_principal.svg"
@@ -306,9 +308,9 @@ export default function Header() {
             width={999}
             height={711}
             priority
-            className={`absolute left-0 top-0 h-20 w-auto transition-[opacity,translate] duration-[250ms,500ms] ease-in-out motion-reduce:transition-none ${
+            className={`absolute left-0 top-0 h-20 w-auto transition-[opacity,translate,visibility] duration-[250ms,500ms,500ms] ease-in-out motion-reduce:transition-none ${
               scrolled
-                ? "-translate-x-[34px] translate-y-[18px] opacity-0"
+                ? "invisible -translate-x-[34px] translate-y-[18px] opacity-0"
                 : "translate-x-0 translate-y-0 opacity-100"
             }`}
           />

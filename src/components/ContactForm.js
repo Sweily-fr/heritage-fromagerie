@@ -1,16 +1,32 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { sendContactMessage } from "@/app/contact/actions";
 import { contactSubjects } from "@/data/site";
+import {
+  CONTACT_LIMITS,
+  hasContactErrors,
+  readContactFields,
+  validateContactFields,
+} from "@/lib/contactValidation";
 
 const labelClassName =
   "block text-[0.65rem] font-medium tracking-[0.2em] uppercase text-primary/70";
 const fieldClassName =
-  "mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground placeholder:text-foreground/30 focus:border-accent focus:outline-none focus:ring-0 transition-colors";
+  "mt-2 block w-full border-0 border-b border-accent/30 bg-transparent px-0 py-3 text-sm font-light text-foreground placeholder:text-foreground/30 focus:border-accent focus:outline-none focus:ring-0 transition-colors aria-invalid:border-red-800 aria-invalid:focus:border-red-800";
+
+function FieldError({ name, error }) {
+  if (!error) return null;
+  return (
+    <p id={`${name}-error`} className="mt-2 text-xs font-light leading-5 text-red-800">
+      {error}
+    </p>
+  );
+}
 
 export default function ContactForm() {
   const [state, formAction, pending] = useActionState(sendContactMessage, null);
+  const [clientErrors, setClientErrors] = useState({});
 
   if (state?.status === "success") {
     return (
@@ -26,9 +42,45 @@ export default function ContactForm() {
 
   // Après une erreur, les valeurs renvoyées par le serveur évitent de tout ressaisir.
   const values = state?.values ?? {};
+  // Le serveur couvre le cas sans JavaScript ; toute vérification locale plus récente prime.
+  const errors = { ...state?.fieldErrors, ...clientErrors };
+
+  const validateField = (input) => {
+    const fieldErrors = validateContactFields(readContactFields(new FormData(input.form)));
+    setClientErrors((previous) => ({ ...previous, [input.name]: fieldErrors[input.name] }));
+  };
+
+  const handleSubmit = (event) => {
+    const fieldErrors = validateContactFields(
+      readContactFields(new FormData(event.currentTarget))
+    );
+    setClientErrors(fieldErrors);
+    if (hasContactErrors(fieldErrors)) {
+      event.preventDefault();
+      const firstInvalid = Object.keys(fieldErrors).find((name) => fieldErrors[name]);
+      event.currentTarget.elements[firstInvalid].focus();
+    }
+  };
+
+  const fieldProps = (name) => ({
+    id: name,
+    name,
+    defaultValue: values[name],
+    "aria-invalid": errors[name] ? true : undefined,
+    "aria-describedby": errors[name] ? `${name}-error` : undefined,
+    // Pas d'erreur tant que le champ n'a pas été rempli : « requis » n'apparaît qu'à l'envoi.
+    onBlur: (event) => {
+      if (event.target.value.trim()) validateField(event.target);
+    },
+    // Une fois l'erreur affichée, elle disparaît dès que la saisie devient correcte.
+    onChange: (event) => {
+      if (errors[name]) validateField(event.target);
+    },
+  });
 
   return (
-    <form action={formAction} className="mt-10 space-y-8">
+    // noValidate : ces messages remplacent les bulles du navigateur.
+    <form action={formAction} onSubmit={handleSubmit} noValidate className="mt-10 space-y-8">
       {/* Piège à robots : invisible pour les visiteurs, voir sendContactMessage */}
       <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
         <label htmlFor="website">Ne pas remplir ce champ</label>
@@ -41,31 +93,29 @@ export default function ContactForm() {
             Nom
           </label>
           <input
+            {...fieldProps("name")}
             type="text"
-            id="name"
-            name="name"
             required
-            maxLength={100}
+            maxLength={CONTACT_LIMITS.name}
             autoComplete="name"
-            defaultValue={values.name}
             className={fieldClassName}
             placeholder="Votre nom"
           />
+          <FieldError name="name" error={errors.name} />
         </div>
         <div>
           <label htmlFor="phone" className={labelClassName}>
             Téléphone
           </label>
           <input
+            {...fieldProps("phone")}
             type="tel"
-            id="phone"
-            name="phone"
-            maxLength={30}
+            maxLength={CONTACT_LIMITS.phone}
             autoComplete="tel"
-            defaultValue={values.phone}
             className={fieldClassName}
             placeholder="06 00 00 00 00"
           />
+          <FieldError name="phone" error={errors.phone} />
         </div>
       </div>
 
@@ -75,16 +125,15 @@ export default function ContactForm() {
             Email
           </label>
           <input
+            {...fieldProps("email")}
             type="email"
-            id="email"
-            name="email"
             required
-            maxLength={254}
+            maxLength={CONTACT_LIMITS.email}
             autoComplete="email"
-            defaultValue={values.email}
             className={fieldClassName}
             placeholder="votre@email.com"
           />
+          <FieldError name="email" error={errors.email} />
         </div>
         <div>
           <label htmlFor="subject" className={labelClassName}>
@@ -113,18 +162,17 @@ export default function ContactForm() {
           Message
         </label>
         <textarea
-          id="message"
-          name="message"
+          {...fieldProps("message")}
           rows={6}
           required
-          maxLength={5000}
-          defaultValue={values.message}
+          maxLength={CONTACT_LIMITS.message}
           className={`${fieldClassName} resize-none`}
           placeholder="Décrivez votre demande..."
         />
+        <FieldError name="message" error={errors.message} />
       </div>
 
-      {state?.status === "error" && (
+      {state?.message && (
         <p role="alert" className="text-sm font-light leading-6 text-red-800">
           {state.message}
         </p>
