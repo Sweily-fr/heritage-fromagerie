@@ -9,7 +9,7 @@ import {
 } from "@/lib/contactValidation";
 
 // L'adresse d'expédition doit appartenir au domaine vérifié dans Resend.
-const FROM_ADDRESS = "L'Héritage <site@heritage-fromagerie.fr>";
+const FROM_ADDRESS = "Heritage Fromagerie <site@heritage-fromagerie.fr>";
 const SEND_ERROR = `Votre message n'a pas pu être envoyé. Réessayez dans quelques instants ou appelez-nous au ${business.telephoneDisplay}.`;
 
 export async function sendContactMessage(_previousState, formData) {
