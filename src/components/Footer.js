@@ -34,7 +34,7 @@ export default function Footer() {
             </h4>
             <ul className="mt-5 space-y-3">
               {[
-                { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
+                // TEMPORAIRE (page en refonte) : { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
                 { name: "Événements", href: "/evenements" },
                 { name: "Livraison à domicile", href: "/livraison" },
                 { name: "Fromages", href: "/fromages" },

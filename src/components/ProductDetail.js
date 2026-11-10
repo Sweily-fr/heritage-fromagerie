@@ -32,14 +32,6 @@ export default function ProductDetail({ product, allProducts, backHref, backLabe
     url: productUrl,
     category: backLabel,
     ...(product.origin && { countryOfOrigin: product.origin }),
-    // Vente uniquement en boutique : pas de prix en ligne, on indique juste
-    // la disponibilité et le vendeur.
-    offers: {
-      "@type": "Offer",
-      url: productUrl,
-      availability: "https://schema.org/InStoreOnly",
-      seller: { "@id": `${siteUrl}/#fromagerie` },
-    },
   };
 
   const breadcrumbJsonLd = {

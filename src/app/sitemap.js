@@ -10,7 +10,7 @@ const staticRoutes = [
   { path: "/fromages", priority: 0.9, changeFrequency: "weekly" },
   { path: "/cremerie", priority: 0.8, changeFrequency: "weekly" },
   { path: "/epicerie-fine", priority: 0.8, changeFrequency: "weekly" },
-  { path: "/plateaux-de-fromages", priority: 0.8, changeFrequency: "monthly" },
+  // TEMPORAIRE (page en refonte) : { path: "/plateaux-de-fromages", priority: 0.8, changeFrequency: "monthly" },
   { path: "/evenements", priority: 0.8, changeFrequency: "monthly" },
   { path: "/livraison", priority: 0.7, changeFrequency: "monthly" },
   { path: "/a-propos", priority: 0.6, changeFrequency: "yearly" },

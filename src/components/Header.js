@@ -21,7 +21,7 @@ const navigation = [
     name: "Nos Services",
     href: "/services",
     children: [
-      { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
+      // TEMPORAIRE (page en refonte) : { name: "Plateaux de fromages", href: "/plateaux-de-fromages" },
       { name: "Événements", href: "/evenements" },
       { name: "Livraison à domicile", href: "/livraison" },
     ],
