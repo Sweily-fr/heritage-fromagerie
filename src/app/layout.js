@@ -89,7 +89,7 @@ const localBusinessJsonLd = {
   image: `${siteUrl}/images/og-image.jpg`,
   logo: `${siteUrl}/logo/heritage_logo_fond.png`,
   url: siteUrl,
-  telephone: "+33695984075",
+  telephone: "+33683236394",
   email: "contact@heritage-fromagerie.fr",
   priceRange: "€€",
   currenciesAccepted: "EUR",

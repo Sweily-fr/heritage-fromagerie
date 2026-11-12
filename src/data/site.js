@@ -9,8 +9,8 @@ export const business = {
   streetAddress: "32 Avenue Charles Rouxel",
   postalCode: "77340",
   city: "Pontault-Combault",
-  telephone: "+33695984075",
-  telephoneDisplay: "06 95 98 40 75",
+  telephone: "+33683236394",
+  telephoneDisplay: "06 83 23 63 94",
   email: "contact@heritage-fromagerie.fr",
   geo: { latitude: 48.796264, longitude: 2.604213 },
 };

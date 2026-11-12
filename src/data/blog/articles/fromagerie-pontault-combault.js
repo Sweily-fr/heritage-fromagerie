@@ -71,7 +71,7 @@ Parce que le fromage, c'est d'abord une transmission : celle des producteurs qui
 
 ## Nous contacter
 
-- **Téléphone** : 06 95 98 40 75
+- **Téléphone** : 06 83 23 63 94
 - **Formulaire** : [page contact](/contact)
 - **Sur place** : 32 avenue Charles Rouxel, Pontault-Combault
 

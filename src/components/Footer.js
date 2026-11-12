@@ -70,10 +70,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+33695984075"
+                  href="tel:+33683236394"
                   className="text-[0.75rem] font-light tracking-[0.05em] text-cream/40 hover:text-accent transition-colors"
                 >
-                  06 95 98 40 75
+                  06 83 23 63 94
                 </a>
               </li>
               <li>

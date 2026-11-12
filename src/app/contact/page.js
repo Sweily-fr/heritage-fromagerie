@@ -65,8 +65,8 @@ export default function Contact() {
                   </svg>
                 ),
                 label: "Téléphone",
-                value: "06 95 98 40 75",
-                href: "tel:+33695984075",
+                value: "06 83 23 63 94",
+                href: "tel:+33683236394",
               },
               {
                 icon: (

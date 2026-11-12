@@ -409,7 +409,7 @@ export default function Services() {
                 Nous contacter
               </Link>
               <a
-                href="tel:+33695984075"
+                href="tel:+33683236394"
                 className="btn-luxury btn-luxury-outline"
               >
                 01 60 00 00 00
