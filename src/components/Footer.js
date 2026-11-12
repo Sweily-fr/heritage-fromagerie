@@ -132,6 +132,17 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} L&apos;Héritage - Fromagerie Artisanale.
           Tous droits réservés.
         </p>
+        <p className="mt-2 text-center text-[0.65rem] font-light tracking-[0.15em] text-cream/25">
+          Fait par{" "}
+          <a
+            href="https://newbi.fr"
+            target="_blank"
+            rel="noopener"
+            className="transition-colors hover:text-accent"
+          >
+            Newbi
+          </a>
+        </p>
       </div>
     </footer>
   );
