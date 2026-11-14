@@ -61,7 +61,7 @@ Nous livrons dans un rayon de 30 km autour de Pontault-Combault, ce qui couvre u
 
 ## Budget
 
-Un buffet de fromages de mariage revient en général entre **8 et 14 € par personne** selon la sélection et les accompagnements, livraison comprise au-delà de 120 €. C'est très raisonnable au regard de l'effet produit. Nous établissons un devis détaillé après un rendez-vous de dégustation en boutique, où vous goûtez les fromages pressentis.
+Un buffet de fromages de mariage revient en général entre **9 et 15 € par personne** selon la sélection et les accompagnements, livraison comprise au-delà de 120 €. C'est très raisonnable au regard de l'effet produit. Nous établissons un devis détaillé après un rendez-vous de dégustation en boutique, où vous goûtez les fromages pressentis.
 
 > Nos conseils pour un buffet réussi tiennent en trois mots : moins de références, plus de quantité, à bonne température.
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import ArticleCard from "@/components/ArticleCard";
-import articles, { categories } from "@/data/blog";
+import { getPublishedArticles, categories } from "@/data/blog";
 
 export const metadata = {
   title: { absolute: "Le blog du fromager | L'Héritage Pontault-Combault" },
@@ -14,7 +14,11 @@ export const metadata = {
 
 const siteUrl = "https://heritage-fromagerie.fr";
 
+// Régénérée toutes les heures : les articles programmés apparaissent le jour J.
+export const revalidate = 3600;
+
 export default function Blog() {
+  const articles = getPublishedArticles();
   const [featured, ...rest] = articles;
 
   const blogJsonLd = {

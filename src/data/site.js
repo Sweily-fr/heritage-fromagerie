@@ -57,4 +57,12 @@ export const nearbyCities = [
   "Gretz-Armainvilliers",
   "Tournan-en-Brie",
   "Noisy-le-Grand",
+  "Champigny-sur-Marne",
+  "Sucy-en-Brie",
+  "Ormesson-sur-Marne",
+  "Chennevières-sur-Marne",
+  "Ferrières-en-Brie",
+  "Chelles",
+  "Bry-sur-Marne",
+  "Le Perreux-sur-Marne",
 ];

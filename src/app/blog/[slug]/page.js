@@ -1,14 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import articles, { getArticle, getRelated, formatDate } from "@/data/blog";
+import { getPublishedArticles, getArticle, getRelated, formatDate } from "@/data/blog";
 import ArticleContent from "@/components/ArticleContent";
 import ArticleCard from "@/components/ArticleCard";
 
 const siteUrl = "https://heritage-fromagerie.fr";
 
+// Régénérée toutes les heures. Un article programmé renvoie 404 jusqu'à sa
+// date, puis est généré à la première visite (dynamicParams actif par défaut).
+export const revalidate = 3600;
+
 export async function generateStaticParams() {
-  return articles.map((a) => ({ slug: a.slug }));
+  return getPublishedArticles().map((a) => ({ slug: a.slug }));
 }
 
 export async function generateMetadata({ params }) {
