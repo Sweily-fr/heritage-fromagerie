@@ -181,11 +181,11 @@ export default function Home() {
                 </span>
               </h1>
 
-              <p className="animate-fade-up delay-100 mt-4 text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent/70 leading-none">
+              <p className="animate-fade-up delay-100 mt-4 text-[0.65rem] font-light tracking-[0.4em] uppercase text-accent/70 leading-loose sm:leading-none">
                 Fromagerie Artisanale - Pontault-Combault
               </p>
 
-              <div className="animate-reveal-line delay-200 mt-1 gold-separator" />
+              <div className="animate-reveal-line delay-200 mt-2 sm:mt-1 gold-separator" />
 
               <p className="animate-fade-up delay-300 mt-8 text-base font-light leading-8 text-cream/60 max-w-lg">
                 Explorez notre sélection de fromages, crèmerie et épicerie fine,
